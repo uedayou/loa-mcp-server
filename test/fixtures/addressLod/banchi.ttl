@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lo: <https://uedayou.net/loa/>.
+@prefix rd: <http://imi.go.jp/ns/core/rdf#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix ont: <http://www.geonames.org/ontology#>.
+@prefix schem: <http://schema.org/>.
+@prefix geoh: <http://geohash.org/>.
+@prefix r: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+
+lo:東京都千代田区永田町1丁目7
+    a rd:住所型;
+    rd:都道府県 "東京都"@ja;
+    rd:都道府県コード [ a rd:コード型; rd:識別値 "13" ];
+    rd:市区町村 "千代田区"@ja;
+    rd:丁目 1;
+    rd:町名 "永田町"@ja;
+    rd:番地 "7"@ja;
+    rd:表記 "東京都千代田区永田町1丁目7"@ja;
+    terms:created "2019-01-01";
+    ont:parentFeature lo:東京都千代田区永田町1丁目;
+    schem:geo geoh:xn76gyyu0;
+    r:label "東京都千代田区永田町1丁目7"@ja;
+    wgs:lat 35.677415;
+    wgs:long 139.744392.
+lo:東京都千代田区永田町1丁目7 rdfs:label "東京都千代田区永田町1丁目7"@ja.

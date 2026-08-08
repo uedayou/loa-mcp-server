@@ -1,0 +1,24 @@
+# 合成データ(実データではない、geosp:asWKTは実際の鳥取県の形状ではない)。
+# 都道府県レベル(市区町村を持たない)であることの判定に使うため、
+# `PREFECTURES`に実在する県名(鳥取県)を件名に使っている。MultiPolygonは
+# 本土に相当する巨大なパーツ(1度四方、約1万km^2)と、しきい値未満の
+# 極小の離島パーツ(0.0005度四方、約0.0025km^2)を1つ持つ。dropSmallIslands
+# のテスト用(離島だけが除外され、本土は残ることを確認する)。
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <#>.
+@prefix lo: <https://uedayou.net/loa/>.
+@prefix rd: <http://imi.go.jp/ns/core/rdf#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix ont: <http://www.geonames.org/ontology#>.
+@prefix geosp: <http://www.opengis.net/ont/geosparql#>.
+@prefix r: <http://www.w3.org/2000/01/rdf-schema#>.
+
+lo:鳥取県
+    a rd:住所型;
+    rd:住所コード [ a rd:コード型; rd:識別値 "99" ];
+    rd:表記 "鳥取県"@ja;
+    rd:都道府県 "鳥取県"@ja;
+    rd:都道府県コード [ a rd:コード型; rd:識別値 "99" ];
+    terms:created "2019-01-01";
+    geosp:asWKT "MULTIPOLYGON(((139.0000000 35.0000000,140.0000000 35.0000000,140.0000000 36.0000000,139.0000000 36.0000000,139.0000000 35.0000000)),((150.0000000 35.0000000,150.0005000 35.0000000,150.0005000 35.0005000,150.0000000 35.0005000,150.0000000 35.0000000)))";
+    r:label "鳥取県"@ja.

@@ -1,0 +1,10 @@
+{"head":{"vars":["address","label","geo"]},"results":{"bindings":[
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都港区赤坂"},"label":{"type":"literal","value":"東京都港区赤坂","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gv"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都港区三田"},"label":{"type":"literal","value":"東京都港区三田","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gc"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都港区南青山"},"label":{"type":"literal","value":"東京都港区南青山","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gk"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都新宿区南元町"},"label":{"type":"literal","value":"東京都新宿区南元町","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gr"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都渋谷区神宮前"},"label":{"type":"literal","value":"東京都渋谷区神宮前","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gj"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都千代田区平河町"},"label":{"type":"literal","value":"東京都千代田区平河町","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gz"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都港区北青山"},"label":{"type":"literal","value":"東京都港区北青山","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76gm"}},
+{"address":{"type":"uri","value":"https://uedayou.net/loa/東京都港区西麻布"},"label":{"type":"literal","value":"東京都港区西麻布","xml:lang":"ja"},"geo":{"type":"uri","value":"http://geohash.org/xn76g7"}}
+]}}

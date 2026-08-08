@@ -1,0 +1,52 @@
+{
+  "name": "loa-mcp-server",
+  "version": "0.1.0",
+  "description": "住所LOD(uedayou.net/loa)を利用し、日本の住所を検索してポリゴン/ポイントの位置情報を取得できるローカル実行のMCPサーバー",
+  "license": "MIT",
+  "author": "uedayou",
+  "homepage": "https://uedayou.net/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uedayou/loa-mcp-server.git"
+  },
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "bin": {
+    "loa-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json && node scripts/copy-data.mjs",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "inspector": "npx @modelcontextprotocol/inspector@latest tsx src/index.ts",
+    "collect:county-towns": "node scripts/collect-county-towns.mjs > src/lib/addressLod/data/countyTowns.json",
+    "collect:designated-city-wards": "node scripts/collect-designated-city-wards.mjs > src/lib/addressLod/data/designatedCityWards.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^16.4.5",
+    "n3": "^2.1.2",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "topojson-simplify": "^3.0.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/n3": "^1.26.1",
+    "@types/node": "^20.14.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-server": "^3.0.4",
+    "@types/topojson-simplify": "^3.0.3",
+    "@types/topojson-specification": "^1.0.5",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

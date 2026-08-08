@@ -1,0 +1,33 @@
+# 東京都西多摩郡瑞穂町(実データ抜粋)。hasPartは2件に間引き、asWKTの座標は
+# テストfixtureとして簡略化した矩形に差し替えている(それ以外は実データのまま)。
+# rdfs:labelが2つ("東京都西多摩郡瑞穂町"と"東京都瑞穂町")あるのは実データの通り。
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lo: <https://uedayou.net/loa/>.
+@prefix rd: <http://imi.go.jp/ns/core/rdf#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix geosp: <http://www.opengis.net/ont/geosparql#>.
+@prefix ont: <http://www.geonames.org/ontology#>.
+@prefix schem: <http://schema.org/>.
+
+lo:東京都西多摩郡瑞穂町
+    a rd:住所型;
+    rd:市区町村 "西多摩郡瑞穂町"@ja, "瑞穂町"@ja;
+    rd:市区町村コード [ a rd:コード型; rd:識別値 "303" ];
+    rd:住所コード [ a rd:コード型; rd:識別値 "13303" ];
+    rd:都道府県 "東京都"@ja;
+    rd:都道府県コード [ a rd:コード型; rd:識別値 "13" ];
+    rd:表記 "東京都西多摩郡瑞穂町"@ja, "東京都瑞穂町"@ja;
+    terms:created "2025-01-01";
+    terms:hasPart
+        lo:東京都西多摩郡瑞穂町むさし野, lo:東京都西多摩郡瑞穂町横田基地;
+    schem:sameAs "http://www.wikidata.org/entity/Q975797";
+    ont:parentFeature lo:東京都;
+    geosp:asWKT "POLYGON((139.317 35.789,139.320 35.789,139.320 35.792,139.317 35.792,139.317 35.789))".
+
+lo:東京都西多摩郡瑞穂町むさし野 ont:parentFeature lo:東京都西多摩郡瑞穂町.
+
+lo:東京都西多摩郡瑞穂町横田基地 ont:parentFeature lo:東京都西多摩郡瑞穂町.
+
+lo:東京都西多摩郡瑞穂町 rdfs:label "東京都西多摩郡瑞穂町"@ja.
+
+lo:東京都西多摩郡瑞穂町 rdfs:label "東京都瑞穂町"@ja.

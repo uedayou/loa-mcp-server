@@ -1,0 +1,8173 @@
+{
+  "あさぎり町": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡あさぎり町",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡あさぎり町",
+      "label": "熊本県球磨郡あさぎり町"
+    }
+  ],
+  "いの町": [
+    {
+      "prefecture": "高知県",
+      "county": "吾川郡",
+      "municipality": "吾川郡いの町",
+      "uri": "https://uedayou.net/loa/高知県吾川郡いの町",
+      "label": "高知県吾川郡いの町"
+    }
+  ],
+  "えりも町": [
+    {
+      "prefecture": "北海道",
+      "county": "幌泉郡",
+      "municipality": "幌泉郡えりも町",
+      "uri": "https://uedayou.net/loa/北海道幌泉郡えりも町",
+      "label": "北海道幌泉郡えりも町"
+    }
+  ],
+  "おいらせ町": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡おいらせ町",
+      "uri": "https://uedayou.net/loa/青森県上北郡おいらせ町",
+      "label": "青森県上北郡おいらせ町"
+    }
+  ],
+  "おおい町": [
+    {
+      "prefecture": "福井県",
+      "county": "大飯郡",
+      "municipality": "大飯郡おおい町",
+      "uri": "https://uedayou.net/loa/福井県大飯郡おおい町",
+      "label": "福井県大飯郡おおい町"
+    }
+  ],
+  "かつらぎ町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "伊都郡",
+      "municipality": "伊都郡かつらぎ町",
+      "uri": "https://uedayou.net/loa/和歌山県伊都郡かつらぎ町",
+      "label": "和歌山県伊都郡かつらぎ町"
+    }
+  ],
+  "さつま町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "薩摩郡",
+      "municipality": "薩摩郡さつま町",
+      "uri": "https://uedayou.net/loa/鹿児島県薩摩郡さつま町",
+      "label": "鹿児島県薩摩郡さつま町"
+    }
+  ],
+  "すさみ町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "西牟婁郡",
+      "municipality": "西牟婁郡すさみ町",
+      "uri": "https://uedayou.net/loa/和歌山県西牟婁郡すさみ町",
+      "label": "和歌山県西牟婁郡すさみ町"
+    }
+  ],
+  "せたな町": [
+    {
+      "prefecture": "北海道",
+      "county": "久遠郡",
+      "municipality": "久遠郡せたな町",
+      "uri": "https://uedayou.net/loa/北海道久遠郡せたな町",
+      "label": "北海道久遠郡せたな町"
+    }
+  ],
+  "つるぎ町": [
+    {
+      "prefecture": "徳島県",
+      "county": "美馬郡",
+      "municipality": "美馬郡つるぎ町",
+      "uri": "https://uedayou.net/loa/徳島県美馬郡つるぎ町",
+      "label": "徳島県美馬郡つるぎ町"
+    }
+  ],
+  "ときがわ町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡ときがわ町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡ときがわ町",
+      "label": "埼玉県比企郡ときがわ町"
+    }
+  ],
+  "ニセコ町": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡ニセコ町",
+      "uri": "https://uedayou.net/loa/北海道虻田郡ニセコ町",
+      "label": "北海道虻田郡ニセコ町"
+    }
+  ],
+  "まんのう町": [
+    {
+      "prefecture": "香川県",
+      "county": "仲多度郡",
+      "municipality": "仲多度郡まんのう町",
+      "uri": "https://uedayou.net/loa/香川県仲多度郡まんのう町",
+      "label": "香川県仲多度郡まんのう町"
+    }
+  ],
+  "みなかみ町": [
+    {
+      "prefecture": "群馬県",
+      "county": "利根郡",
+      "municipality": "利根郡みなかみ町",
+      "uri": "https://uedayou.net/loa/群馬県利根郡みなかみ町",
+      "label": "群馬県利根郡みなかみ町"
+    }
+  ],
+  "みなべ町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "日高郡",
+      "municipality": "日高郡みなべ町",
+      "uri": "https://uedayou.net/loa/和歌山県日高郡みなべ町",
+      "label": "和歌山県日高郡みなべ町"
+    }
+  ],
+  "みやき町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "三養基郡",
+      "municipality": "三養基郡みやき町",
+      "uri": "https://uedayou.net/loa/佐賀県三養基郡みやき町",
+      "label": "佐賀県三養基郡みやき町"
+    }
+  ],
+  "みやこ町": [
+    {
+      "prefecture": "福岡県",
+      "county": "京都郡",
+      "municipality": "京都郡みやこ町",
+      "uri": "https://uedayou.net/loa/福岡県京都郡みやこ町",
+      "label": "福岡県京都郡みやこ町"
+    }
+  ],
+  "むかわ町": [
+    {
+      "prefecture": "北海道",
+      "county": "勇払郡",
+      "municipality": "勇払郡むかわ町",
+      "uri": "https://uedayou.net/loa/北海道勇払郡むかわ町",
+      "label": "北海道勇払郡むかわ町"
+    }
+  ],
+  "阿賀町": [
+    {
+      "prefecture": "新潟県",
+      "county": "東蒲原郡",
+      "municipality": "東蒲原郡阿賀町",
+      "uri": "https://uedayou.net/loa/新潟県東蒲原郡阿賀町",
+      "label": "新潟県東蒲原郡阿賀町"
+    }
+  ],
+  "阿久比町": [
+    {
+      "prefecture": "愛知県",
+      "county": "知多郡",
+      "municipality": "知多郡阿久比町",
+      "uri": "https://uedayou.net/loa/愛知県知多郡阿久比町",
+      "label": "愛知県知多郡阿久比町"
+    }
+  ],
+  "阿見町": [
+    {
+      "prefecture": "茨城県",
+      "county": "稲敷郡",
+      "municipality": "稲敷郡阿見町",
+      "uri": "https://uedayou.net/loa/茨城県稲敷郡阿見町",
+      "label": "茨城県稲敷郡阿見町"
+    }
+  ],
+  "阿智村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡阿智村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡阿智村",
+      "label": "長野県下伊那郡阿智村"
+    }
+  ],
+  "阿南町": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡阿南町",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡阿南町",
+      "label": "長野県下伊那郡阿南町"
+    }
+  ],
+  "阿武町": [
+    {
+      "prefecture": "山口県",
+      "county": "阿武郡",
+      "municipality": "阿武郡阿武町",
+      "uri": "https://uedayou.net/loa/山口県阿武郡阿武町",
+      "label": "山口県阿武郡阿武町"
+    }
+  ],
+  "愛川町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "愛甲郡",
+      "municipality": "愛甲郡愛川町",
+      "uri": "https://uedayou.net/loa/神奈川県愛甲郡愛川町",
+      "label": "神奈川県愛甲郡愛川町"
+    }
+  ],
+  "愛荘町": [
+    {
+      "prefecture": "滋賀県",
+      "county": "愛知郡",
+      "municipality": "愛知郡愛荘町",
+      "uri": "https://uedayou.net/loa/滋賀県愛知郡愛荘町",
+      "label": "滋賀県愛知郡愛荘町"
+    }
+  ],
+  "愛南町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "南宇和郡",
+      "municipality": "南宇和郡愛南町",
+      "uri": "https://uedayou.net/loa/愛媛県南宇和郡愛南町",
+      "label": "愛媛県南宇和郡愛南町"
+    }
+  ],
+  "愛別町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡愛別町",
+      "uri": "https://uedayou.net/loa/北海道上川郡愛別町",
+      "label": "北海道上川郡愛別町"
+    }
+  ],
+  "芦屋町": [
+    {
+      "prefecture": "福岡県",
+      "county": "遠賀郡",
+      "municipality": "遠賀郡芦屋町",
+      "uri": "https://uedayou.net/loa/福岡県遠賀郡芦屋町",
+      "label": "福岡県遠賀郡芦屋町"
+    }
+  ],
+  "芦北町": [
+    {
+      "prefecture": "熊本県",
+      "county": "葦北郡",
+      "municipality": "葦北郡芦北町",
+      "uri": "https://uedayou.net/loa/熊本県葦北郡芦北町",
+      "label": "熊本県葦北郡芦北町"
+    }
+  ],
+  "綾川町": [
+    {
+      "prefecture": "香川県",
+      "county": "綾歌郡",
+      "municipality": "綾歌郡綾川町",
+      "uri": "https://uedayou.net/loa/香川県綾歌郡綾川町",
+      "label": "香川県綾歌郡綾川町"
+    }
+  ],
+  "綾町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "東諸県郡",
+      "municipality": "東諸県郡綾町",
+      "uri": "https://uedayou.net/loa/宮崎県東諸県郡綾町",
+      "label": "宮崎県東諸県郡綾町"
+    }
+  ],
+  "粟国村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡粟国村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡粟国村",
+      "label": "沖縄県島尻郡粟国村"
+    }
+  ],
+  "粟島浦村": [
+    {
+      "prefecture": "新潟県",
+      "county": "岩船郡",
+      "municipality": "岩船郡粟島浦村",
+      "uri": "https://uedayou.net/loa/新潟県岩船郡粟島浦村",
+      "label": "新潟県岩船郡粟島浦村"
+    }
+  ],
+  "安芸太田町": [
+    {
+      "prefecture": "広島県",
+      "county": "山県郡",
+      "municipality": "山県郡安芸太田町",
+      "uri": "https://uedayou.net/loa/広島県山県郡安芸太田町",
+      "label": "広島県山県郡安芸太田町"
+    }
+  ],
+  "安田町": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡安田町",
+      "uri": "https://uedayou.net/loa/高知県安芸郡安田町",
+      "label": "高知県安芸郡安田町"
+    }
+  ],
+  "安堵町": [
+    {
+      "prefecture": "奈良県",
+      "county": "生駒郡",
+      "municipality": "生駒郡安堵町",
+      "uri": "https://uedayou.net/loa/奈良県生駒郡安堵町",
+      "label": "奈良県生駒郡安堵町"
+    }
+  ],
+  "安八町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "安八郡",
+      "municipality": "安八郡安八町",
+      "uri": "https://uedayou.net/loa/岐阜県安八郡安八町",
+      "label": "岐阜県安八郡安八町"
+    }
+  ],
+  "安平町": [
+    {
+      "prefecture": "北海道",
+      "county": "勇払郡",
+      "municipality": "勇払郡安平町",
+      "uri": "https://uedayou.net/loa/北海道勇払郡安平町",
+      "label": "北海道勇払郡安平町"
+    }
+  ],
+  "鞍手町": [
+    {
+      "prefecture": "福岡県",
+      "county": "鞍手郡",
+      "municipality": "鞍手郡鞍手町",
+      "uri": "https://uedayou.net/loa/福岡県鞍手郡鞍手町",
+      "label": "福岡県鞍手郡鞍手町"
+    }
+  ],
+  "伊江村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡伊江村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡伊江村",
+      "label": "沖縄県国頭郡伊江村"
+    }
+  ],
+  "伊是名村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡伊是名村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡伊是名村",
+      "label": "沖縄県島尻郡伊是名村"
+    }
+  ],
+  "伊仙町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡伊仙町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡伊仙町",
+      "label": "鹿児島県大島郡伊仙町"
+    }
+  ],
+  "伊奈町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "北足立郡",
+      "municipality": "北足立郡伊奈町",
+      "uri": "https://uedayou.net/loa/埼玉県北足立郡伊奈町",
+      "label": "埼玉県北足立郡伊奈町"
+    }
+  ],
+  "伊平屋村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡伊平屋村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡伊平屋村",
+      "label": "沖縄県島尻郡伊平屋村"
+    }
+  ],
+  "伊方町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "西宇和郡",
+      "municipality": "西宇和郡伊方町",
+      "uri": "https://uedayou.net/loa/愛媛県西宇和郡伊方町",
+      "label": "愛媛県西宇和郡伊方町"
+    }
+  ],
+  "井川町": [
+    {
+      "prefecture": "秋田県",
+      "county": "南秋田郡",
+      "municipality": "南秋田郡井川町",
+      "uri": "https://uedayou.net/loa/秋田県南秋田郡井川町",
+      "label": "秋田県南秋田郡井川町"
+    }
+  ],
+  "一宮町": [
+    {
+      "prefecture": "千葉県",
+      "county": "長生郡",
+      "municipality": "長生郡一宮町",
+      "uri": "https://uedayou.net/loa/千葉県長生郡一宮町",
+      "label": "千葉県長生郡一宮町"
+    }
+  ],
+  "一戸町": [
+    {
+      "prefecture": "岩手県",
+      "county": "二戸郡",
+      "municipality": "二戸郡一戸町",
+      "uri": "https://uedayou.net/loa/岩手県二戸郡一戸町",
+      "label": "岩手県二戸郡一戸町"
+    }
+  ],
+  "稲美町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "加古郡",
+      "municipality": "加古郡稲美町",
+      "uri": "https://uedayou.net/loa/兵庫県加古郡稲美町",
+      "label": "兵庫県加古郡稲美町"
+    }
+  ],
+  "茨城町": [
+    {
+      "prefecture": "茨城県",
+      "county": "東茨城郡",
+      "municipality": "東茨城郡茨城町",
+      "uri": "https://uedayou.net/loa/茨城県東茨城郡茨城町",
+      "label": "茨城県東茨城郡茨城町"
+    }
+  ],
+  "印南町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "日高郡",
+      "municipality": "日高郡印南町",
+      "uri": "https://uedayou.net/loa/和歌山県日高郡印南町",
+      "label": "和歌山県日高郡印南町"
+    }
+  ],
+  "隠岐の島町": [
+    {
+      "prefecture": "島根県",
+      "county": "隠岐郡",
+      "municipality": "隠岐郡隠岐の島町",
+      "uri": "https://uedayou.net/loa/島根県隠岐郡隠岐の島町",
+      "label": "島根県隠岐郡隠岐の島町"
+    }
+  ],
+  "宇検村": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡宇検村",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡宇検村",
+      "label": "鹿児島県大島郡宇検村"
+    }
+  ],
+  "宇多津町": [
+    {
+      "prefecture": "香川県",
+      "county": "綾歌郡",
+      "municipality": "綾歌郡宇多津町",
+      "uri": "https://uedayou.net/loa/香川県綾歌郡宇多津町",
+      "label": "香川県綾歌郡宇多津町"
+    }
+  ],
+  "宇美町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡宇美町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡宇美町",
+      "label": "福岡県糟屋郡宇美町"
+    }
+  ],
+  "羽後町": [
+    {
+      "prefecture": "秋田県",
+      "county": "雄勝郡",
+      "municipality": "雄勝郡羽後町",
+      "uri": "https://uedayou.net/loa/秋田県雄勝郡羽後町",
+      "label": "秋田県雄勝郡羽後町"
+    }
+  ],
+  "羽幌町": [
+    {
+      "prefecture": "北海道",
+      "county": "苫前郡",
+      "municipality": "苫前郡羽幌町",
+      "uri": "https://uedayou.net/loa/北海道苫前郡羽幌町",
+      "label": "北海道苫前郡羽幌町"
+    }
+  ],
+  "雨竜町": [
+    {
+      "prefecture": "北海道",
+      "county": "雨竜郡",
+      "municipality": "雨竜郡雨竜町",
+      "uri": "https://uedayou.net/loa/北海道雨竜郡雨竜町",
+      "label": "北海道雨竜郡雨竜町"
+    }
+  ],
+  "浦臼町": [
+    {
+      "prefecture": "北海道",
+      "county": "樺戸郡",
+      "municipality": "樺戸郡浦臼町",
+      "uri": "https://uedayou.net/loa/北海道樺戸郡浦臼町",
+      "label": "北海道樺戸郡浦臼町"
+    }
+  ],
+  "浦河町": [
+    {
+      "prefecture": "北海道",
+      "county": "浦河郡",
+      "municipality": "浦河郡浦河町",
+      "uri": "https://uedayou.net/loa/北海道浦河郡浦河町",
+      "label": "北海道浦河郡浦河町"
+    }
+  ],
+  "浦幌町": [
+    {
+      "prefecture": "北海道",
+      "county": "十勝郡",
+      "municipality": "十勝郡浦幌町",
+      "uri": "https://uedayou.net/loa/北海道十勝郡浦幌町",
+      "label": "北海道十勝郡浦幌町"
+    }
+  ],
+  "栄村": [
+    {
+      "prefecture": "長野県",
+      "county": "下水内郡",
+      "municipality": "下水内郡栄村",
+      "uri": "https://uedayou.net/loa/長野県下水内郡栄村",
+      "label": "長野県下水内郡栄村"
+    }
+  ],
+  "栄町": [
+    {
+      "prefecture": "千葉県",
+      "county": "印旛郡",
+      "municipality": "印旛郡栄町",
+      "uri": "https://uedayou.net/loa/千葉県印旛郡栄町",
+      "label": "千葉県印旛郡栄町"
+    }
+  ],
+  "永平寺町": [
+    {
+      "prefecture": "福井県",
+      "county": "吉田郡",
+      "municipality": "吉田郡永平寺町",
+      "uri": "https://uedayou.net/loa/福井県吉田郡永平寺町",
+      "label": "福井県吉田郡永平寺町"
+    }
+  ],
+  "益子町": [
+    {
+      "prefecture": "栃木県",
+      "county": "芳賀郡",
+      "municipality": "芳賀郡益子町",
+      "uri": "https://uedayou.net/loa/栃木県芳賀郡益子町",
+      "label": "栃木県芳賀郡益子町"
+    }
+  ],
+  "益城町": [
+    {
+      "prefecture": "熊本県",
+      "county": "上益城郡",
+      "municipality": "上益城郡益城町",
+      "uri": "https://uedayou.net/loa/熊本県上益城郡益城町",
+      "label": "熊本県上益城郡益城町"
+    }
+  ],
+  "越生町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "入間郡",
+      "municipality": "入間郡越生町",
+      "uri": "https://uedayou.net/loa/埼玉県入間郡越生町",
+      "label": "埼玉県入間郡越生町"
+    }
+  ],
+  "越前町": [
+    {
+      "prefecture": "福井県",
+      "county": "丹生郡",
+      "municipality": "丹生郡越前町",
+      "uri": "https://uedayou.net/loa/福井県丹生郡越前町",
+      "label": "福井県丹生郡越前町"
+    }
+  ],
+  "越知町": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡越知町",
+      "uri": "https://uedayou.net/loa/高知県高岡郡越知町",
+      "label": "高知県高岡郡越知町"
+    }
+  ],
+  "猿払村": [
+    {
+      "prefecture": "北海道",
+      "county": "宗谷郡",
+      "municipality": "宗谷郡猿払村",
+      "uri": "https://uedayou.net/loa/北海道宗谷郡猿払村",
+      "label": "北海道宗谷郡猿払村"
+    }
+  ],
+  "遠賀町": [
+    {
+      "prefecture": "福岡県",
+      "county": "遠賀郡",
+      "municipality": "遠賀郡遠賀町",
+      "uri": "https://uedayou.net/loa/福岡県遠賀郡遠賀町",
+      "label": "福岡県遠賀郡遠賀町"
+    }
+  ],
+  "遠軽町": [
+    {
+      "prefecture": "北海道",
+      "county": "紋別郡",
+      "municipality": "紋別郡遠軽町",
+      "uri": "https://uedayou.net/loa/北海道紋別郡遠軽町",
+      "label": "北海道紋別郡遠軽町"
+    }
+  ],
+  "遠別町": [
+    {
+      "prefecture": "北海道",
+      "county": "天塩郡",
+      "municipality": "天塩郡遠別町",
+      "uri": "https://uedayou.net/loa/北海道天塩郡遠別町",
+      "label": "北海道天塩郡遠別町"
+    }
+  ],
+  "塩谷町": [
+    {
+      "prefecture": "栃木県",
+      "county": "塩谷郡",
+      "municipality": "塩谷郡塩谷町",
+      "uri": "https://uedayou.net/loa/栃木県塩谷郡塩谷町",
+      "label": "栃木県塩谷郡塩谷町"
+    }
+  ],
+  "奥出雲町": [
+    {
+      "prefecture": "島根県",
+      "county": "仁多郡",
+      "municipality": "仁多郡奥出雲町",
+      "uri": "https://uedayou.net/loa/島根県仁多郡奥出雲町",
+      "label": "島根県仁多郡奥出雲町"
+    }
+  ],
+  "奥尻町": [
+    {
+      "prefecture": "北海道",
+      "county": "奥尻郡",
+      "municipality": "奥尻郡奥尻町",
+      "uri": "https://uedayou.net/loa/北海道奥尻郡奥尻町",
+      "label": "北海道奥尻郡奥尻町"
+    }
+  ],
+  "奥多摩町": [
+    {
+      "prefecture": "東京都",
+      "county": "西多摩郡",
+      "municipality": "西多摩郡奥多摩町",
+      "uri": "https://uedayou.net/loa/東京都西多摩郡奥多摩町",
+      "label": "東京都西多摩郡奥多摩町"
+    }
+  ],
+  "横芝光町": [
+    {
+      "prefecture": "千葉県",
+      "county": "山武郡",
+      "municipality": "山武郡横芝光町",
+      "uri": "https://uedayou.net/loa/千葉県山武郡横芝光町",
+      "label": "千葉県山武郡横芝光町"
+    }
+  ],
+  "横瀬町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "秩父郡",
+      "municipality": "秩父郡横瀬町",
+      "uri": "https://uedayou.net/loa/埼玉県秩父郡横瀬町",
+      "label": "埼玉県秩父郡横瀬町"
+    }
+  ],
+  "横浜町": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡横浜町",
+      "uri": "https://uedayou.net/loa/青森県上北郡横浜町",
+      "label": "青森県上北郡横浜町"
+    }
+  ],
+  "王寺町": [
+    {
+      "prefecture": "奈良県",
+      "county": "北葛城郡",
+      "municipality": "北葛城郡王寺町",
+      "uri": "https://uedayou.net/loa/奈良県北葛城郡王寺町",
+      "label": "奈良県北葛城郡王寺町"
+    }
+  ],
+  "王滝村": [
+    {
+      "prefecture": "長野県",
+      "county": "木曽郡",
+      "municipality": "木曽郡王滝村",
+      "uri": "https://uedayou.net/loa/長野県木曽郡王滝村",
+      "label": "長野県木曽郡王滝村"
+    }
+  ],
+  "岡垣町": [
+    {
+      "prefecture": "福岡県",
+      "county": "遠賀郡",
+      "municipality": "遠賀郡岡垣町",
+      "uri": "https://uedayou.net/loa/福岡県遠賀郡岡垣町",
+      "label": "福岡県遠賀郡岡垣町"
+    }
+  ],
+  "屋久島町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "熊毛郡",
+      "municipality": "熊毛郡屋久島町",
+      "uri": "https://uedayou.net/loa/鹿児島県熊毛郡屋久島町",
+      "label": "鹿児島県熊毛郡屋久島町"
+    }
+  ],
+  "乙部町": [
+    {
+      "prefecture": "北海道",
+      "county": "爾志郡",
+      "municipality": "爾志郡乙部町",
+      "uri": "https://uedayou.net/loa/北海道爾志郡乙部町",
+      "label": "北海道爾志郡乙部町"
+    }
+  ],
+  "恩納村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡恩納村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡恩納村",
+      "label": "沖縄県国頭郡恩納村"
+    }
+  ],
+  "音威子府村": [
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡音威子府村",
+      "uri": "https://uedayou.net/loa/北海道中川郡音威子府村",
+      "label": "北海道中川郡音威子府村"
+    }
+  ],
+  "音更町": [
+    {
+      "prefecture": "北海道",
+      "county": "河東郡",
+      "municipality": "河東郡音更町",
+      "uri": "https://uedayou.net/loa/北海道河東郡音更町",
+      "label": "北海道河東郡音更町"
+    }
+  ],
+  "下郷町": [
+    {
+      "prefecture": "福島県",
+      "county": "南会津郡",
+      "municipality": "南会津郡下郷町",
+      "uri": "https://uedayou.net/loa/福島県南会津郡下郷町",
+      "label": "福島県南会津郡下郷町"
+    }
+  ],
+  "下市町": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡下市町",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡下市町",
+      "label": "奈良県吉野郡下市町"
+    }
+  ],
+  "下仁田町": [
+    {
+      "prefecture": "群馬県",
+      "county": "甘楽郡",
+      "municipality": "甘楽郡下仁田町",
+      "uri": "https://uedayou.net/loa/群馬県甘楽郡下仁田町",
+      "label": "群馬県甘楽郡下仁田町"
+    }
+  ],
+  "下諏訪町": [
+    {
+      "prefecture": "長野県",
+      "county": "諏訪郡",
+      "municipality": "諏訪郡下諏訪町",
+      "uri": "https://uedayou.net/loa/長野県諏訪郡下諏訪町",
+      "label": "長野県諏訪郡下諏訪町"
+    }
+  ],
+  "下川町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡下川町",
+      "uri": "https://uedayou.net/loa/北海道上川郡下川町",
+      "label": "北海道上川郡下川町"
+    }
+  ],
+  "下北山村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡下北山村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡下北山村",
+      "label": "奈良県吉野郡下北山村"
+    }
+  ],
+  "下條村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡下條村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡下條村",
+      "label": "長野県下伊那郡下條村"
+    }
+  ],
+  "加美町": [
+    {
+      "prefecture": "宮城県",
+      "county": "加美郡",
+      "municipality": "加美郡加美町",
+      "uri": "https://uedayou.net/loa/宮城県加美郡加美町",
+      "label": "宮城県加美郡加美町"
+    }
+  ],
+  "嘉手納町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "中頭郡",
+      "municipality": "中頭郡嘉手納町",
+      "uri": "https://uedayou.net/loa/沖縄県中頭郡嘉手納町",
+      "label": "沖縄県中頭郡嘉手納町"
+    }
+  ],
+  "嘉島町": [
+    {
+      "prefecture": "熊本県",
+      "county": "上益城郡",
+      "municipality": "上益城郡嘉島町",
+      "uri": "https://uedayou.net/loa/熊本県上益城郡嘉島町",
+      "label": "熊本県上益城郡嘉島町"
+    }
+  ],
+  "河合町": [
+    {
+      "prefecture": "奈良県",
+      "county": "北葛城郡",
+      "municipality": "北葛城郡河合町",
+      "uri": "https://uedayou.net/loa/奈良県北葛城郡河合町",
+      "label": "奈良県北葛城郡河合町"
+    }
+  ],
+  "河津町": [
+    {
+      "prefecture": "静岡県",
+      "county": "賀茂郡",
+      "municipality": "賀茂郡河津町",
+      "uri": "https://uedayou.net/loa/静岡県賀茂郡河津町",
+      "label": "静岡県賀茂郡河津町"
+    }
+  ],
+  "河内町": [
+    {
+      "prefecture": "茨城県",
+      "county": "稲敷郡",
+      "municipality": "稲敷郡河内町",
+      "uri": "https://uedayou.net/loa/茨城県稲敷郡河内町",
+      "label": "茨城県稲敷郡河内町"
+    }
+  ],
+  "河南町": [
+    {
+      "prefecture": "大阪府",
+      "county": "南河内郡",
+      "municipality": "南河内郡河南町",
+      "uri": "https://uedayou.net/loa/大阪府南河内郡河南町",
+      "label": "大阪府南河内郡河南町"
+    }
+  ],
+  "河北町": [
+    {
+      "prefecture": "山形県",
+      "county": "西村山郡",
+      "municipality": "西村山郡河北町",
+      "uri": "https://uedayou.net/loa/山形県西村山郡河北町",
+      "label": "山形県西村山郡河北町"
+    }
+  ],
+  "芽室町": [
+    {
+      "prefecture": "北海道",
+      "county": "河西郡",
+      "municipality": "河西郡芽室町",
+      "uri": "https://uedayou.net/loa/北海道河西郡芽室町",
+      "label": "北海道河西郡芽室町"
+    }
+  ],
+  "会津坂下町": [
+    {
+      "prefecture": "福島県",
+      "county": "河沼郡",
+      "municipality": "河沼郡会津坂下町",
+      "uri": "https://uedayou.net/loa/福島県河沼郡会津坂下町",
+      "label": "福島県河沼郡会津坂下町"
+    }
+  ],
+  "会津美里町": [
+    {
+      "prefecture": "福島県",
+      "county": "大沼郡",
+      "municipality": "大沼郡会津美里町",
+      "uri": "https://uedayou.net/loa/福島県大沼郡会津美里町",
+      "label": "福島県大沼郡会津美里町"
+    }
+  ],
+  "海士町": [
+    {
+      "prefecture": "島根県",
+      "county": "隠岐郡",
+      "municipality": "隠岐郡海士町",
+      "uri": "https://uedayou.net/loa/島根県隠岐郡海士町",
+      "label": "島根県隠岐郡海士町"
+    }
+  ],
+  "海田町": [
+    {
+      "prefecture": "広島県",
+      "county": "安芸郡",
+      "municipality": "安芸郡海田町",
+      "uri": "https://uedayou.net/loa/広島県安芸郡海田町",
+      "label": "広島県安芸郡海田町"
+    }
+  ],
+  "海陽町": [
+    {
+      "prefecture": "徳島県",
+      "county": "海部郡",
+      "municipality": "海部郡海陽町",
+      "uri": "https://uedayou.net/loa/徳島県海部郡海陽町",
+      "label": "徳島県海部郡海陽町"
+    }
+  ],
+  "皆野町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "秩父郡",
+      "municipality": "秩父郡皆野町",
+      "uri": "https://uedayou.net/loa/埼玉県秩父郡皆野町",
+      "label": "埼玉県秩父郡皆野町"
+    }
+  ],
+  "蟹江町": [
+    {
+      "prefecture": "愛知県",
+      "county": "海部郡",
+      "municipality": "海部郡蟹江町",
+      "uri": "https://uedayou.net/loa/愛知県海部郡蟹江町",
+      "label": "愛知県海部郡蟹江町"
+    }
+  ],
+  "開成町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄上郡",
+      "municipality": "足柄上郡開成町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄上郡開成町",
+      "label": "神奈川県足柄上郡開成町"
+    }
+  ],
+  "階上町": [
+    {
+      "prefecture": "青森県",
+      "county": "三戸郡",
+      "municipality": "三戸郡階上町",
+      "uri": "https://uedayou.net/loa/青森県三戸郡階上町",
+      "label": "青森県三戸郡階上町"
+    }
+  ],
+  "外ケ浜町": [
+    {
+      "prefecture": "青森県",
+      "county": "東津軽郡",
+      "municipality": "東津軽郡外ケ浜町",
+      "uri": "https://uedayou.net/loa/青森県東津軽郡外ケ浜町",
+      "label": "青森県東津軽郡外ケ浜町"
+    }
+  ],
+  "笠松町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "羽島郡",
+      "municipality": "羽島郡笠松町",
+      "uri": "https://uedayou.net/loa/岐阜県羽島郡笠松町",
+      "label": "岐阜県羽島郡笠松町"
+    }
+  ],
+  "滑川町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡滑川町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡滑川町",
+      "label": "埼玉県比企郡滑川町"
+    }
+  ],
+  "葛巻町": [
+    {
+      "prefecture": "岩手県",
+      "county": "岩手郡",
+      "municipality": "岩手郡葛巻町",
+      "uri": "https://uedayou.net/loa/岩手県岩手郡葛巻町",
+      "label": "岩手県岩手郡葛巻町"
+    }
+  ],
+  "葛尾村": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡葛尾村",
+      "uri": "https://uedayou.net/loa/福島県双葉郡葛尾村",
+      "label": "福島県双葉郡葛尾村"
+    }
+  ],
+  "刈羽村": [
+    {
+      "prefecture": "新潟県",
+      "county": "刈羽郡",
+      "municipality": "刈羽郡刈羽村",
+      "uri": "https://uedayou.net/loa/新潟県刈羽郡刈羽村",
+      "label": "新潟県刈羽郡刈羽村"
+    }
+  ],
+  "苅田町": [
+    {
+      "prefecture": "福岡県",
+      "county": "京都郡",
+      "municipality": "京都郡苅田町",
+      "uri": "https://uedayou.net/loa/福岡県京都郡苅田町",
+      "label": "福岡県京都郡苅田町"
+    }
+  ],
+  "寒川町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "高座郡",
+      "municipality": "高座郡寒川町",
+      "uri": "https://uedayou.net/loa/神奈川県高座郡寒川町",
+      "label": "神奈川県高座郡寒川町"
+    }
+  ],
+  "甘楽町": [
+    {
+      "prefecture": "群馬県",
+      "county": "甘楽郡",
+      "municipality": "甘楽郡甘楽町",
+      "uri": "https://uedayou.net/loa/群馬県甘楽郡甘楽町",
+      "label": "群馬県甘楽郡甘楽町"
+    }
+  ],
+  "肝付町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "肝属郡",
+      "municipality": "肝属郡肝付町",
+      "uri": "https://uedayou.net/loa/鹿児島県肝属郡肝付町",
+      "label": "鹿児島県肝属郡肝付町"
+    }
+  ],
+  "関ケ原町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "不破郡",
+      "municipality": "不破郡関ケ原町",
+      "uri": "https://uedayou.net/loa/岐阜県不破郡関ケ原町",
+      "label": "岐阜県不破郡関ケ原町"
+    }
+  ],
+  "関川村": [
+    {
+      "prefecture": "新潟県",
+      "county": "岩船郡",
+      "municipality": "岩船郡関川村",
+      "uri": "https://uedayou.net/loa/新潟県岩船郡関川村",
+      "label": "新潟県岩船郡関川村"
+    }
+  ],
+  "丸森町": [
+    {
+      "prefecture": "宮城県",
+      "county": "伊具郡",
+      "municipality": "伊具郡丸森町",
+      "uri": "https://uedayou.net/loa/宮城県伊具郡丸森町",
+      "label": "宮城県伊具郡丸森町"
+    }
+  ],
+  "岩手町": [
+    {
+      "prefecture": "岩手県",
+      "county": "岩手郡",
+      "municipality": "岩手郡岩手町",
+      "uri": "https://uedayou.net/loa/岩手県岩手郡岩手町",
+      "label": "岩手県岩手郡岩手町"
+    }
+  ],
+  "岩泉町": [
+    {
+      "prefecture": "岩手県",
+      "county": "下閉伊郡",
+      "municipality": "下閉伊郡岩泉町",
+      "uri": "https://uedayou.net/loa/岩手県下閉伊郡岩泉町",
+      "label": "岩手県下閉伊郡岩泉町"
+    }
+  ],
+  "岩内町": [
+    {
+      "prefecture": "北海道",
+      "county": "岩内郡",
+      "municipality": "岩内郡岩内町",
+      "uri": "https://uedayou.net/loa/北海道岩内郡岩内町",
+      "label": "北海道岩内郡岩内町"
+    }
+  ],
+  "岩美町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "岩美郡",
+      "municipality": "岩美郡岩美町",
+      "uri": "https://uedayou.net/loa/鳥取県岩美郡岩美町",
+      "label": "鳥取県岩美郡岩美町"
+    }
+  ],
+  "喜界町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡喜界町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡喜界町",
+      "label": "鹿児島県大島郡喜界町"
+    }
+  ],
+  "喜茂別町": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡喜茂別町",
+      "uri": "https://uedayou.net/loa/北海道虻田郡喜茂別町",
+      "label": "北海道虻田郡喜茂別町"
+    }
+  ],
+  "基山町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "三養基郡",
+      "municipality": "三養基郡基山町",
+      "uri": "https://uedayou.net/loa/佐賀県三養基郡基山町",
+      "label": "佐賀県三養基郡基山町"
+    }
+  ],
+  "寄居町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "大里郡",
+      "municipality": "大里郡寄居町",
+      "uri": "https://uedayou.net/loa/埼玉県大里郡寄居町",
+      "label": "埼玉県大里郡寄居町"
+    }
+  ],
+  "岐南町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "羽島郡",
+      "municipality": "羽島郡岐南町",
+      "uri": "https://uedayou.net/loa/岐阜県羽島郡岐南町",
+      "label": "岐阜県羽島郡岐南町"
+    }
+  ],
+  "紀美野町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "海草郡",
+      "municipality": "海草郡紀美野町",
+      "uri": "https://uedayou.net/loa/和歌山県海草郡紀美野町",
+      "label": "和歌山県海草郡紀美野町"
+    }
+  ],
+  "紀宝町": [
+    {
+      "prefecture": "三重県",
+      "county": "南牟婁郡",
+      "municipality": "南牟婁郡紀宝町",
+      "uri": "https://uedayou.net/loa/三重県南牟婁郡紀宝町",
+      "label": "三重県南牟婁郡紀宝町"
+    }
+  ],
+  "紀北町": [
+    {
+      "prefecture": "三重県",
+      "county": "北牟婁郡",
+      "municipality": "北牟婁郡紀北町",
+      "uri": "https://uedayou.net/loa/三重県北牟婁郡紀北町",
+      "label": "三重県北牟婁郡紀北町"
+    }
+  ],
+  "鬼北町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "北宇和郡",
+      "municipality": "北宇和郡鬼北町",
+      "uri": "https://uedayou.net/loa/愛媛県北宇和郡鬼北町",
+      "label": "愛媛県北宇和郡鬼北町"
+    }
+  ],
+  "宜野座村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡宜野座村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡宜野座村",
+      "label": "沖縄県国頭郡宜野座村"
+    }
+  ],
+  "菊陽町": [
+    {
+      "prefecture": "熊本県",
+      "county": "菊池郡",
+      "municipality": "菊池郡菊陽町",
+      "uri": "https://uedayou.net/loa/熊本県菊池郡菊陽町",
+      "label": "熊本県菊池郡菊陽町"
+    }
+  ],
+  "吉岡町": [
+    {
+      "prefecture": "群馬県",
+      "county": "北群馬郡",
+      "municipality": "北群馬郡吉岡町",
+      "uri": "https://uedayou.net/loa/群馬県北群馬郡吉岡町",
+      "label": "群馬県北群馬郡吉岡町"
+    }
+  ],
+  "吉賀町": [
+    {
+      "prefecture": "島根県",
+      "county": "鹿足郡",
+      "municipality": "鹿足郡吉賀町",
+      "uri": "https://uedayou.net/loa/島根県鹿足郡吉賀町",
+      "label": "島根県鹿足郡吉賀町"
+    }
+  ],
+  "吉見町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡吉見町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡吉見町",
+      "label": "埼玉県比企郡吉見町"
+    }
+  ],
+  "吉田町": [
+    {
+      "prefecture": "静岡県",
+      "county": "榛原郡",
+      "municipality": "榛原郡吉田町",
+      "uri": "https://uedayou.net/loa/静岡県榛原郡吉田町",
+      "label": "静岡県榛原郡吉田町"
+    }
+  ],
+  "吉備中央町": [
+    {
+      "prefecture": "岡山県",
+      "county": "加賀郡",
+      "municipality": "加賀郡吉備中央町",
+      "uri": "https://uedayou.net/loa/岡山県加賀郡吉備中央町",
+      "label": "岡山県加賀郡吉備中央町"
+    }
+  ],
+  "吉富町": [
+    {
+      "prefecture": "福岡県",
+      "county": "築上郡",
+      "municipality": "築上郡吉富町",
+      "uri": "https://uedayou.net/loa/福岡県築上郡吉富町",
+      "label": "福岡県築上郡吉富町"
+    }
+  ],
+  "吉野ケ里町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "神埼郡",
+      "municipality": "神埼郡吉野ケ里町",
+      "uri": "https://uedayou.net/loa/佐賀県神埼郡吉野ケ里町",
+      "label": "佐賀県神埼郡吉野ケ里町"
+    }
+  ],
+  "吉野町": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡吉野町",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡吉野町",
+      "label": "奈良県吉野郡吉野町"
+    }
+  ],
+  "久山町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡久山町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡久山町",
+      "label": "福岡県糟屋郡久山町"
+    }
+  ],
+  "久米島町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡久米島町",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡久米島町",
+      "label": "沖縄県島尻郡久米島町"
+    }
+  ],
+  "久米南町": [
+    {
+      "prefecture": "岡山県",
+      "county": "久米郡",
+      "municipality": "久米郡久米南町",
+      "uri": "https://uedayou.net/loa/岡山県久米郡久米南町",
+      "label": "岡山県久米郡久米南町"
+    }
+  ],
+  "久万高原町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "上浮穴郡",
+      "municipality": "上浮穴郡久万高原町",
+      "uri": "https://uedayou.net/loa/愛媛県上浮穴郡久万高原町",
+      "label": "愛媛県上浮穴郡久万高原町"
+    }
+  ],
+  "宮代町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "南埼玉郡",
+      "municipality": "南埼玉郡宮代町",
+      "uri": "https://uedayou.net/loa/埼玉県南埼玉郡宮代町",
+      "label": "埼玉県南埼玉郡宮代町"
+    }
+  ],
+  "宮田村": [
+    {
+      "prefecture": "長野県",
+      "county": "上伊那郡",
+      "municipality": "上伊那郡宮田村",
+      "uri": "https://uedayou.net/loa/長野県上伊那郡宮田村",
+      "label": "長野県上伊那郡宮田村"
+    }
+  ],
+  "球磨村": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡球磨村",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡球磨村",
+      "label": "熊本県球磨郡球磨村"
+    }
+  ],
+  "鋸南町": [
+    {
+      "prefecture": "千葉県",
+      "county": "安房郡",
+      "municipality": "安房郡鋸南町",
+      "uri": "https://uedayou.net/loa/千葉県安房郡鋸南町",
+      "label": "千葉県安房郡鋸南町"
+    }
+  ],
+  "京極町": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡京極町",
+      "uri": "https://uedayou.net/loa/北海道虻田郡京極町",
+      "label": "北海道虻田郡京極町"
+    }
+  ],
+  "共和町": [
+    {
+      "prefecture": "北海道",
+      "county": "岩内郡",
+      "municipality": "岩内郡共和町",
+      "uri": "https://uedayou.net/loa/北海道岩内郡共和町",
+      "label": "北海道岩内郡共和町"
+    }
+  ],
+  "喬木村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡喬木村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡喬木村",
+      "label": "長野県下伊那郡喬木村"
+    }
+  ],
+  "境町": [
+    {
+      "prefecture": "茨城県",
+      "county": "猿島郡",
+      "municipality": "猿島郡境町",
+      "uri": "https://uedayou.net/loa/茨城県猿島郡境町",
+      "label": "茨城県猿島郡境町"
+    }
+  ],
+  "興部町": [
+    {
+      "prefecture": "北海道",
+      "county": "紋別郡",
+      "municipality": "紋別郡興部町",
+      "uri": "https://uedayou.net/loa/北海道紋別郡興部町",
+      "label": "北海道紋別郡興部町"
+    }
+  ],
+  "鏡石町": [
+    {
+      "prefecture": "福島県",
+      "county": "岩瀬郡",
+      "municipality": "岩瀬郡鏡石町",
+      "uri": "https://uedayou.net/loa/福島県岩瀬郡鏡石町",
+      "label": "福島県岩瀬郡鏡石町"
+    }
+  ],
+  "鏡野町": [
+    {
+      "prefecture": "岡山県",
+      "county": "苫田郡",
+      "municipality": "苫田郡鏡野町",
+      "uri": "https://uedayou.net/loa/岡山県苫田郡鏡野町",
+      "label": "岡山県苫田郡鏡野町"
+    }
+  ],
+  "玉城町": [
+    {
+      "prefecture": "三重県",
+      "county": "度会郡",
+      "municipality": "度会郡玉城町",
+      "uri": "https://uedayou.net/loa/三重県度会郡玉城町",
+      "label": "三重県度会郡玉城町"
+    }
+  ],
+  "玉川村": [
+    {
+      "prefecture": "福島県",
+      "county": "石川郡",
+      "municipality": "石川郡玉川村",
+      "uri": "https://uedayou.net/loa/福島県石川郡玉川村",
+      "label": "福島県石川郡玉川村"
+    }
+  ],
+  "玉村町": [
+    {
+      "prefecture": "群馬県",
+      "county": "佐波郡",
+      "municipality": "佐波郡玉村町",
+      "uri": "https://uedayou.net/loa/群馬県佐波郡玉村町",
+      "label": "群馬県佐波郡玉村町"
+    }
+  ],
+  "玉東町": [
+    {
+      "prefecture": "熊本県",
+      "county": "玉名郡",
+      "municipality": "玉名郡玉東町",
+      "uri": "https://uedayou.net/loa/熊本県玉名郡玉東町",
+      "label": "熊本県玉名郡玉東町"
+    }
+  ],
+  "錦江町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "肝属郡",
+      "municipality": "肝属郡錦江町",
+      "uri": "https://uedayou.net/loa/鹿児島県肝属郡錦江町",
+      "label": "鹿児島県肝属郡錦江町"
+    }
+  ],
+  "錦町": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡錦町",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡錦町",
+      "label": "熊本県球磨郡錦町"
+    }
+  ],
+  "琴浦町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "東伯郡",
+      "municipality": "東伯郡琴浦町",
+      "uri": "https://uedayou.net/loa/鳥取県東伯郡琴浦町",
+      "label": "鳥取県東伯郡琴浦町"
+    }
+  ],
+  "琴平町": [
+    {
+      "prefecture": "香川県",
+      "county": "仲多度郡",
+      "municipality": "仲多度郡琴平町",
+      "uri": "https://uedayou.net/loa/香川県仲多度郡琴平町",
+      "label": "香川県仲多度郡琴平町"
+    }
+  ],
+  "金ケ崎町": [
+    {
+      "prefecture": "岩手県",
+      "county": "胆沢郡",
+      "municipality": "胆沢郡金ケ崎町",
+      "uri": "https://uedayou.net/loa/岩手県胆沢郡金ケ崎町",
+      "label": "岩手県胆沢郡金ケ崎町"
+    }
+  ],
+  "金山町": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡金山町",
+      "uri": "https://uedayou.net/loa/山形県最上郡金山町",
+      "label": "山形県最上郡金山町"
+    },
+    {
+      "prefecture": "福島県",
+      "county": "大沼郡",
+      "municipality": "大沼郡金山町",
+      "uri": "https://uedayou.net/loa/福島県大沼郡金山町",
+      "label": "福島県大沼郡金山町"
+    }
+  ],
+  "金武町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡金武町",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡金武町",
+      "label": "沖縄県国頭郡金武町"
+    }
+  ],
+  "九戸村": [
+    {
+      "prefecture": "岩手県",
+      "county": "九戸郡",
+      "municipality": "九戸郡九戸村",
+      "uri": "https://uedayou.net/loa/岩手県九戸郡九戸村",
+      "label": "岩手県九戸郡九戸村"
+    }
+  ],
+  "九十九里町": [
+    {
+      "prefecture": "千葉県",
+      "county": "山武郡",
+      "municipality": "山武郡九十九里町",
+      "uri": "https://uedayou.net/loa/千葉県山武郡九十九里町",
+      "label": "千葉県山武郡九十九里町"
+    }
+  ],
+  "九重町": [
+    {
+      "prefecture": "大分県",
+      "county": "玖珠郡",
+      "municipality": "玖珠郡九重町",
+      "uri": "https://uedayou.net/loa/大分県玖珠郡九重町",
+      "label": "大分県玖珠郡九重町"
+    }
+  ],
+  "九度山町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "伊都郡",
+      "municipality": "伊都郡九度山町",
+      "uri": "https://uedayou.net/loa/和歌山県伊都郡九度山町",
+      "label": "和歌山県伊都郡九度山町"
+    }
+  ],
+  "倶知安町": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡倶知安町",
+      "uri": "https://uedayou.net/loa/北海道虻田郡倶知安町",
+      "label": "北海道虻田郡倶知安町"
+    }
+  ],
+  "玖珠町": [
+    {
+      "prefecture": "大分県",
+      "county": "玖珠郡",
+      "municipality": "玖珠郡玖珠町",
+      "uri": "https://uedayou.net/loa/大分県玖珠郡玖珠町",
+      "label": "大分県玖珠郡玖珠町"
+    }
+  ],
+  "串本町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "東牟婁郡",
+      "municipality": "東牟婁郡串本町",
+      "uri": "https://uedayou.net/loa/和歌山県東牟婁郡串本町",
+      "label": "和歌山県東牟婁郡串本町"
+    }
+  ],
+  "釧路町": [
+    {
+      "prefecture": "北海道",
+      "county": "釧路郡",
+      "municipality": "釧路郡釧路町",
+      "uri": "https://uedayou.net/loa/北海道釧路郡釧路町",
+      "label": "北海道釧路郡釧路町"
+    }
+  ],
+  "熊取町": [
+    {
+      "prefecture": "大阪府",
+      "county": "泉南郡",
+      "municipality": "泉南郡熊取町",
+      "uri": "https://uedayou.net/loa/大阪府泉南郡熊取町",
+      "label": "大阪府泉南郡熊取町"
+    }
+  ],
+  "熊野町": [
+    {
+      "prefecture": "広島県",
+      "county": "安芸郡",
+      "municipality": "安芸郡熊野町",
+      "uri": "https://uedayou.net/loa/広島県安芸郡熊野町",
+      "label": "広島県安芸郡熊野町"
+    }
+  ],
+  "栗山町": [
+    {
+      "prefecture": "北海道",
+      "county": "夕張郡",
+      "municipality": "夕張郡栗山町",
+      "uri": "https://uedayou.net/loa/北海道夕張郡栗山町",
+      "label": "北海道夕張郡栗山町"
+    }
+  ],
+  "桑折町": [
+    {
+      "prefecture": "福島県",
+      "county": "伊達郡",
+      "municipality": "伊達郡桑折町",
+      "uri": "https://uedayou.net/loa/福島県伊達郡桑折町",
+      "label": "福島県伊達郡桑折町"
+    }
+  ],
+  "訓子府町": [
+    {
+      "prefecture": "北海道",
+      "county": "常呂郡",
+      "municipality": "常呂郡訓子府町",
+      "uri": "https://uedayou.net/loa/北海道常呂郡訓子府町",
+      "label": "北海道常呂郡訓子府町"
+    }
+  ],
+  "桂川町": [
+    {
+      "prefecture": "福岡県",
+      "county": "嘉穂郡",
+      "municipality": "嘉穂郡桂川町",
+      "uri": "https://uedayou.net/loa/福岡県嘉穂郡桂川町",
+      "label": "福岡県嘉穂郡桂川町"
+    }
+  ],
+  "軽井沢町": [
+    {
+      "prefecture": "長野県",
+      "county": "北佐久郡",
+      "municipality": "北佐久郡軽井沢町",
+      "uri": "https://uedayou.net/loa/長野県北佐久郡軽井沢町",
+      "label": "長野県北佐久郡軽井沢町"
+    }
+  ],
+  "軽米町": [
+    {
+      "prefecture": "岩手県",
+      "county": "九戸郡",
+      "municipality": "九戸郡軽米町",
+      "uri": "https://uedayou.net/loa/岩手県九戸郡軽米町",
+      "label": "岩手県九戸郡軽米町"
+    }
+  ],
+  "芸西村": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡芸西村",
+      "uri": "https://uedayou.net/loa/高知県安芸郡芸西村",
+      "label": "高知県安芸郡芸西村"
+    }
+  ],
+  "穴水町": [
+    {
+      "prefecture": "石川県",
+      "county": "鳳珠郡",
+      "municipality": "鳳珠郡穴水町",
+      "uri": "https://uedayou.net/loa/石川県鳳珠郡穴水町",
+      "label": "石川県鳳珠郡穴水町"
+    }
+  ],
+  "月形町": [
+    {
+      "prefecture": "北海道",
+      "county": "樺戸郡",
+      "municipality": "樺戸郡月形町",
+      "uri": "https://uedayou.net/loa/北海道樺戸郡月形町",
+      "label": "北海道樺戸郡月形町"
+    }
+  ],
+  "剣淵町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡剣淵町",
+      "uri": "https://uedayou.net/loa/北海道上川郡剣淵町",
+      "label": "北海道上川郡剣淵町"
+    }
+  ],
+  "原村": [
+    {
+      "prefecture": "長野県",
+      "county": "諏訪郡",
+      "municipality": "諏訪郡原村",
+      "uri": "https://uedayou.net/loa/長野県諏訪郡原村",
+      "label": "長野県諏訪郡原村"
+    }
+  ],
+  "玄海町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "東松浦郡",
+      "municipality": "東松浦郡玄海町",
+      "uri": "https://uedayou.net/loa/佐賀県東松浦郡玄海町",
+      "label": "佐賀県東松浦郡玄海町"
+    }
+  ],
+  "古座川町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "東牟婁郡",
+      "municipality": "東牟婁郡古座川町",
+      "uri": "https://uedayou.net/loa/和歌山県東牟婁郡古座川町",
+      "label": "和歌山県東牟婁郡古座川町"
+    }
+  ],
+  "古殿町": [
+    {
+      "prefecture": "福島県",
+      "county": "石川郡",
+      "municipality": "石川郡古殿町",
+      "uri": "https://uedayou.net/loa/福島県石川郡古殿町",
+      "label": "福島県石川郡古殿町"
+    }
+  ],
+  "古平町": [
+    {
+      "prefecture": "北海道",
+      "county": "古平郡",
+      "municipality": "古平郡古平町",
+      "uri": "https://uedayou.net/loa/北海道古平郡古平町",
+      "label": "北海道古平郡古平町"
+    }
+  ],
+  "戸沢村": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡戸沢村",
+      "uri": "https://uedayou.net/loa/山形県最上郡戸沢村",
+      "label": "山形県最上郡戸沢村"
+    }
+  ],
+  "菰野町": [
+    {
+      "prefecture": "三重県",
+      "county": "三重郡",
+      "municipality": "三重郡菰野町",
+      "uri": "https://uedayou.net/loa/三重県三重郡菰野町",
+      "label": "三重県三重郡菰野町"
+    }
+  ],
+  "五ケ瀬町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "西臼杵郡",
+      "municipality": "西臼杵郡五ケ瀬町",
+      "uri": "https://uedayou.net/loa/宮崎県西臼杵郡五ケ瀬町",
+      "label": "宮崎県西臼杵郡五ケ瀬町"
+    }
+  ],
+  "五霞町": [
+    {
+      "prefecture": "茨城県",
+      "county": "猿島郡",
+      "municipality": "猿島郡五霞町",
+      "uri": "https://uedayou.net/loa/茨城県猿島郡五霞町",
+      "label": "茨城県猿島郡五霞町"
+    }
+  ],
+  "五戸町": [
+    {
+      "prefecture": "青森県",
+      "county": "三戸郡",
+      "municipality": "三戸郡五戸町",
+      "uri": "https://uedayou.net/loa/青森県三戸郡五戸町",
+      "label": "青森県三戸郡五戸町"
+    }
+  ],
+  "五城目町": [
+    {
+      "prefecture": "秋田県",
+      "county": "南秋田郡",
+      "municipality": "南秋田郡五城目町",
+      "uri": "https://uedayou.net/loa/秋田県南秋田郡五城目町",
+      "label": "秋田県南秋田郡五城目町"
+    }
+  ],
+  "五木村": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡五木村",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡五木村",
+      "label": "熊本県球磨郡五木村"
+    }
+  ],
+  "御宿町": [
+    {
+      "prefecture": "千葉県",
+      "county": "夷隅郡",
+      "municipality": "夷隅郡御宿町",
+      "uri": "https://uedayou.net/loa/千葉県夷隅郡御宿町",
+      "label": "千葉県夷隅郡御宿町"
+    }
+  ],
+  "御杖村": [
+    {
+      "prefecture": "奈良県",
+      "county": "宇陀郡",
+      "municipality": "宇陀郡御杖村",
+      "uri": "https://uedayou.net/loa/奈良県宇陀郡御杖村",
+      "label": "奈良県宇陀郡御杖村"
+    }
+  ],
+  "御嵩町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "可児郡",
+      "municipality": "可児郡御嵩町",
+      "uri": "https://uedayou.net/loa/岐阜県可児郡御嵩町",
+      "label": "岐阜県可児郡御嵩町"
+    }
+  ],
+  "御船町": [
+    {
+      "prefecture": "熊本県",
+      "county": "上益城郡",
+      "municipality": "上益城郡御船町",
+      "uri": "https://uedayou.net/loa/熊本県上益城郡御船町",
+      "label": "熊本県上益城郡御船町"
+    }
+  ],
+  "御代田町": [
+    {
+      "prefecture": "長野県",
+      "county": "北佐久郡",
+      "municipality": "北佐久郡御代田町",
+      "uri": "https://uedayou.net/loa/長野県北佐久郡御代田町",
+      "label": "長野県北佐久郡御代田町"
+    }
+  ],
+  "御浜町": [
+    {
+      "prefecture": "三重県",
+      "county": "南牟婁郡",
+      "municipality": "南牟婁郡御浜町",
+      "uri": "https://uedayou.net/loa/三重県南牟婁郡御浜町",
+      "label": "三重県南牟婁郡御浜町"
+    }
+  ],
+  "厚岸町": [
+    {
+      "prefecture": "北海道",
+      "county": "厚岸郡",
+      "municipality": "厚岸郡厚岸町",
+      "uri": "https://uedayou.net/loa/北海道厚岸郡厚岸町",
+      "label": "北海道厚岸郡厚岸町"
+    }
+  ],
+  "厚真町": [
+    {
+      "prefecture": "北海道",
+      "county": "勇払郡",
+      "municipality": "勇払郡厚真町",
+      "uri": "https://uedayou.net/loa/北海道勇払郡厚真町",
+      "label": "北海道勇払郡厚真町"
+    }
+  ],
+  "厚沢部町": [
+    {
+      "prefecture": "北海道",
+      "county": "檜山郡",
+      "municipality": "檜山郡厚沢部町",
+      "uri": "https://uedayou.net/loa/北海道檜山郡厚沢部町",
+      "label": "北海道檜山郡厚沢部町"
+    }
+  ],
+  "幸田町": [
+    {
+      "prefecture": "愛知県",
+      "county": "額田郡",
+      "municipality": "額田郡幸田町",
+      "uri": "https://uedayou.net/loa/愛知県額田郡幸田町",
+      "label": "愛知県額田郡幸田町"
+    }
+  ],
+  "広川町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "有田郡",
+      "municipality": "有田郡広川町",
+      "uri": "https://uedayou.net/loa/和歌山県有田郡広川町",
+      "label": "和歌山県有田郡広川町"
+    },
+    {
+      "prefecture": "福岡県",
+      "county": "八女郡",
+      "municipality": "八女郡広川町",
+      "uri": "https://uedayou.net/loa/福岡県八女郡広川町",
+      "label": "福岡県八女郡広川町"
+    }
+  ],
+  "広尾町": [
+    {
+      "prefecture": "北海道",
+      "county": "広尾郡",
+      "municipality": "広尾郡広尾町",
+      "uri": "https://uedayou.net/loa/北海道広尾郡広尾町",
+      "label": "北海道広尾郡広尾町"
+    }
+  ],
+  "広野町": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡広野町",
+      "uri": "https://uedayou.net/loa/福島県双葉郡広野町",
+      "label": "福島県双葉郡広野町"
+    }
+  ],
+  "広陵町": [
+    {
+      "prefecture": "奈良県",
+      "county": "北葛城郡",
+      "municipality": "北葛城郡広陵町",
+      "uri": "https://uedayou.net/loa/奈良県北葛城郡広陵町",
+      "label": "奈良県北葛城郡広陵町"
+    }
+  ],
+  "更別村": [
+    {
+      "prefecture": "北海道",
+      "county": "河西郡",
+      "municipality": "河西郡更別村",
+      "uri": "https://uedayou.net/loa/北海道河西郡更別村",
+      "label": "北海道河西郡更別村"
+    }
+  ],
+  "江差町": [
+    {
+      "prefecture": "北海道",
+      "county": "檜山郡",
+      "municipality": "檜山郡江差町",
+      "uri": "https://uedayou.net/loa/北海道檜山郡江差町",
+      "label": "北海道檜山郡江差町"
+    }
+  ],
+  "江府町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "日野郡",
+      "municipality": "日野郡江府町",
+      "uri": "https://uedayou.net/loa/鳥取県日野郡江府町",
+      "label": "鳥取県日野郡江府町"
+    }
+  ],
+  "江北町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "杵島郡",
+      "municipality": "杵島郡江北町",
+      "uri": "https://uedayou.net/loa/佐賀県杵島郡江北町",
+      "label": "佐賀県杵島郡江北町"
+    }
+  ],
+  "甲佐町": [
+    {
+      "prefecture": "熊本県",
+      "county": "上益城郡",
+      "municipality": "上益城郡甲佐町",
+      "uri": "https://uedayou.net/loa/熊本県上益城郡甲佐町",
+      "label": "熊本県上益城郡甲佐町"
+    }
+  ],
+  "甲良町": [
+    {
+      "prefecture": "滋賀県",
+      "county": "犬上郡",
+      "municipality": "犬上郡甲良町",
+      "uri": "https://uedayou.net/loa/滋賀県犬上郡甲良町",
+      "label": "滋賀県犬上郡甲良町"
+    }
+  ],
+  "香春町": [
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡香春町",
+      "uri": "https://uedayou.net/loa/福岡県田川郡香春町",
+      "label": "福岡県田川郡香春町"
+    }
+  ],
+  "香美町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "美方郡",
+      "municipality": "美方郡香美町",
+      "uri": "https://uedayou.net/loa/兵庫県美方郡香美町",
+      "label": "兵庫県美方郡香美町"
+    }
+  ],
+  "高原町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "西諸県郡",
+      "municipality": "西諸県郡高原町",
+      "uri": "https://uedayou.net/loa/宮崎県西諸県郡高原町",
+      "label": "宮崎県西諸県郡高原町"
+    }
+  ],
+  "高根沢町": [
+    {
+      "prefecture": "栃木県",
+      "county": "塩谷郡",
+      "municipality": "塩谷郡高根沢町",
+      "uri": "https://uedayou.net/loa/栃木県塩谷郡高根沢町",
+      "label": "栃木県塩谷郡高根沢町"
+    }
+  ],
+  "高山村": [
+    {
+      "prefecture": "群馬県",
+      "county": "吾妻郡",
+      "municipality": "吾妻郡高山村",
+      "uri": "https://uedayou.net/loa/群馬県吾妻郡高山村",
+      "label": "群馬県吾妻郡高山村"
+    },
+    {
+      "prefecture": "長野県",
+      "county": "上高井郡",
+      "municipality": "上高井郡高山村",
+      "uri": "https://uedayou.net/loa/長野県上高井郡高山村",
+      "label": "長野県上高井郡高山村"
+    }
+  ],
+  "高取町": [
+    {
+      "prefecture": "奈良県",
+      "county": "高市郡",
+      "municipality": "高市郡高取町",
+      "uri": "https://uedayou.net/loa/奈良県高市郡高取町",
+      "label": "奈良県高市郡高取町"
+    }
+  ],
+  "高森町": [
+    {
+      "prefecture": "熊本県",
+      "county": "阿蘇郡",
+      "municipality": "阿蘇郡高森町",
+      "uri": "https://uedayou.net/loa/熊本県阿蘇郡高森町",
+      "label": "熊本県阿蘇郡高森町"
+    },
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡高森町",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡高森町",
+      "label": "長野県下伊那郡高森町"
+    }
+  ],
+  "高千穂町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "西臼杵郡",
+      "municipality": "西臼杵郡高千穂町",
+      "uri": "https://uedayou.net/loa/宮崎県西臼杵郡高千穂町",
+      "label": "宮崎県西臼杵郡高千穂町"
+    }
+  ],
+  "高鍋町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "児湯郡",
+      "municipality": "児湯郡高鍋町",
+      "uri": "https://uedayou.net/loa/宮崎県児湯郡高鍋町",
+      "label": "宮崎県児湯郡高鍋町"
+    }
+  ],
+  "高畠町": [
+    {
+      "prefecture": "山形県",
+      "county": "東置賜郡",
+      "municipality": "東置賜郡高畠町",
+      "uri": "https://uedayou.net/loa/山形県東置賜郡高畠町",
+      "label": "山形県東置賜郡高畠町"
+    }
+  ],
+  "高浜町": [
+    {
+      "prefecture": "福井県",
+      "county": "大飯郡",
+      "municipality": "大飯郡高浜町",
+      "uri": "https://uedayou.net/loa/福井県大飯郡高浜町",
+      "label": "福井県大飯郡高浜町"
+    }
+  ],
+  "高野町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "伊都郡",
+      "municipality": "伊都郡高野町",
+      "uri": "https://uedayou.net/loa/和歌山県伊都郡高野町",
+      "label": "和歌山県伊都郡高野町"
+    }
+  ],
+  "国見町": [
+    {
+      "prefecture": "福島県",
+      "county": "伊達郡",
+      "municipality": "伊達郡国見町",
+      "uri": "https://uedayou.net/loa/福島県伊達郡国見町",
+      "label": "福島県伊達郡国見町"
+    }
+  ],
+  "国頭村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡国頭村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡国頭村",
+      "label": "沖縄県国頭郡国頭村"
+    }
+  ],
+  "国富町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "東諸県郡",
+      "municipality": "東諸県郡国富町",
+      "uri": "https://uedayou.net/loa/宮崎県東諸県郡国富町",
+      "label": "宮崎県東諸県郡国富町"
+    }
+  ],
+  "黒松内町": [
+    {
+      "prefecture": "北海道",
+      "county": "寿都郡",
+      "municipality": "寿都郡黒松内町",
+      "uri": "https://uedayou.net/loa/北海道寿都郡黒松内町",
+      "label": "北海道寿都郡黒松内町"
+    }
+  ],
+  "黒滝村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡黒滝村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡黒滝村",
+      "label": "奈良県吉野郡黒滝村"
+    }
+  ],
+  "黒潮町": [
+    {
+      "prefecture": "高知県",
+      "county": "幡多郡",
+      "municipality": "幡多郡黒潮町",
+      "uri": "https://uedayou.net/loa/高知県幡多郡黒潮町",
+      "label": "高知県幡多郡黒潮町"
+    }
+  ],
+  "今帰仁村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡今帰仁村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡今帰仁村",
+      "label": "沖縄県国頭郡今帰仁村"
+    }
+  ],
+  "今金町": [
+    {
+      "prefecture": "北海道",
+      "county": "瀬棚郡",
+      "municipality": "瀬棚郡今金町",
+      "uri": "https://uedayou.net/loa/北海道瀬棚郡今金町",
+      "label": "北海道瀬棚郡今金町"
+    }
+  ],
+  "今別町": [
+    {
+      "prefecture": "青森県",
+      "county": "東津軽郡",
+      "municipality": "東津軽郡今別町",
+      "uri": "https://uedayou.net/loa/青森県東津軽郡今別町",
+      "label": "青森県東津軽郡今別町"
+    }
+  ],
+  "根羽村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡根羽村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡根羽村",
+      "label": "長野県下伊那郡根羽村"
+    }
+  ],
+  "佐々町": [
+    {
+      "prefecture": "長崎県",
+      "county": "北松浦郡",
+      "municipality": "北松浦郡佐々町",
+      "uri": "https://uedayou.net/loa/長崎県北松浦郡佐々町",
+      "label": "長崎県北松浦郡佐々町"
+    }
+  ],
+  "佐井村": [
+    {
+      "prefecture": "青森県",
+      "county": "下北郡",
+      "municipality": "下北郡佐井村",
+      "uri": "https://uedayou.net/loa/青森県下北郡佐井村",
+      "label": "青森県下北郡佐井村"
+    }
+  ],
+  "佐久穂町": [
+    {
+      "prefecture": "長野県",
+      "county": "南佐久郡",
+      "municipality": "南佐久郡佐久穂町",
+      "uri": "https://uedayou.net/loa/長野県南佐久郡佐久穂町",
+      "label": "長野県南佐久郡佐久穂町"
+    }
+  ],
+  "佐川町": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡佐川町",
+      "uri": "https://uedayou.net/loa/高知県高岡郡佐川町",
+      "label": "高知県高岡郡佐川町"
+    }
+  ],
+  "佐那河内村": [
+    {
+      "prefecture": "徳島県",
+      "county": "名東郡",
+      "municipality": "名東郡佐那河内村",
+      "uri": "https://uedayou.net/loa/徳島県名東郡佐那河内村",
+      "label": "徳島県名東郡佐那河内村"
+    }
+  ],
+  "佐用町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "佐用郡",
+      "municipality": "佐用郡佐用町",
+      "uri": "https://uedayou.net/loa/兵庫県佐用郡佐用町",
+      "label": "兵庫県佐用郡佐用町"
+    }
+  ],
+  "佐呂間町": [
+    {
+      "prefecture": "北海道",
+      "county": "常呂郡",
+      "municipality": "常呂郡佐呂間町",
+      "uri": "https://uedayou.net/loa/北海道常呂郡佐呂間町",
+      "label": "北海道常呂郡佐呂間町"
+    }
+  ],
+  "座間味村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡座間味村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡座間味村",
+      "label": "沖縄県島尻郡座間味村"
+    }
+  ],
+  "最上町": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡最上町",
+      "uri": "https://uedayou.net/loa/山形県最上郡最上町",
+      "label": "山形県最上郡最上町"
+    }
+  ],
+  "坂祝町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡坂祝町",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡坂祝町",
+      "label": "岐阜県加茂郡坂祝町"
+    }
+  ],
+  "坂城町": [
+    {
+      "prefecture": "長野県",
+      "county": "埴科郡",
+      "municipality": "埴科郡坂城町",
+      "uri": "https://uedayou.net/loa/長野県埴科郡坂城町",
+      "label": "長野県埴科郡坂城町"
+    }
+  ],
+  "坂町": [
+    {
+      "prefecture": "広島県",
+      "county": "安芸郡",
+      "municipality": "安芸郡坂町",
+      "uri": "https://uedayou.net/loa/広島県安芸郡坂町",
+      "label": "広島県安芸郡坂町"
+    }
+  ],
+  "鮭川村": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡鮭川村",
+      "uri": "https://uedayou.net/loa/山形県最上郡鮭川村",
+      "label": "山形県最上郡鮭川村"
+    }
+  ],
+  "鮫川村": [
+    {
+      "prefecture": "福島県",
+      "county": "東白川郡",
+      "municipality": "東白川郡鮫川村",
+      "uri": "https://uedayou.net/loa/福島県東白川郡鮫川村",
+      "label": "福島県東白川郡鮫川村"
+    }
+  ],
+  "三郷町": [
+    {
+      "prefecture": "奈良県",
+      "county": "生駒郡",
+      "municipality": "生駒郡三郷町",
+      "uri": "https://uedayou.net/loa/奈良県生駒郡三郷町",
+      "label": "奈良県生駒郡三郷町"
+    }
+  ],
+  "三原村": [
+    {
+      "prefecture": "高知県",
+      "county": "幡多郡",
+      "municipality": "幡多郡三原村",
+      "uri": "https://uedayou.net/loa/高知県幡多郡三原村",
+      "label": "高知県幡多郡三原村"
+    }
+  ],
+  "三戸町": [
+    {
+      "prefecture": "青森県",
+      "county": "三戸郡",
+      "municipality": "三戸郡三戸町",
+      "uri": "https://uedayou.net/loa/青森県三戸郡三戸町",
+      "label": "青森県三戸郡三戸町"
+    }
+  ],
+  "三股町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "北諸県郡",
+      "municipality": "北諸県郡三股町",
+      "uri": "https://uedayou.net/loa/宮崎県北諸県郡三股町",
+      "label": "宮崎県北諸県郡三股町"
+    }
+  ],
+  "三種町": [
+    {
+      "prefecture": "秋田県",
+      "county": "山本郡",
+      "municipality": "山本郡三種町",
+      "uri": "https://uedayou.net/loa/秋田県山本郡三種町",
+      "label": "秋田県山本郡三種町"
+    }
+  ],
+  "三春町": [
+    {
+      "prefecture": "福島県",
+      "county": "田村郡",
+      "municipality": "田村郡三春町",
+      "uri": "https://uedayou.net/loa/福島県田村郡三春町",
+      "label": "福島県田村郡三春町"
+    }
+  ],
+  "三川町": [
+    {
+      "prefecture": "山形県",
+      "county": "東田川郡",
+      "municipality": "東田川郡三川町",
+      "uri": "https://uedayou.net/loa/山形県東田川郡三川町",
+      "label": "山形県東田川郡三川町"
+    }
+  ],
+  "三宅町": [
+    {
+      "prefecture": "奈良県",
+      "county": "磯城郡",
+      "municipality": "磯城郡三宅町",
+      "uri": "https://uedayou.net/loa/奈良県磯城郡三宅町",
+      "label": "奈良県磯城郡三宅町"
+    }
+  ],
+  "三朝町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "東伯郡",
+      "municipality": "東伯郡三朝町",
+      "uri": "https://uedayou.net/loa/鳥取県東伯郡三朝町",
+      "label": "鳥取県東伯郡三朝町"
+    }
+  ],
+  "三島村": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "鹿児島郡",
+      "municipality": "鹿児島郡三島村",
+      "uri": "https://uedayou.net/loa/鹿児島県鹿児島郡三島村",
+      "label": "鹿児島県鹿児島郡三島村"
+    }
+  ],
+  "三島町": [
+    {
+      "prefecture": "福島県",
+      "county": "大沼郡",
+      "municipality": "大沼郡三島町",
+      "uri": "https://uedayou.net/loa/福島県大沼郡三島町",
+      "label": "福島県大沼郡三島町"
+    }
+  ],
+  "三芳町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "入間郡",
+      "municipality": "入間郡三芳町",
+      "uri": "https://uedayou.net/loa/埼玉県入間郡三芳町",
+      "label": "埼玉県入間郡三芳町"
+    }
+  ],
+  "三木町": [
+    {
+      "prefecture": "香川県",
+      "county": "木田郡",
+      "municipality": "木田郡三木町",
+      "uri": "https://uedayou.net/loa/香川県木田郡三木町",
+      "label": "香川県木田郡三木町"
+    }
+  ],
+  "山ノ内町": [
+    {
+      "prefecture": "長野県",
+      "county": "下高井郡",
+      "municipality": "下高井郡山ノ内町",
+      "uri": "https://uedayou.net/loa/長野県下高井郡山ノ内町",
+      "label": "長野県下高井郡山ノ内町"
+    }
+  ],
+  "山形村": [
+    {
+      "prefecture": "長野県",
+      "county": "東筑摩郡",
+      "municipality": "東筑摩郡山形村",
+      "uri": "https://uedayou.net/loa/長野県東筑摩郡山形村",
+      "label": "長野県東筑摩郡山形村"
+    }
+  ],
+  "山元町": [
+    {
+      "prefecture": "宮城県",
+      "county": "亘理郡",
+      "municipality": "亘理郡山元町",
+      "uri": "https://uedayou.net/loa/宮城県亘理郡山元町",
+      "label": "宮城県亘理郡山元町"
+    }
+  ],
+  "山江村": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡山江村",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡山江村",
+      "label": "熊本県球磨郡山江村"
+    }
+  ],
+  "山市": [
+    {
+      "prefecture": "奈良県",
+      "county": "大和郡",
+      "municipality": "大和郡山市",
+      "uri": "https://uedayou.net/loa/奈良県大和郡山市",
+      "label": "奈良県大和郡山市"
+    }
+  ],
+  "山中湖村": [
+    {
+      "prefecture": "山梨県",
+      "county": "南都留郡",
+      "municipality": "南都留郡山中湖村",
+      "uri": "https://uedayou.net/loa/山梨県南都留郡山中湖村",
+      "label": "山梨県南都留郡山中湖村"
+    }
+  ],
+  "山添村": [
+    {
+      "prefecture": "奈良県",
+      "county": "山辺郡",
+      "municipality": "山辺郡山添村",
+      "uri": "https://uedayou.net/loa/奈良県山辺郡山添村",
+      "label": "奈良県山辺郡山添村"
+    }
+  ],
+  "山田町": [
+    {
+      "prefecture": "岩手県",
+      "county": "下閉伊郡",
+      "municipality": "下閉伊郡山田町",
+      "uri": "https://uedayou.net/loa/岩手県下閉伊郡山田町",
+      "label": "岩手県下閉伊郡山田町"
+    }
+  ],
+  "山都町": [
+    {
+      "prefecture": "熊本県",
+      "county": "上益城郡",
+      "municipality": "上益城郡山都町",
+      "uri": "https://uedayou.net/loa/熊本県上益城郡山都町",
+      "label": "熊本県上益城郡山都町"
+    }
+  ],
+  "山辺町": [
+    {
+      "prefecture": "山形県",
+      "county": "東村山郡",
+      "municipality": "東村山郡山辺町",
+      "uri": "https://uedayou.net/loa/山形県東村山郡山辺町",
+      "label": "山形県東村山郡山辺町"
+    }
+  ],
+  "山北町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄上郡",
+      "municipality": "足柄上郡山北町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄上郡山北町",
+      "label": "神奈川県足柄上郡山北町"
+    }
+  ],
+  "産山村": [
+    {
+      "prefecture": "熊本県",
+      "county": "阿蘇郡",
+      "municipality": "阿蘇郡産山村",
+      "uri": "https://uedayou.net/loa/熊本県阿蘇郡産山村",
+      "label": "熊本県阿蘇郡産山村"
+    }
+  ],
+  "四万十町": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡四万十町",
+      "uri": "https://uedayou.net/loa/高知県高岡郡四万十町",
+      "label": "高知県高岡郡四万十町"
+    }
+  ],
+  "士幌町": [
+    {
+      "prefecture": "北海道",
+      "county": "河東郡",
+      "municipality": "河東郡士幌町",
+      "uri": "https://uedayou.net/loa/北海道河東郡士幌町",
+      "label": "北海道河東郡士幌町"
+    }
+  ],
+  "市": [
+    {
+      "prefecture": "愛知県",
+      "county": "蒲郡",
+      "municipality": "蒲郡市",
+      "uri": "https://uedayou.net/loa/愛知県蒲郡市",
+      "label": "愛知県蒲郡市"
+    },
+    {
+      "prefecture": "福岡県",
+      "county": "小郡",
+      "municipality": "小郡市",
+      "uri": "https://uedayou.net/loa/福岡県小郡市",
+      "label": "福岡県小郡市"
+    }
+  ],
+  "市貝町": [
+    {
+      "prefecture": "栃木県",
+      "county": "芳賀郡",
+      "municipality": "芳賀郡市貝町",
+      "uri": "https://uedayou.net/loa/栃木県芳賀郡市貝町",
+      "label": "栃木県芳賀郡市貝町"
+    }
+  ],
+  "市川三郷町": [
+    {
+      "prefecture": "山梨県",
+      "county": "西八代郡",
+      "municipality": "西八代郡市川三郷町",
+      "uri": "https://uedayou.net/loa/山梨県西八代郡市川三郷町",
+      "label": "山梨県西八代郡市川三郷町"
+    }
+  ],
+  "市川町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "神崎郡",
+      "municipality": "神崎郡市川町",
+      "uri": "https://uedayou.net/loa/兵庫県神崎郡市川町",
+      "label": "兵庫県神崎郡市川町"
+    }
+  ],
+  "志賀町": [
+    {
+      "prefecture": "石川県",
+      "county": "羽咋郡",
+      "municipality": "羽咋郡志賀町",
+      "uri": "https://uedayou.net/loa/石川県羽咋郡志賀町",
+      "label": "石川県羽咋郡志賀町"
+    }
+  ],
+  "志免町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡志免町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡志免町",
+      "label": "福岡県糟屋郡志免町"
+    }
+  ],
+  "枝幸町": [
+    {
+      "prefecture": "北海道",
+      "county": "枝幸郡",
+      "municipality": "枝幸郡枝幸町",
+      "uri": "https://uedayou.net/loa/北海道枝幸郡枝幸町",
+      "label": "北海道枝幸郡枝幸町"
+    }
+  ],
+  "糸田町": [
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡糸田町",
+      "uri": "https://uedayou.net/loa/福岡県田川郡糸田町",
+      "label": "福岡県田川郡糸田町"
+    }
+  ],
+  "紫波町": [
+    {
+      "prefecture": "岩手県",
+      "county": "紫波郡",
+      "municipality": "紫波郡紫波町",
+      "uri": "https://uedayou.net/loa/岩手県紫波郡紫波町",
+      "label": "岩手県紫波郡紫波町"
+    }
+  ],
+  "時津町": [
+    {
+      "prefecture": "長崎県",
+      "county": "西彼杵郡",
+      "municipality": "西彼杵郡時津町",
+      "uri": "https://uedayou.net/loa/長崎県西彼杵郡時津町",
+      "label": "長崎県西彼杵郡時津町"
+    }
+  ],
+  "鹿追町": [
+    {
+      "prefecture": "北海道",
+      "county": "河東郡",
+      "municipality": "河東郡鹿追町",
+      "uri": "https://uedayou.net/loa/北海道河東郡鹿追町",
+      "label": "北海道河東郡鹿追町"
+    }
+  ],
+  "鹿部町": [
+    {
+      "prefecture": "北海道",
+      "county": "茅部郡",
+      "municipality": "茅部郡鹿部町",
+      "uri": "https://uedayou.net/loa/北海道茅部郡鹿部町",
+      "label": "北海道茅部郡鹿部町"
+    }
+  ],
+  "雫石町": [
+    {
+      "prefecture": "岩手県",
+      "county": "岩手郡",
+      "municipality": "岩手郡雫石町",
+      "uri": "https://uedayou.net/loa/岩手県岩手郡雫石町",
+      "label": "岩手県岩手郡雫石町"
+    }
+  ],
+  "七ケ宿町": [
+    {
+      "prefecture": "宮城県",
+      "county": "刈田郡",
+      "municipality": "刈田郡七ケ宿町",
+      "uri": "https://uedayou.net/loa/宮城県刈田郡七ケ宿町",
+      "label": "宮城県刈田郡七ケ宿町"
+    }
+  ],
+  "七ケ浜町": [
+    {
+      "prefecture": "宮城県",
+      "county": "宮城郡",
+      "municipality": "宮城郡七ケ浜町",
+      "uri": "https://uedayou.net/loa/宮城県宮城郡七ケ浜町",
+      "label": "宮城県宮城郡七ケ浜町"
+    }
+  ],
+  "七戸町": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡七戸町",
+      "uri": "https://uedayou.net/loa/青森県上北郡七戸町",
+      "label": "青森県上北郡七戸町"
+    }
+  ],
+  "七宗町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡七宗町",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡七宗町",
+      "label": "岐阜県加茂郡七宗町"
+    }
+  ],
+  "七飯町": [
+    {
+      "prefecture": "北海道",
+      "county": "亀田郡",
+      "municipality": "亀田郡七飯町",
+      "uri": "https://uedayou.net/loa/北海道亀田郡七飯町",
+      "label": "北海道亀田郡七飯町"
+    }
+  ],
+  "篠栗町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡篠栗町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡篠栗町",
+      "label": "福岡県糟屋郡篠栗町"
+    }
+  ],
+  "柴田町": [
+    {
+      "prefecture": "宮城県",
+      "county": "柴田郡",
+      "municipality": "柴田郡柴田町",
+      "uri": "https://uedayou.net/loa/宮城県柴田郡柴田町",
+      "label": "宮城県柴田郡柴田町"
+    }
+  ],
+  "芝山町": [
+    {
+      "prefecture": "千葉県",
+      "county": "山武郡",
+      "municipality": "山武郡芝山町",
+      "uri": "https://uedayou.net/loa/千葉県山武郡芝山町",
+      "label": "千葉県山武郡芝山町"
+    }
+  ],
+  "斜里町": [
+    {
+      "prefecture": "北海道",
+      "county": "斜里郡",
+      "municipality": "斜里郡斜里町",
+      "uri": "https://uedayou.net/loa/北海道斜里郡斜里町",
+      "label": "北海道斜里郡斜里町"
+    }
+  ],
+  "紗那村": [
+    {
+      "prefecture": "北海道",
+      "county": "紗那郡",
+      "municipality": "紗那郡紗那村",
+      "uri": "https://uedayou.net/loa/北海道紗那郡紗那村",
+      "label": "北海道紗那郡紗那村"
+    }
+  ],
+  "若狭町": [
+    {
+      "prefecture": "福井県",
+      "county": "三方上中郡",
+      "municipality": "三方上中郡若狭町",
+      "uri": "https://uedayou.net/loa/福井県三方上中郡若狭町",
+      "label": "福井県三方上中郡若狭町"
+    }
+  ],
+  "若桜町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "八頭郡",
+      "municipality": "八頭郡若桜町",
+      "uri": "https://uedayou.net/loa/鳥取県八頭郡若桜町",
+      "label": "鳥取県八頭郡若桜町"
+    }
+  ],
+  "酒々井町": [
+    {
+      "prefecture": "千葉県",
+      "county": "印旛郡",
+      "municipality": "印旛郡酒々井町",
+      "uri": "https://uedayou.net/loa/千葉県印旛郡酒々井町",
+      "label": "千葉県印旛郡酒々井町"
+    }
+  ],
+  "寿都町": [
+    {
+      "prefecture": "北海道",
+      "county": "寿都郡",
+      "municipality": "寿都郡寿都町",
+      "uri": "https://uedayou.net/loa/北海道寿都郡寿都町",
+      "label": "北海道寿都郡寿都町"
+    }
+  ],
+  "周防大島町": [
+    {
+      "prefecture": "山口県",
+      "county": "大島郡",
+      "municipality": "大島郡周防大島町",
+      "uri": "https://uedayou.net/loa/山口県大島郡周防大島町",
+      "label": "山口県大島郡周防大島町"
+    }
+  ],
+  "舟橋村": [
+    {
+      "prefecture": "富山県",
+      "county": "中新川郡",
+      "municipality": "中新川郡舟橋村",
+      "uri": "https://uedayou.net/loa/富山県中新川郡舟橋村",
+      "label": "富山県中新川郡舟橋村"
+    }
+  ],
+  "舟形町": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡舟形町",
+      "uri": "https://uedayou.net/loa/山形県最上郡舟形町",
+      "label": "山形県最上郡舟形町"
+    }
+  ],
+  "住田町": [
+    {
+      "prefecture": "岩手県",
+      "county": "気仙郡",
+      "municipality": "気仙郡住田町",
+      "uri": "https://uedayou.net/loa/岩手県気仙郡住田町",
+      "label": "岩手県気仙郡住田町"
+    }
+  ],
+  "十津川村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡十津川村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡十津川村",
+      "label": "奈良県吉野郡十津川村"
+    }
+  ],
+  "十島村": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "鹿児島郡",
+      "municipality": "鹿児島郡十島村",
+      "uri": "https://uedayou.net/loa/鹿児島県鹿児島郡十島村",
+      "label": "鹿児島県鹿児島郡十島村"
+    }
+  ],
+  "出雲崎町": [
+    {
+      "prefecture": "新潟県",
+      "county": "三島郡",
+      "municipality": "三島郡出雲崎町",
+      "uri": "https://uedayou.net/loa/新潟県三島郡出雲崎町",
+      "label": "新潟県三島郡出雲崎町"
+    }
+  ],
+  "初山別村": [
+    {
+      "prefecture": "北海道",
+      "county": "苫前郡",
+      "municipality": "苫前郡初山別村",
+      "uri": "https://uedayou.net/loa/北海道苫前郡初山別村",
+      "label": "北海道苫前郡初山別村"
+    }
+  ],
+  "諸塚村": [
+    {
+      "prefecture": "宮崎県",
+      "county": "東臼杵郡",
+      "municipality": "東臼杵郡諸塚村",
+      "uri": "https://uedayou.net/loa/宮崎県東臼杵郡諸塚村",
+      "label": "宮崎県東臼杵郡諸塚村"
+    }
+  ],
+  "女川町": [
+    {
+      "prefecture": "宮城県",
+      "county": "牡鹿郡",
+      "municipality": "牡鹿郡女川町",
+      "uri": "https://uedayou.net/loa/宮城県牡鹿郡女川町",
+      "label": "宮城県牡鹿郡女川町"
+    }
+  ],
+  "勝浦町": [
+    {
+      "prefecture": "徳島県",
+      "county": "勝浦郡",
+      "municipality": "勝浦郡勝浦町",
+      "uri": "https://uedayou.net/loa/徳島県勝浦郡勝浦町",
+      "label": "徳島県勝浦郡勝浦町"
+    }
+  ],
+  "勝央町": [
+    {
+      "prefecture": "岡山県",
+      "county": "勝田郡",
+      "municipality": "勝田郡勝央町",
+      "uri": "https://uedayou.net/loa/岡山県勝田郡勝央町",
+      "label": "岡山県勝田郡勝央町"
+    }
+  ],
+  "小海町": [
+    {
+      "prefecture": "長野県",
+      "county": "南佐久郡",
+      "municipality": "南佐久郡小海町",
+      "uri": "https://uedayou.net/loa/長野県南佐久郡小海町",
+      "label": "長野県南佐久郡小海町"
+    }
+  ],
+  "小国町": [
+    {
+      "prefecture": "熊本県",
+      "county": "阿蘇郡",
+      "municipality": "阿蘇郡小国町",
+      "uri": "https://uedayou.net/loa/熊本県阿蘇郡小国町",
+      "label": "熊本県阿蘇郡小国町"
+    },
+    {
+      "prefecture": "山形県",
+      "county": "西置賜郡",
+      "municipality": "西置賜郡小国町",
+      "uri": "https://uedayou.net/loa/山形県西置賜郡小国町",
+      "label": "山形県西置賜郡小国町"
+    }
+  ],
+  "小坂町": [
+    {
+      "prefecture": "秋田県",
+      "county": "鹿角郡",
+      "municipality": "鹿角郡小坂町",
+      "uri": "https://uedayou.net/loa/秋田県鹿角郡小坂町",
+      "label": "秋田県鹿角郡小坂町"
+    }
+  ],
+  "小山町": [
+    {
+      "prefecture": "静岡県",
+      "county": "駿東郡",
+      "municipality": "駿東郡小山町",
+      "uri": "https://uedayou.net/loa/静岡県駿東郡小山町",
+      "label": "静岡県駿東郡小山町"
+    }
+  ],
+  "小鹿野町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "秩父郡",
+      "municipality": "秩父郡小鹿野町",
+      "uri": "https://uedayou.net/loa/埼玉県秩父郡小鹿野町",
+      "label": "埼玉県秩父郡小鹿野町"
+    }
+  ],
+  "小菅村": [
+    {
+      "prefecture": "山梨県",
+      "county": "北都留郡",
+      "municipality": "北都留郡小菅村",
+      "uri": "https://uedayou.net/loa/山梨県北都留郡小菅村",
+      "label": "山梨県北都留郡小菅村"
+    }
+  ],
+  "小清水町": [
+    {
+      "prefecture": "北海道",
+      "county": "斜里郡",
+      "municipality": "斜里郡小清水町",
+      "uri": "https://uedayou.net/loa/北海道斜里郡小清水町",
+      "label": "北海道斜里郡小清水町"
+    }
+  ],
+  "小川村": [
+    {
+      "prefecture": "長野県",
+      "county": "上水内郡",
+      "municipality": "上水内郡小川村",
+      "uri": "https://uedayou.net/loa/長野県上水内郡小川村",
+      "label": "長野県上水内郡小川村"
+    }
+  ],
+  "小川町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡小川町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡小川町",
+      "label": "埼玉県比企郡小川町"
+    }
+  ],
+  "小谷村": [
+    {
+      "prefecture": "長野県",
+      "county": "北安曇郡",
+      "municipality": "北安曇郡小谷村",
+      "uri": "https://uedayou.net/loa/長野県北安曇郡小谷村",
+      "label": "長野県北安曇郡小谷村"
+    }
+  ],
+  "小値賀町": [
+    {
+      "prefecture": "長崎県",
+      "county": "北松浦郡",
+      "municipality": "北松浦郡小値賀町",
+      "uri": "https://uedayou.net/loa/長崎県北松浦郡小値賀町",
+      "label": "長崎県北松浦郡小値賀町"
+    }
+  ],
+  "小竹町": [
+    {
+      "prefecture": "福岡県",
+      "county": "鞍手郡",
+      "municipality": "鞍手郡小竹町",
+      "uri": "https://uedayou.net/loa/福岡県鞍手郡小竹町",
+      "label": "福岡県鞍手郡小竹町"
+    }
+  ],
+  "小豆島町": [
+    {
+      "prefecture": "香川県",
+      "county": "小豆郡",
+      "municipality": "小豆郡小豆島町",
+      "uri": "https://uedayou.net/loa/香川県小豆郡小豆島町",
+      "label": "香川県小豆郡小豆島町"
+    }
+  ],
+  "小布施町": [
+    {
+      "prefecture": "長野県",
+      "county": "上高井郡",
+      "municipality": "上高井郡小布施町",
+      "uri": "https://uedayou.net/loa/長野県上高井郡小布施町",
+      "label": "長野県上高井郡小布施町"
+    }
+  ],
+  "小平町": [
+    {
+      "prefecture": "北海道",
+      "county": "留萌郡",
+      "municipality": "留萌郡小平町",
+      "uri": "https://uedayou.net/loa/北海道留萌郡小平町",
+      "label": "北海道留萌郡小平町"
+    }
+  ],
+  "小野町": [
+    {
+      "prefecture": "福島県",
+      "county": "田村郡",
+      "municipality": "田村郡小野町",
+      "uri": "https://uedayou.net/loa/福島県田村郡小野町",
+      "label": "福島県田村郡小野町"
+    }
+  ],
+  "庄内町": [
+    {
+      "prefecture": "山形県",
+      "county": "東田川郡",
+      "municipality": "東田川郡庄内町",
+      "uri": "https://uedayou.net/loa/山形県東田川郡庄内町",
+      "label": "山形県東田川郡庄内町"
+    }
+  ],
+  "昭和村": [
+    {
+      "prefecture": "群馬県",
+      "county": "利根郡",
+      "municipality": "利根郡昭和村",
+      "uri": "https://uedayou.net/loa/群馬県利根郡昭和村",
+      "label": "群馬県利根郡昭和村"
+    },
+    {
+      "prefecture": "福島県",
+      "county": "大沼郡",
+      "municipality": "大沼郡昭和村",
+      "uri": "https://uedayou.net/loa/福島県大沼郡昭和村",
+      "label": "福島県大沼郡昭和村"
+    }
+  ],
+  "昭和町": [
+    {
+      "prefecture": "山梨県",
+      "county": "中巨摩郡",
+      "municipality": "中巨摩郡昭和町",
+      "uri": "https://uedayou.net/loa/山梨県中巨摩郡昭和町",
+      "label": "山梨県中巨摩郡昭和町"
+    }
+  ],
+  "松崎町": [
+    {
+      "prefecture": "静岡県",
+      "county": "賀茂郡",
+      "municipality": "賀茂郡松崎町",
+      "uri": "https://uedayou.net/loa/静岡県賀茂郡松崎町",
+      "label": "静岡県賀茂郡松崎町"
+    }
+  ],
+  "松川村": [
+    {
+      "prefecture": "長野県",
+      "county": "北安曇郡",
+      "municipality": "北安曇郡松川村",
+      "uri": "https://uedayou.net/loa/長野県北安曇郡松川村",
+      "label": "長野県北安曇郡松川村"
+    }
+  ],
+  "松川町": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡松川町",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡松川町",
+      "label": "長野県下伊那郡松川町"
+    }
+  ],
+  "松前町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "伊予郡",
+      "municipality": "伊予郡松前町",
+      "uri": "https://uedayou.net/loa/愛媛県伊予郡松前町",
+      "label": "愛媛県伊予郡松前町"
+    },
+    {
+      "prefecture": "北海道",
+      "county": "松前郡",
+      "municipality": "松前郡松前町",
+      "uri": "https://uedayou.net/loa/北海道松前郡松前町",
+      "label": "北海道松前郡松前町"
+    }
+  ],
+  "松田町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄上郡",
+      "municipality": "足柄上郡松田町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄上郡松田町",
+      "label": "神奈川県足柄上郡松田町"
+    }
+  ],
+  "松島町": [
+    {
+      "prefecture": "宮城県",
+      "county": "宮城郡",
+      "municipality": "宮城郡松島町",
+      "uri": "https://uedayou.net/loa/宮城県宮城郡松島町",
+      "label": "宮城県宮城郡松島町"
+    }
+  ],
+  "松伏町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "北葛飾郡",
+      "municipality": "北葛飾郡松伏町",
+      "uri": "https://uedayou.net/loa/埼玉県北葛飾郡松伏町",
+      "label": "埼玉県北葛飾郡松伏町"
+    }
+  ],
+  "松茂町": [
+    {
+      "prefecture": "徳島県",
+      "county": "板野郡",
+      "municipality": "板野郡松茂町",
+      "uri": "https://uedayou.net/loa/徳島県板野郡松茂町",
+      "label": "徳島県板野郡松茂町"
+    }
+  ],
+  "松野町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "北宇和郡",
+      "municipality": "北宇和郡松野町",
+      "uri": "https://uedayou.net/loa/愛媛県北宇和郡松野町",
+      "label": "愛媛県北宇和郡松野町"
+    }
+  ],
+  "沼田町": [
+    {
+      "prefecture": "北海道",
+      "county": "雨竜郡",
+      "municipality": "雨竜郡沼田町",
+      "uri": "https://uedayou.net/loa/北海道雨竜郡沼田町",
+      "label": "北海道雨竜郡沼田町"
+    }
+  ],
+  "上ノ国町": [
+    {
+      "prefecture": "北海道",
+      "county": "檜山郡",
+      "municipality": "檜山郡上ノ国町",
+      "uri": "https://uedayou.net/loa/北海道檜山郡上ノ国町",
+      "label": "北海道檜山郡上ノ国町"
+    }
+  ],
+  "上関町": [
+    {
+      "prefecture": "山口県",
+      "county": "熊毛郡",
+      "municipality": "熊毛郡上関町",
+      "uri": "https://uedayou.net/loa/山口県熊毛郡上関町",
+      "label": "山口県熊毛郡上関町"
+    }
+  ],
+  "上郡町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "赤穂郡",
+      "municipality": "赤穂郡上郡町",
+      "uri": "https://uedayou.net/loa/兵庫県赤穂郡上郡町",
+      "label": "兵庫県赤穂郡上郡町"
+    }
+  ],
+  "上砂川町": [
+    {
+      "prefecture": "北海道",
+      "county": "空知郡",
+      "municipality": "空知郡上砂川町",
+      "uri": "https://uedayou.net/loa/北海道空知郡上砂川町",
+      "label": "北海道空知郡上砂川町"
+    }
+  ],
+  "上三川町": [
+    {
+      "prefecture": "栃木県",
+      "county": "河内郡",
+      "municipality": "河内郡上三川町",
+      "uri": "https://uedayou.net/loa/栃木県河内郡上三川町",
+      "label": "栃木県河内郡上三川町"
+    }
+  ],
+  "上士幌町": [
+    {
+      "prefecture": "北海道",
+      "county": "河東郡",
+      "municipality": "河東郡上士幌町",
+      "uri": "https://uedayou.net/loa/北海道河東郡上士幌町",
+      "label": "北海道河東郡上士幌町"
+    }
+  ],
+  "上市町": [
+    {
+      "prefecture": "富山県",
+      "county": "中新川郡",
+      "municipality": "中新川郡上市町",
+      "uri": "https://uedayou.net/loa/富山県中新川郡上市町",
+      "label": "富山県中新川郡上市町"
+    }
+  ],
+  "上勝町": [
+    {
+      "prefecture": "徳島県",
+      "county": "勝浦郡",
+      "municipality": "勝浦郡上勝町",
+      "uri": "https://uedayou.net/loa/徳島県勝浦郡上勝町",
+      "label": "徳島県勝浦郡上勝町"
+    }
+  ],
+  "上小阿仁村": [
+    {
+      "prefecture": "秋田県",
+      "county": "北秋田郡",
+      "municipality": "北秋田郡上小阿仁村",
+      "uri": "https://uedayou.net/loa/秋田県北秋田郡上小阿仁村",
+      "label": "秋田県北秋田郡上小阿仁村"
+    }
+  ],
+  "上松町": [
+    {
+      "prefecture": "長野県",
+      "county": "木曽郡",
+      "municipality": "木曽郡上松町",
+      "uri": "https://uedayou.net/loa/長野県木曽郡上松町",
+      "label": "長野県木曽郡上松町"
+    }
+  ],
+  "上川町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡上川町",
+      "uri": "https://uedayou.net/loa/北海道上川郡上川町",
+      "label": "北海道上川郡上川町"
+    }
+  ],
+  "上島町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "越智郡",
+      "municipality": "越智郡上島町",
+      "uri": "https://uedayou.net/loa/愛媛県越智郡上島町",
+      "label": "愛媛県越智郡上島町"
+    }
+  ],
+  "上板町": [
+    {
+      "prefecture": "徳島県",
+      "county": "板野郡",
+      "municipality": "板野郡上板町",
+      "uri": "https://uedayou.net/loa/徳島県板野郡上板町",
+      "label": "徳島県板野郡上板町"
+    }
+  ],
+  "上富田町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "西牟婁郡",
+      "municipality": "西牟婁郡上富田町",
+      "uri": "https://uedayou.net/loa/和歌山県西牟婁郡上富田町",
+      "label": "和歌山県西牟婁郡上富田町"
+    }
+  ],
+  "上富良野町": [
+    {
+      "prefecture": "北海道",
+      "county": "空知郡",
+      "municipality": "空知郡上富良野町",
+      "uri": "https://uedayou.net/loa/北海道空知郡上富良野町",
+      "label": "北海道空知郡上富良野町"
+    }
+  ],
+  "上峰町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "三養基郡",
+      "municipality": "三養基郡上峰町",
+      "uri": "https://uedayou.net/loa/佐賀県三養基郡上峰町",
+      "label": "佐賀県三養基郡上峰町"
+    }
+  ],
+  "上北山村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡上北山村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡上北山村",
+      "label": "奈良県吉野郡上北山村"
+    }
+  ],
+  "上牧町": [
+    {
+      "prefecture": "奈良県",
+      "county": "北葛城郡",
+      "municipality": "北葛城郡上牧町",
+      "uri": "https://uedayou.net/loa/奈良県北葛城郡上牧町",
+      "label": "奈良県北葛城郡上牧町"
+    }
+  ],
+  "上毛町": [
+    {
+      "prefecture": "福岡県",
+      "county": "築上郡",
+      "municipality": "築上郡上毛町",
+      "uri": "https://uedayou.net/loa/福岡県築上郡上毛町",
+      "label": "福岡県築上郡上毛町"
+    }
+  ],
+  "上野村": [
+    {
+      "prefecture": "群馬県",
+      "county": "多野郡",
+      "municipality": "多野郡上野村",
+      "uri": "https://uedayou.net/loa/群馬県多野郡上野村",
+      "label": "群馬県多野郡上野村"
+    }
+  ],
+  "上里町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "児玉郡",
+      "municipality": "児玉郡上里町",
+      "uri": "https://uedayou.net/loa/埼玉県児玉郡上里町",
+      "label": "埼玉県児玉郡上里町"
+    }
+  ],
+  "城里町": [
+    {
+      "prefecture": "茨城県",
+      "county": "東茨城郡",
+      "municipality": "東茨城郡城里町",
+      "uri": "https://uedayou.net/loa/茨城県東茨城郡城里町",
+      "label": "茨城県東茨城郡城里町"
+    }
+  ],
+  "色丹村": [
+    {
+      "prefecture": "北海道",
+      "county": "色丹郡",
+      "municipality": "色丹郡色丹村",
+      "uri": "https://uedayou.net/loa/北海道色丹郡色丹村",
+      "label": "北海道色丹郡色丹村"
+    }
+  ],
+  "色麻町": [
+    {
+      "prefecture": "宮城県",
+      "county": "加美郡",
+      "municipality": "加美郡色麻町",
+      "uri": "https://uedayou.net/loa/宮城県加美郡色麻町",
+      "label": "宮城県加美郡色麻町"
+    }
+  ],
+  "信濃町": [
+    {
+      "prefecture": "長野県",
+      "county": "上水内郡",
+      "municipality": "上水内郡信濃町",
+      "uri": "https://uedayou.net/loa/長野県上水内郡信濃町",
+      "label": "長野県上水内郡信濃町"
+    }
+  ],
+  "新ひだか町": [
+    {
+      "prefecture": "北海道",
+      "county": "日高郡",
+      "municipality": "日高郡新ひだか町",
+      "uri": "https://uedayou.net/loa/北海道日高郡新ひだか町",
+      "label": "北海道日高郡新ひだか町"
+    }
+  ],
+  "新温泉町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "美方郡",
+      "municipality": "美方郡新温泉町",
+      "uri": "https://uedayou.net/loa/兵庫県美方郡新温泉町",
+      "label": "兵庫県美方郡新温泉町"
+    }
+  ],
+  "新冠町": [
+    {
+      "prefecture": "北海道",
+      "county": "新冠郡",
+      "municipality": "新冠郡新冠町",
+      "uri": "https://uedayou.net/loa/北海道新冠郡新冠町",
+      "label": "北海道新冠郡新冠町"
+    }
+  ],
+  "新宮町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡新宮町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡新宮町",
+      "label": "福岡県糟屋郡新宮町"
+    }
+  ],
+  "新郷村": [
+    {
+      "prefecture": "青森県",
+      "county": "三戸郡",
+      "municipality": "三戸郡新郷村",
+      "uri": "https://uedayou.net/loa/青森県三戸郡新郷村",
+      "label": "青森県三戸郡新郷村"
+    }
+  ],
+  "新篠津村": [
+    {
+      "prefecture": "北海道",
+      "county": "石狩郡",
+      "municipality": "石狩郡新篠津村",
+      "uri": "https://uedayou.net/loa/北海道石狩郡新篠津村",
+      "label": "北海道石狩郡新篠津村"
+    }
+  ],
+  "新十津川町": [
+    {
+      "prefecture": "北海道",
+      "county": "樺戸郡",
+      "municipality": "樺戸郡新十津川町",
+      "uri": "https://uedayou.net/loa/北海道樺戸郡新十津川町",
+      "label": "北海道樺戸郡新十津川町"
+    }
+  ],
+  "新庄村": [
+    {
+      "prefecture": "岡山県",
+      "county": "真庭郡",
+      "municipality": "真庭郡新庄村",
+      "uri": "https://uedayou.net/loa/岡山県真庭郡新庄村",
+      "label": "岡山県真庭郡新庄村"
+    }
+  ],
+  "新上五島町": [
+    {
+      "prefecture": "長崎県",
+      "county": "南松浦郡",
+      "municipality": "南松浦郡新上五島町",
+      "uri": "https://uedayou.net/loa/長崎県南松浦郡新上五島町",
+      "label": "長崎県南松浦郡新上五島町"
+    }
+  ],
+  "新地町": [
+    {
+      "prefecture": "福島県",
+      "county": "相馬郡",
+      "municipality": "相馬郡新地町",
+      "uri": "https://uedayou.net/loa/福島県相馬郡新地町",
+      "label": "福島県相馬郡新地町"
+    }
+  ],
+  "新得町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡新得町",
+      "uri": "https://uedayou.net/loa/北海道上川郡新得町",
+      "label": "北海道上川郡新得町"
+    }
+  ],
+  "新富町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "児湯郡",
+      "municipality": "児湯郡新富町",
+      "uri": "https://uedayou.net/loa/宮崎県児湯郡新富町",
+      "label": "宮崎県児湯郡新富町"
+    }
+  ],
+  "森町": [
+    {
+      "prefecture": "静岡県",
+      "county": "周智郡",
+      "municipality": "周智郡森町",
+      "uri": "https://uedayou.net/loa/静岡県周智郡森町",
+      "label": "静岡県周智郡森町"
+    },
+    {
+      "prefecture": "北海道",
+      "county": "茅部郡",
+      "municipality": "茅部郡森町",
+      "uri": "https://uedayou.net/loa/北海道茅部郡森町",
+      "label": "北海道茅部郡森町"
+    }
+  ],
+  "榛東村": [
+    {
+      "prefecture": "群馬県",
+      "county": "北群馬郡",
+      "municipality": "北群馬郡榛東村",
+      "uri": "https://uedayou.net/loa/群馬県北群馬郡榛東村",
+      "label": "群馬県北群馬郡榛東村"
+    }
+  ],
+  "深浦町": [
+    {
+      "prefecture": "青森県",
+      "county": "西津軽郡",
+      "municipality": "西津軽郡深浦町",
+      "uri": "https://uedayou.net/loa/青森県西津軽郡深浦町",
+      "label": "青森県西津軽郡深浦町"
+    }
+  ],
+  "真室川町": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡真室川町",
+      "uri": "https://uedayou.net/loa/山形県最上郡真室川町",
+      "label": "山形県最上郡真室川町"
+    }
+  ],
+  "真狩村": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡真狩村",
+      "uri": "https://uedayou.net/loa/北海道虻田郡真狩村",
+      "label": "北海道虻田郡真狩村"
+    }
+  ],
+  "真鶴町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄下郡",
+      "municipality": "足柄下郡真鶴町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄下郡真鶴町",
+      "label": "神奈川県足柄下郡真鶴町"
+    }
+  ],
+  "神河町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "神崎郡",
+      "municipality": "神崎郡神河町",
+      "uri": "https://uedayou.net/loa/兵庫県神崎郡神河町",
+      "label": "兵庫県神崎郡神河町"
+    }
+  ],
+  "神恵内村": [
+    {
+      "prefecture": "北海道",
+      "county": "古宇郡",
+      "municipality": "古宇郡神恵内村",
+      "uri": "https://uedayou.net/loa/北海道古宇郡神恵内村",
+      "label": "北海道古宇郡神恵内村"
+    }
+  ],
+  "神戸町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "安八郡",
+      "municipality": "安八郡神戸町",
+      "uri": "https://uedayou.net/loa/岐阜県安八郡神戸町",
+      "label": "岐阜県安八郡神戸町"
+    }
+  ],
+  "神崎町": [
+    {
+      "prefecture": "千葉県",
+      "county": "香取郡",
+      "municipality": "香取郡神崎町",
+      "uri": "https://uedayou.net/loa/千葉県香取郡神崎町",
+      "label": "千葉県香取郡神崎町"
+    }
+  ],
+  "神山町": [
+    {
+      "prefecture": "徳島県",
+      "county": "名西郡",
+      "municipality": "名西郡神山町",
+      "uri": "https://uedayou.net/loa/徳島県名西郡神山町",
+      "label": "徳島県名西郡神山町"
+    }
+  ],
+  "神石高原町": [
+    {
+      "prefecture": "広島県",
+      "county": "神石郡",
+      "municipality": "神石郡神石高原町",
+      "uri": "https://uedayou.net/loa/広島県神石郡神石高原町",
+      "label": "広島県神石郡神石高原町"
+    }
+  ],
+  "神川町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "児玉郡",
+      "municipality": "児玉郡神川町",
+      "uri": "https://uedayou.net/loa/埼玉県児玉郡神川町",
+      "label": "埼玉県児玉郡神川町"
+    }
+  ],
+  "神流町": [
+    {
+      "prefecture": "群馬県",
+      "county": "多野郡",
+      "municipality": "多野郡神流町",
+      "uri": "https://uedayou.net/loa/群馬県多野郡神流町",
+      "label": "群馬県多野郡神流町"
+    }
+  ],
+  "身延町": [
+    {
+      "prefecture": "山梨県",
+      "county": "南巨摩郡",
+      "municipality": "南巨摩郡身延町",
+      "uri": "https://uedayou.net/loa/山梨県南巨摩郡身延町",
+      "label": "山梨県南巨摩郡身延町"
+    }
+  ],
+  "仁木町": [
+    {
+      "prefecture": "北海道",
+      "county": "余市郡",
+      "municipality": "余市郡仁木町",
+      "uri": "https://uedayou.net/loa/北海道余市郡仁木町",
+      "label": "北海道余市郡仁木町"
+    }
+  ],
+  "仁淀川町": [
+    {
+      "prefecture": "高知県",
+      "county": "吾川郡",
+      "municipality": "吾川郡仁淀川町",
+      "uri": "https://uedayou.net/loa/高知県吾川郡仁淀川町",
+      "label": "高知県吾川郡仁淀川町"
+    }
+  ],
+  "壬生町": [
+    {
+      "prefecture": "栃木県",
+      "county": "下都賀郡",
+      "municipality": "下都賀郡壬生町",
+      "uri": "https://uedayou.net/loa/栃木県下都賀郡壬生町",
+      "label": "栃木県下都賀郡壬生町"
+    }
+  ],
+  "須恵町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡須恵町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡須恵町",
+      "label": "福岡県糟屋郡須恵町"
+    }
+  ],
+  "垂井町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "不破郡",
+      "municipality": "不破郡垂井町",
+      "uri": "https://uedayou.net/loa/岐阜県不破郡垂井町",
+      "label": "岐阜県不破郡垂井町"
+    }
+  ],
+  "水巻町": [
+    {
+      "prefecture": "福岡県",
+      "county": "遠賀郡",
+      "municipality": "遠賀郡水巻町",
+      "uri": "https://uedayou.net/loa/福岡県遠賀郡水巻町",
+      "label": "福岡県遠賀郡水巻町"
+    }
+  ],
+  "水上村": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡水上村",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡水上村",
+      "label": "熊本県球磨郡水上村"
+    }
+  ],
+  "瑞穂町": [
+    {
+      "prefecture": "東京都",
+      "county": "西多摩郡",
+      "municipality": "西多摩郡瑞穂町",
+      "uri": "https://uedayou.net/loa/東京都西多摩郡瑞穂町",
+      "label": "東京都西多摩郡瑞穂町"
+    }
+  ],
+  "杉戸町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "北葛飾郡",
+      "municipality": "北葛飾郡杉戸町",
+      "uri": "https://uedayou.net/loa/埼玉県北葛飾郡杉戸町",
+      "label": "埼玉県北葛飾郡杉戸町"
+    }
+  ],
+  "世羅町": [
+    {
+      "prefecture": "広島県",
+      "county": "世羅郡",
+      "municipality": "世羅郡世羅町",
+      "uri": "https://uedayou.net/loa/広島県世羅郡世羅町",
+      "label": "広島県世羅郡世羅町"
+    }
+  ],
+  "瀬戸内町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡瀬戸内町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡瀬戸内町",
+      "label": "鹿児島県大島郡瀬戸内町"
+    }
+  ],
+  "清水町": [
+    {
+      "prefecture": "静岡県",
+      "county": "駿東郡",
+      "municipality": "駿東郡清水町",
+      "uri": "https://uedayou.net/loa/静岡県駿東郡清水町",
+      "label": "静岡県駿東郡清水町"
+    },
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡清水町",
+      "uri": "https://uedayou.net/loa/北海道上川郡清水町",
+      "label": "北海道上川郡清水町"
+    }
+  ],
+  "清川村": [
+    {
+      "prefecture": "神奈川県",
+      "county": "愛甲郡",
+      "municipality": "愛甲郡清川村",
+      "uri": "https://uedayou.net/loa/神奈川県愛甲郡清川村",
+      "label": "神奈川県愛甲郡清川村"
+    }
+  ],
+  "清里町": [
+    {
+      "prefecture": "北海道",
+      "county": "斜里郡",
+      "municipality": "斜里郡清里町",
+      "uri": "https://uedayou.net/loa/北海道斜里郡清里町",
+      "label": "北海道斜里郡清里町"
+    }
+  ],
+  "生坂村": [
+    {
+      "prefecture": "長野県",
+      "county": "東筑摩郡",
+      "municipality": "東筑摩郡生坂村",
+      "uri": "https://uedayou.net/loa/長野県東筑摩郡生坂村",
+      "label": "長野県東筑摩郡生坂村"
+    }
+  ],
+  "聖籠町": [
+    {
+      "prefecture": "新潟県",
+      "county": "北蒲原郡",
+      "municipality": "北蒲原郡聖籠町",
+      "uri": "https://uedayou.net/loa/新潟県北蒲原郡聖籠町",
+      "label": "新潟県北蒲原郡聖籠町"
+    }
+  ],
+  "西ノ島町": [
+    {
+      "prefecture": "島根県",
+      "county": "隠岐郡",
+      "municipality": "隠岐郡西ノ島町",
+      "uri": "https://uedayou.net/loa/島根県隠岐郡西ノ島町",
+      "label": "島根県隠岐郡西ノ島町"
+    }
+  ],
+  "西粟倉村": [
+    {
+      "prefecture": "岡山県",
+      "county": "英田郡",
+      "municipality": "英田郡西粟倉村",
+      "uri": "https://uedayou.net/loa/岡山県英田郡西粟倉村",
+      "label": "岡山県英田郡西粟倉村"
+    }
+  ],
+  "西伊豆町": [
+    {
+      "prefecture": "静岡県",
+      "county": "賀茂郡",
+      "municipality": "賀茂郡西伊豆町",
+      "uri": "https://uedayou.net/loa/静岡県賀茂郡西伊豆町",
+      "label": "静岡県賀茂郡西伊豆町"
+    }
+  ],
+  "西会津町": [
+    {
+      "prefecture": "福島県",
+      "county": "耶麻郡",
+      "municipality": "耶麻郡西会津町",
+      "uri": "https://uedayou.net/loa/福島県耶麻郡西会津町",
+      "label": "福島県耶麻郡西会津町"
+    }
+  ],
+  "西興部村": [
+    {
+      "prefecture": "北海道",
+      "county": "紋別郡",
+      "municipality": "紋別郡西興部村",
+      "uri": "https://uedayou.net/loa/北海道紋別郡西興部村",
+      "label": "北海道紋別郡西興部村"
+    }
+  ],
+  "西郷村": [
+    {
+      "prefecture": "福島県",
+      "county": "西白河郡",
+      "municipality": "西白河郡西郷村",
+      "uri": "https://uedayou.net/loa/福島県西白河郡西郷村",
+      "label": "福島県西白河郡西郷村"
+    }
+  ],
+  "西桂町": [
+    {
+      "prefecture": "山梨県",
+      "county": "南都留郡",
+      "municipality": "南都留郡西桂町",
+      "uri": "https://uedayou.net/loa/山梨県南都留郡西桂町",
+      "label": "山梨県南都留郡西桂町"
+    }
+  ],
+  "西原村": [
+    {
+      "prefecture": "熊本県",
+      "county": "阿蘇郡",
+      "municipality": "阿蘇郡西原村",
+      "uri": "https://uedayou.net/loa/熊本県阿蘇郡西原村",
+      "label": "熊本県阿蘇郡西原村"
+    }
+  ],
+  "西原町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "中頭郡",
+      "municipality": "中頭郡西原町",
+      "uri": "https://uedayou.net/loa/沖縄県中頭郡西原町",
+      "label": "沖縄県中頭郡西原町"
+    }
+  ],
+  "西川町": [
+    {
+      "prefecture": "山形県",
+      "county": "西村山郡",
+      "municipality": "西村山郡西川町",
+      "uri": "https://uedayou.net/loa/山形県西村山郡西川町",
+      "label": "山形県西村山郡西川町"
+    }
+  ],
+  "西米良村": [
+    {
+      "prefecture": "宮崎県",
+      "county": "児湯郡",
+      "municipality": "児湯郡西米良村",
+      "uri": "https://uedayou.net/loa/宮崎県児湯郡西米良村",
+      "label": "宮崎県児湯郡西米良村"
+    }
+  ],
+  "西目屋村": [
+    {
+      "prefecture": "青森県",
+      "county": "中津軽郡",
+      "municipality": "中津軽郡西目屋村",
+      "uri": "https://uedayou.net/loa/青森県中津軽郡西目屋村",
+      "label": "青森県中津軽郡西目屋村"
+    }
+  ],
+  "西和賀町": [
+    {
+      "prefecture": "岩手県",
+      "county": "和賀郡",
+      "municipality": "和賀郡西和賀町",
+      "uri": "https://uedayou.net/loa/岩手県和賀郡西和賀町",
+      "label": "岩手県和賀郡西和賀町"
+    }
+  ],
+  "青木村": [
+    {
+      "prefecture": "長野県",
+      "county": "小県郡",
+      "municipality": "小県郡青木村",
+      "uri": "https://uedayou.net/loa/長野県小県郡青木村",
+      "label": "長野県小県郡青木村"
+    }
+  ],
+  "石井町": [
+    {
+      "prefecture": "徳島県",
+      "county": "名西郡",
+      "municipality": "名西郡石井町",
+      "uri": "https://uedayou.net/loa/徳島県名西郡石井町",
+      "label": "徳島県名西郡石井町"
+    }
+  ],
+  "石川町": [
+    {
+      "prefecture": "福島県",
+      "county": "石川郡",
+      "municipality": "石川郡石川町",
+      "uri": "https://uedayou.net/loa/福島県石川郡石川町",
+      "label": "福島県石川郡石川町"
+    }
+  ],
+  "積丹町": [
+    {
+      "prefecture": "北海道",
+      "county": "積丹郡",
+      "municipality": "積丹郡積丹町",
+      "uri": "https://uedayou.net/loa/北海道積丹郡積丹町",
+      "label": "北海道積丹郡積丹町"
+    }
+  ],
+  "赤井川村": [
+    {
+      "prefecture": "北海道",
+      "county": "余市郡",
+      "municipality": "余市郡赤井川村",
+      "uri": "https://uedayou.net/loa/北海道余市郡赤井川村",
+      "label": "北海道余市郡赤井川村"
+    }
+  ],
+  "赤村": [
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡赤村",
+      "uri": "https://uedayou.net/loa/福岡県田川郡赤村",
+      "label": "福岡県田川郡赤村"
+    }
+  ],
+  "設楽町": [
+    {
+      "prefecture": "愛知県",
+      "county": "北設楽郡",
+      "municipality": "北設楽郡設楽町",
+      "uri": "https://uedayou.net/loa/愛知県北設楽郡設楽町",
+      "label": "愛知県北設楽郡設楽町"
+    }
+  ],
+  "千早赤阪村": [
+    {
+      "prefecture": "大阪府",
+      "county": "南河内郡",
+      "municipality": "南河内郡千早赤阪村",
+      "uri": "https://uedayou.net/loa/大阪府南河内郡千早赤阪村",
+      "label": "大阪府南河内郡千早赤阪村"
+    }
+  ],
+  "千代田町": [
+    {
+      "prefecture": "群馬県",
+      "county": "邑楽郡",
+      "municipality": "邑楽郡千代田町",
+      "uri": "https://uedayou.net/loa/群馬県邑楽郡千代田町",
+      "label": "群馬県邑楽郡千代田町"
+    }
+  ],
+  "占冠村": [
+    {
+      "prefecture": "北海道",
+      "county": "勇払郡",
+      "municipality": "勇払郡占冠村",
+      "uri": "https://uedayou.net/loa/北海道勇払郡占冠村",
+      "label": "北海道勇払郡占冠村"
+    }
+  ],
+  "川越町": [
+    {
+      "prefecture": "三重県",
+      "county": "三重郡",
+      "municipality": "三重郡川越町",
+      "uri": "https://uedayou.net/loa/三重県三重郡川越町",
+      "label": "三重県三重郡川越町"
+    }
+  ],
+  "川根本町": [
+    {
+      "prefecture": "静岡県",
+      "county": "榛原郡",
+      "municipality": "榛原郡川根本町",
+      "uri": "https://uedayou.net/loa/静岡県榛原郡川根本町",
+      "label": "静岡県榛原郡川根本町"
+    }
+  ],
+  "川崎町": [
+    {
+      "prefecture": "宮城県",
+      "county": "柴田郡",
+      "municipality": "柴田郡川崎町",
+      "uri": "https://uedayou.net/loa/宮城県柴田郡川崎町",
+      "label": "宮城県柴田郡川崎町"
+    },
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡川崎町",
+      "uri": "https://uedayou.net/loa/福岡県田川郡川崎町",
+      "label": "福岡県田川郡川崎町"
+    }
+  ],
+  "川上村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡川上村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡川上村",
+      "label": "奈良県吉野郡川上村"
+    },
+    {
+      "prefecture": "長野県",
+      "county": "南佐久郡",
+      "municipality": "南佐久郡川上村",
+      "uri": "https://uedayou.net/loa/長野県南佐久郡川上村",
+      "label": "長野県南佐久郡川上村"
+    }
+  ],
+  "川場村": [
+    {
+      "prefecture": "群馬県",
+      "county": "利根郡",
+      "municipality": "利根郡川場村",
+      "uri": "https://uedayou.net/loa/群馬県利根郡川場村",
+      "label": "群馬県利根郡川場村"
+    }
+  ],
+  "川西町": [
+    {
+      "prefecture": "山形県",
+      "county": "東置賜郡",
+      "municipality": "東置賜郡川西町",
+      "uri": "https://uedayou.net/loa/山形県東置賜郡川西町",
+      "label": "山形県東置賜郡川西町"
+    },
+    {
+      "prefecture": "奈良県",
+      "county": "磯城郡",
+      "municipality": "磯城郡川西町",
+      "uri": "https://uedayou.net/loa/奈良県磯城郡川西町",
+      "label": "奈良県磯城郡川西町"
+    }
+  ],
+  "川棚町": [
+    {
+      "prefecture": "長崎県",
+      "county": "東彼杵郡",
+      "municipality": "東彼杵郡川棚町",
+      "uri": "https://uedayou.net/loa/長崎県東彼杵郡川棚町",
+      "label": "長崎県東彼杵郡川棚町"
+    }
+  ],
+  "川島町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡川島町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡川島町",
+      "label": "埼玉県比企郡川島町"
+    }
+  ],
+  "川内村": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡川内村",
+      "uri": "https://uedayou.net/loa/福島県双葉郡川内村",
+      "label": "福島県双葉郡川内村"
+    }
+  ],
+  "川南町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "児湯郡",
+      "municipality": "児湯郡川南町",
+      "uri": "https://uedayou.net/loa/宮崎県児湯郡川南町",
+      "label": "宮崎県児湯郡川南町"
+    }
+  ],
+  "川辺町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡川辺町",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡川辺町",
+      "label": "岐阜県加茂郡川辺町"
+    }
+  ],
+  "川北町": [
+    {
+      "prefecture": "石川県",
+      "county": "能美郡",
+      "municipality": "能美郡川北町",
+      "uri": "https://uedayou.net/loa/石川県能美郡川北町",
+      "label": "石川県能美郡川北町"
+    }
+  ],
+  "川本町": [
+    {
+      "prefecture": "島根県",
+      "county": "邑智郡",
+      "municipality": "邑智郡川本町",
+      "uri": "https://uedayou.net/loa/島根県邑智郡川本町",
+      "label": "島根県邑智郡川本町"
+    }
+  ],
+  "川俣町": [
+    {
+      "prefecture": "福島県",
+      "county": "伊達郡",
+      "municipality": "伊達郡川俣町",
+      "uri": "https://uedayou.net/loa/福島県伊達郡川俣町",
+      "label": "福島県伊達郡川俣町"
+    }
+  ],
+  "泉崎村": [
+    {
+      "prefecture": "福島県",
+      "county": "西白河郡",
+      "municipality": "西白河郡泉崎村",
+      "uri": "https://uedayou.net/loa/福島県西白河郡泉崎村",
+      "label": "福島県西白河郡泉崎村"
+    }
+  ],
+  "浅川町": [
+    {
+      "prefecture": "福島県",
+      "county": "石川郡",
+      "municipality": "石川郡浅川町",
+      "uri": "https://uedayou.net/loa/福島県石川郡浅川町",
+      "label": "福島県石川郡浅川町"
+    }
+  ],
+  "曽爾村": [
+    {
+      "prefecture": "奈良県",
+      "county": "宇陀郡",
+      "municipality": "宇陀郡曽爾村",
+      "uri": "https://uedayou.net/loa/奈良県宇陀郡曽爾村",
+      "label": "奈良県宇陀郡曽爾村"
+    }
+  ],
+  "双葉町": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡双葉町",
+      "uri": "https://uedayou.net/loa/福島県双葉郡双葉町",
+      "label": "福島県双葉郡双葉町"
+    }
+  ],
+  "壮瞥町": [
+    {
+      "prefecture": "北海道",
+      "county": "有珠郡",
+      "municipality": "有珠郡壮瞥町",
+      "uri": "https://uedayou.net/loa/北海道有珠郡壮瞥町",
+      "label": "北海道有珠郡壮瞥町"
+    }
+  ],
+  "早川町": [
+    {
+      "prefecture": "山梨県",
+      "county": "南巨摩郡",
+      "municipality": "南巨摩郡早川町",
+      "uri": "https://uedayou.net/loa/山梨県南巨摩郡早川町",
+      "label": "山梨県南巨摩郡早川町"
+    }
+  ],
+  "早島町": [
+    {
+      "prefecture": "岡山県",
+      "county": "都窪郡",
+      "municipality": "都窪郡早島町",
+      "uri": "https://uedayou.net/loa/岡山県都窪郡早島町",
+      "label": "岡山県都窪郡早島町"
+    }
+  ],
+  "相良村": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡相良村",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡相良村",
+      "label": "熊本県球磨郡相良村"
+    }
+  ],
+  "草津町": [
+    {
+      "prefecture": "群馬県",
+      "county": "吾妻郡",
+      "municipality": "吾妻郡草津町",
+      "uri": "https://uedayou.net/loa/群馬県吾妻郡草津町",
+      "label": "群馬県吾妻郡草津町"
+    }
+  ],
+  "増毛町": [
+    {
+      "prefecture": "北海道",
+      "county": "増毛郡",
+      "municipality": "増毛郡増毛町",
+      "uri": "https://uedayou.net/loa/北海道増毛郡増毛町",
+      "label": "北海道増毛郡増毛町"
+    }
+  ],
+  "蔵王町": [
+    {
+      "prefecture": "宮城県",
+      "county": "刈田郡",
+      "municipality": "刈田郡蔵王町",
+      "uri": "https://uedayou.net/loa/宮城県刈田郡蔵王町",
+      "label": "宮城県刈田郡蔵王町"
+    }
+  ],
+  "足寄町": [
+    {
+      "prefecture": "北海道",
+      "county": "足寄郡",
+      "municipality": "足寄郡足寄町",
+      "uri": "https://uedayou.net/loa/北海道足寄郡足寄町",
+      "label": "北海道足寄郡足寄町"
+    }
+  ],
+  "村田町": [
+    {
+      "prefecture": "宮城県",
+      "county": "柴田郡",
+      "municipality": "柴田郡村田町",
+      "uri": "https://uedayou.net/loa/宮城県柴田郡村田町",
+      "label": "宮城県柴田郡村田町"
+    }
+  ],
+  "多可町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "多可郡",
+      "municipality": "多可郡多可町",
+      "uri": "https://uedayou.net/loa/兵庫県多可郡多可町",
+      "label": "兵庫県多可郡多可町"
+    }
+  ],
+  "多賀町": [
+    {
+      "prefecture": "滋賀県",
+      "county": "犬上郡",
+      "municipality": "犬上郡多賀町",
+      "uri": "https://uedayou.net/loa/滋賀県犬上郡多賀町",
+      "label": "滋賀県犬上郡多賀町"
+    }
+  ],
+  "多気町": [
+    {
+      "prefecture": "三重県",
+      "county": "多気郡",
+      "municipality": "多気郡多気町",
+      "uri": "https://uedayou.net/loa/三重県多気郡多気町",
+      "label": "三重県多気郡多気町"
+    }
+  ],
+  "多古町": [
+    {
+      "prefecture": "千葉県",
+      "county": "香取郡",
+      "municipality": "香取郡多古町",
+      "uri": "https://uedayou.net/loa/千葉県香取郡多古町",
+      "label": "千葉県香取郡多古町"
+    }
+  ],
+  "多度津町": [
+    {
+      "prefecture": "香川県",
+      "county": "仲多度郡",
+      "municipality": "仲多度郡多度津町",
+      "uri": "https://uedayou.net/loa/香川県仲多度郡多度津町",
+      "label": "香川県仲多度郡多度津町"
+    }
+  ],
+  "多良間村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "宮古郡",
+      "municipality": "宮古郡多良間村",
+      "uri": "https://uedayou.net/loa/沖縄県宮古郡多良間村",
+      "label": "沖縄県宮古郡多良間村"
+    }
+  ],
+  "多良木町": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡多良木町",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡多良木町",
+      "label": "熊本県球磨郡多良木町"
+    }
+  ],
+  "太子町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "揖保郡",
+      "municipality": "揖保郡太子町",
+      "uri": "https://uedayou.net/loa/兵庫県揖保郡太子町",
+      "label": "兵庫県揖保郡太子町"
+    },
+    {
+      "prefecture": "大阪府",
+      "county": "南河内郡",
+      "municipality": "南河内郡太子町",
+      "uri": "https://uedayou.net/loa/大阪府南河内郡太子町",
+      "label": "大阪府南河内郡太子町"
+    }
+  ],
+  "太地町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "東牟婁郡",
+      "municipality": "東牟婁郡太地町",
+      "uri": "https://uedayou.net/loa/和歌山県東牟婁郡太地町",
+      "label": "和歌山県東牟婁郡太地町"
+    }
+  ],
+  "太良町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "藤津郡",
+      "municipality": "藤津郡太良町",
+      "uri": "https://uedayou.net/loa/佐賀県藤津郡太良町",
+      "label": "佐賀県藤津郡太良町"
+    }
+  ],
+  "泰阜村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡泰阜村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡泰阜村",
+      "label": "長野県下伊那郡泰阜村"
+    }
+  ],
+  "大井町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄上郡",
+      "municipality": "足柄上郡大井町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄上郡大井町",
+      "label": "神奈川県足柄上郡大井町"
+    }
+  ],
+  "大磯町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "中郡",
+      "municipality": "中郡大磯町",
+      "uri": "https://uedayou.net/loa/神奈川県中郡大磯町",
+      "label": "神奈川県中郡大磯町"
+    }
+  ],
+  "大河原町": [
+    {
+      "prefecture": "宮城県",
+      "county": "柴田郡",
+      "municipality": "柴田郡大河原町",
+      "uri": "https://uedayou.net/loa/宮城県柴田郡大河原町",
+      "label": "宮城県柴田郡大河原町"
+    }
+  ],
+  "大潟村": [
+    {
+      "prefecture": "秋田県",
+      "county": "南秋田郡",
+      "municipality": "南秋田郡大潟村",
+      "uri": "https://uedayou.net/loa/秋田県南秋田郡大潟村",
+      "label": "秋田県南秋田郡大潟村"
+    }
+  ],
+  "大間町": [
+    {
+      "prefecture": "青森県",
+      "county": "下北郡",
+      "municipality": "下北郡大間町",
+      "uri": "https://uedayou.net/loa/青森県下北郡大間町",
+      "label": "青森県下北郡大間町"
+    }
+  ],
+  "大紀町": [
+    {
+      "prefecture": "三重県",
+      "county": "度会郡",
+      "municipality": "度会郡大紀町",
+      "uri": "https://uedayou.net/loa/三重県度会郡大紀町",
+      "label": "三重県度会郡大紀町"
+    }
+  ],
+  "大宜味村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡大宜味村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡大宜味村",
+      "label": "沖縄県国頭郡大宜味村"
+    }
+  ],
+  "大郷町": [
+    {
+      "prefecture": "宮城県",
+      "county": "黒川郡",
+      "municipality": "黒川郡大郷町",
+      "uri": "https://uedayou.net/loa/宮城県黒川郡大郷町",
+      "label": "宮城県黒川郡大郷町"
+    }
+  ],
+  "大玉村": [
+    {
+      "prefecture": "福島県",
+      "county": "安達郡",
+      "municipality": "安達郡大玉村",
+      "uri": "https://uedayou.net/loa/福島県安達郡大玉村",
+      "label": "福島県安達郡大玉村"
+    }
+  ],
+  "大空町": [
+    {
+      "prefecture": "北海道",
+      "county": "網走郡",
+      "municipality": "網走郡大空町",
+      "uri": "https://uedayou.net/loa/北海道網走郡大空町",
+      "label": "北海道網走郡大空町"
+    }
+  ],
+  "大熊町": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡大熊町",
+      "uri": "https://uedayou.net/loa/福島県双葉郡大熊町",
+      "label": "福島県双葉郡大熊町"
+    }
+  ],
+  "大桑村": [
+    {
+      "prefecture": "長野県",
+      "county": "木曽郡",
+      "municipality": "木曽郡大桑村",
+      "uri": "https://uedayou.net/loa/長野県木曽郡大桑村",
+      "label": "長野県木曽郡大桑村"
+    }
+  ],
+  "大月町": [
+    {
+      "prefecture": "高知県",
+      "county": "幡多郡",
+      "municipality": "幡多郡大月町",
+      "uri": "https://uedayou.net/loa/高知県幡多郡大月町",
+      "label": "高知県幡多郡大月町"
+    }
+  ],
+  "大口町": [
+    {
+      "prefecture": "愛知県",
+      "county": "丹羽郡",
+      "municipality": "丹羽郡大口町",
+      "uri": "https://uedayou.net/loa/愛知県丹羽郡大口町",
+      "label": "愛知県丹羽郡大口町"
+    }
+  ],
+  "大江町": [
+    {
+      "prefecture": "山形県",
+      "county": "西村山郡",
+      "municipality": "西村山郡大江町",
+      "uri": "https://uedayou.net/loa/山形県西村山郡大江町",
+      "label": "山形県西村山郡大江町"
+    }
+  ],
+  "大衡村": [
+    {
+      "prefecture": "宮城県",
+      "county": "黒川郡",
+      "municipality": "黒川郡大衡村",
+      "uri": "https://uedayou.net/loa/宮城県黒川郡大衡村",
+      "label": "宮城県黒川郡大衡村"
+    }
+  ],
+  "大崎上島町": [
+    {
+      "prefecture": "広島県",
+      "county": "豊田郡",
+      "municipality": "豊田郡大崎上島町",
+      "uri": "https://uedayou.net/loa/広島県豊田郡大崎上島町",
+      "label": "広島県豊田郡大崎上島町"
+    }
+  ],
+  "大崎町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "曽於郡",
+      "municipality": "曽於郡大崎町",
+      "uri": "https://uedayou.net/loa/鹿児島県曽於郡大崎町",
+      "label": "鹿児島県曽於郡大崎町"
+    }
+  ],
+  "大山町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "西伯郡",
+      "municipality": "西伯郡大山町",
+      "uri": "https://uedayou.net/loa/鳥取県西伯郡大山町",
+      "label": "鳥取県西伯郡大山町"
+    }
+  ],
+  "大子町": [
+    {
+      "prefecture": "茨城県",
+      "county": "久慈郡",
+      "municipality": "久慈郡大子町",
+      "uri": "https://uedayou.net/loa/茨城県久慈郡大子町",
+      "label": "茨城県久慈郡大子町"
+    }
+  ],
+  "大治町": [
+    {
+      "prefecture": "愛知県",
+      "county": "海部郡",
+      "municipality": "海部郡大治町",
+      "uri": "https://uedayou.net/loa/愛知県海部郡大治町",
+      "label": "愛知県海部郡大治町"
+    }
+  ],
+  "大鹿村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡大鹿村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡大鹿村",
+      "label": "長野県下伊那郡大鹿村"
+    }
+  ],
+  "大樹町": [
+    {
+      "prefecture": "北海道",
+      "county": "広尾郡",
+      "municipality": "広尾郡大樹町",
+      "uri": "https://uedayou.net/loa/北海道広尾郡大樹町",
+      "label": "北海道広尾郡大樹町"
+    }
+  ],
+  "大石田町": [
+    {
+      "prefecture": "山形県",
+      "county": "北村山郡",
+      "municipality": "北村山郡大石田町",
+      "uri": "https://uedayou.net/loa/山形県北村山郡大石田町",
+      "label": "山形県北村山郡大石田町"
+    }
+  ],
+  "大川村": [
+    {
+      "prefecture": "高知県",
+      "county": "土佐郡",
+      "municipality": "土佐郡大川村",
+      "uri": "https://uedayou.net/loa/高知県土佐郡大川村",
+      "label": "高知県土佐郡大川村"
+    }
+  ],
+  "大泉町": [
+    {
+      "prefecture": "群馬県",
+      "county": "邑楽郡",
+      "municipality": "邑楽郡大泉町",
+      "uri": "https://uedayou.net/loa/群馬県邑楽郡大泉町",
+      "label": "群馬県邑楽郡大泉町"
+    }
+  ],
+  "大洗町": [
+    {
+      "prefecture": "茨城県",
+      "county": "東茨城郡",
+      "municipality": "東茨城郡大洗町",
+      "uri": "https://uedayou.net/loa/茨城県東茨城郡大洗町",
+      "label": "茨城県東茨城郡大洗町"
+    }
+  ],
+  "大蔵村": [
+    {
+      "prefecture": "山形県",
+      "county": "最上郡",
+      "municipality": "最上郡大蔵村",
+      "uri": "https://uedayou.net/loa/山形県最上郡大蔵村",
+      "label": "山形県最上郡大蔵村"
+    }
+  ],
+  "大多喜町": [
+    {
+      "prefecture": "千葉県",
+      "county": "夷隅郡",
+      "municipality": "夷隅郡大多喜町",
+      "uri": "https://uedayou.net/loa/千葉県夷隅郡大多喜町",
+      "label": "千葉県夷隅郡大多喜町"
+    }
+  ],
+  "大台町": [
+    {
+      "prefecture": "三重県",
+      "county": "多気郡",
+      "municipality": "多気郡大台町",
+      "uri": "https://uedayou.net/loa/三重県多気郡大台町",
+      "label": "三重県多気郡大台町"
+    }
+  ],
+  "大町町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "杵島郡",
+      "municipality": "杵島郡大町町",
+      "uri": "https://uedayou.net/loa/佐賀県杵島郡大町町",
+      "label": "佐賀県杵島郡大町町"
+    }
+  ],
+  "大津町": [
+    {
+      "prefecture": "熊本県",
+      "county": "菊池郡",
+      "municipality": "菊池郡大津町",
+      "uri": "https://uedayou.net/loa/熊本県菊池郡大津町",
+      "label": "熊本県菊池郡大津町"
+    }
+  ],
+  "大槌町": [
+    {
+      "prefecture": "岩手県",
+      "county": "上閉伊郡",
+      "municipality": "上閉伊郡大槌町",
+      "uri": "https://uedayou.net/loa/岩手県上閉伊郡大槌町",
+      "label": "岩手県上閉伊郡大槌町"
+    }
+  ],
+  "大刀洗町": [
+    {
+      "prefecture": "福岡県",
+      "county": "三井郡",
+      "municipality": "三井郡大刀洗町",
+      "uri": "https://uedayou.net/loa/福岡県三井郡大刀洗町",
+      "label": "福岡県三井郡大刀洗町"
+    }
+  ],
+  "大任町": [
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡大任町",
+      "uri": "https://uedayou.net/loa/福岡県田川郡大任町",
+      "label": "福岡県田川郡大任町"
+    }
+  ],
+  "大豊町": [
+    {
+      "prefecture": "高知県",
+      "county": "長岡郡",
+      "municipality": "長岡郡大豊町",
+      "uri": "https://uedayou.net/loa/高知県長岡郡大豊町",
+      "label": "高知県長岡郡大豊町"
+    }
+  ],
+  "大木町": [
+    {
+      "prefecture": "福岡県",
+      "county": "三潴郡",
+      "municipality": "三潴郡大木町",
+      "uri": "https://uedayou.net/loa/福岡県三潴郡大木町",
+      "label": "福岡県三潴郡大木町"
+    }
+  ],
+  "大野町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "揖斐郡",
+      "municipality": "揖斐郡大野町",
+      "uri": "https://uedayou.net/loa/岐阜県揖斐郡大野町",
+      "label": "岐阜県揖斐郡大野町"
+    }
+  ],
+  "大淀町": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡大淀町",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡大淀町",
+      "label": "奈良県吉野郡大淀町"
+    }
+  ],
+  "大和村": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡大和村",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡大和村",
+      "label": "鹿児島県大島郡大和村"
+    }
+  ],
+  "大和町": [
+    {
+      "prefecture": "宮城県",
+      "county": "黒川郡",
+      "municipality": "黒川郡大和町",
+      "uri": "https://uedayou.net/loa/宮城県黒川郡大和町",
+      "label": "宮城県黒川郡大和町"
+    }
+  ],
+  "大鰐町": [
+    {
+      "prefecture": "青森県",
+      "county": "南津軽郡",
+      "municipality": "南津軽郡大鰐町",
+      "uri": "https://uedayou.net/loa/青森県南津軽郡大鰐町",
+      "label": "青森県南津軽郡大鰐町"
+    }
+  ],
+  "鷹栖町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡鷹栖町",
+      "uri": "https://uedayou.net/loa/北海道上川郡鷹栖町",
+      "label": "北海道上川郡鷹栖町"
+    }
+  ],
+  "滝上町": [
+    {
+      "prefecture": "北海道",
+      "county": "紋別郡",
+      "municipality": "紋別郡滝上町",
+      "uri": "https://uedayou.net/loa/北海道紋別郡滝上町",
+      "label": "北海道紋別郡滝上町"
+    }
+  ],
+  "只見町": [
+    {
+      "prefecture": "福島県",
+      "county": "南会津郡",
+      "municipality": "南会津郡只見町",
+      "uri": "https://uedayou.net/loa/福島県南会津郡只見町",
+      "label": "福島県南会津郡只見町"
+    }
+  ],
+  "辰野町": [
+    {
+      "prefecture": "長野県",
+      "county": "上伊那郡",
+      "municipality": "上伊那郡辰野町",
+      "uri": "https://uedayou.net/loa/長野県上伊那郡辰野町",
+      "label": "長野県上伊那郡辰野町"
+    }
+  ],
+  "棚倉町": [
+    {
+      "prefecture": "福島県",
+      "county": "東白川郡",
+      "municipality": "東白川郡棚倉町",
+      "uri": "https://uedayou.net/loa/福島県東白川郡棚倉町",
+      "label": "福島県東白川郡棚倉町"
+    }
+  ],
+  "丹波山村": [
+    {
+      "prefecture": "山梨県",
+      "county": "北都留郡",
+      "municipality": "北都留郡丹波山村",
+      "uri": "https://uedayou.net/loa/山梨県北都留郡丹波山村",
+      "label": "山梨県北都留郡丹波山村"
+    }
+  ],
+  "知内町": [
+    {
+      "prefecture": "北海道",
+      "county": "上磯郡",
+      "municipality": "上磯郡知内町",
+      "uri": "https://uedayou.net/loa/北海道上磯郡知内町",
+      "label": "北海道上磯郡知内町"
+    }
+  ],
+  "知夫村": [
+    {
+      "prefecture": "島根県",
+      "county": "隠岐郡",
+      "municipality": "隠岐郡知夫村",
+      "uri": "https://uedayou.net/loa/島根県隠岐郡知夫村",
+      "label": "島根県隠岐郡知夫村"
+    }
+  ],
+  "知名町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡知名町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡知名町",
+      "label": "鹿児島県大島郡知名町"
+    }
+  ],
+  "智頭町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "八頭郡",
+      "municipality": "八頭郡智頭町",
+      "uri": "https://uedayou.net/loa/鳥取県八頭郡智頭町",
+      "label": "鳥取県八頭郡智頭町"
+    }
+  ],
+  "池田町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "揖斐郡",
+      "municipality": "揖斐郡池田町",
+      "uri": "https://uedayou.net/loa/岐阜県揖斐郡池田町",
+      "label": "岐阜県揖斐郡池田町"
+    },
+    {
+      "prefecture": "福井県",
+      "county": "今立郡",
+      "municipality": "今立郡池田町",
+      "uri": "https://uedayou.net/loa/福井県今立郡池田町",
+      "label": "福井県今立郡池田町"
+    },
+    {
+      "prefecture": "長野県",
+      "county": "北安曇郡",
+      "municipality": "北安曇郡池田町",
+      "uri": "https://uedayou.net/loa/長野県北安曇郡池田町",
+      "label": "長野県北安曇郡池田町"
+    },
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡池田町",
+      "uri": "https://uedayou.net/loa/北海道中川郡池田町",
+      "label": "北海道中川郡池田町"
+    }
+  ],
+  "置戸町": [
+    {
+      "prefecture": "北海道",
+      "county": "常呂郡",
+      "municipality": "常呂郡置戸町",
+      "uri": "https://uedayou.net/loa/北海道常呂郡置戸町",
+      "label": "北海道常呂郡置戸町"
+    }
+  ],
+  "築上町": [
+    {
+      "prefecture": "福岡県",
+      "county": "築上郡",
+      "municipality": "築上郡築上町",
+      "uri": "https://uedayou.net/loa/福岡県築上郡築上町",
+      "label": "福岡県築上郡築上町"
+    }
+  ],
+  "竹富町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "八重山郡",
+      "municipality": "八重山郡竹富町",
+      "uri": "https://uedayou.net/loa/沖縄県八重山郡竹富町",
+      "label": "沖縄県八重山郡竹富町"
+    }
+  ],
+  "筑前町": [
+    {
+      "prefecture": "福岡県",
+      "county": "朝倉郡",
+      "municipality": "朝倉郡筑前町",
+      "uri": "https://uedayou.net/loa/福岡県朝倉郡筑前町",
+      "label": "福岡県朝倉郡筑前町"
+    }
+  ],
+  "筑北村": [
+    {
+      "prefecture": "長野県",
+      "county": "東筑摩郡",
+      "municipality": "東筑摩郡筑北村",
+      "uri": "https://uedayou.net/loa/長野県東筑摩郡筑北村",
+      "label": "長野県東筑摩郡筑北村"
+    }
+  ],
+  "秩父別町": [
+    {
+      "prefecture": "北海道",
+      "county": "雨竜郡",
+      "municipality": "雨竜郡秩父別町",
+      "uri": "https://uedayou.net/loa/北海道雨竜郡秩父別町",
+      "label": "北海道雨竜郡秩父別町"
+    }
+  ],
+  "中井町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄上郡",
+      "municipality": "足柄上郡中井町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄上郡中井町",
+      "label": "神奈川県足柄上郡中井町"
+    }
+  ],
+  "中札内村": [
+    {
+      "prefecture": "北海道",
+      "county": "河西郡",
+      "municipality": "河西郡中札内村",
+      "uri": "https://uedayou.net/loa/北海道河西郡中札内村",
+      "label": "北海道河西郡中札内村"
+    }
+  ],
+  "中山町": [
+    {
+      "prefecture": "山形県",
+      "county": "東村山郡",
+      "municipality": "東村山郡中山町",
+      "uri": "https://uedayou.net/loa/山形県東村山郡中山町",
+      "label": "山形県東村山郡中山町"
+    }
+  ],
+  "中種子町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "熊毛郡",
+      "municipality": "熊毛郡中種子町",
+      "uri": "https://uedayou.net/loa/鹿児島県熊毛郡中種子町",
+      "label": "鹿児島県熊毛郡中種子町"
+    }
+  ],
+  "中城村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "中頭郡",
+      "municipality": "中頭郡中城村",
+      "uri": "https://uedayou.net/loa/沖縄県中頭郡中城村",
+      "label": "沖縄県中頭郡中城村"
+    }
+  ],
+  "中川村": [
+    {
+      "prefecture": "長野県",
+      "county": "上伊那郡",
+      "municipality": "上伊那郡中川村",
+      "uri": "https://uedayou.net/loa/長野県上伊那郡中川村",
+      "label": "長野県上伊那郡中川村"
+    }
+  ],
+  "中川町": [
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡中川町",
+      "uri": "https://uedayou.net/loa/北海道中川郡中川町",
+      "label": "北海道中川郡中川町"
+    }
+  ],
+  "中土佐町": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡中土佐町",
+      "uri": "https://uedayou.net/loa/高知県高岡郡中土佐町",
+      "label": "高知県高岡郡中土佐町"
+    }
+  ],
+  "中島村": [
+    {
+      "prefecture": "福島県",
+      "county": "西白河郡",
+      "municipality": "西白河郡中島村",
+      "uri": "https://uedayou.net/loa/福島県西白河郡中島村",
+      "label": "福島県西白河郡中島村"
+    }
+  ],
+  "中頓別町": [
+    {
+      "prefecture": "北海道",
+      "county": "枝幸郡",
+      "municipality": "枝幸郡中頓別町",
+      "uri": "https://uedayou.net/loa/北海道枝幸郡中頓別町",
+      "label": "北海道枝幸郡中頓別町"
+    }
+  ],
+  "中之条町": [
+    {
+      "prefecture": "群馬県",
+      "county": "吾妻郡",
+      "municipality": "吾妻郡中之条町",
+      "uri": "https://uedayou.net/loa/群馬県吾妻郡中之条町",
+      "label": "群馬県吾妻郡中之条町"
+    }
+  ],
+  "中能登町": [
+    {
+      "prefecture": "石川県",
+      "county": "鹿島郡",
+      "municipality": "鹿島郡中能登町",
+      "uri": "https://uedayou.net/loa/石川県鹿島郡中能登町",
+      "label": "石川県鹿島郡中能登町"
+    }
+  ],
+  "中泊町": [
+    {
+      "prefecture": "青森県",
+      "county": "北津軽郡",
+      "municipality": "北津軽郡中泊町",
+      "uri": "https://uedayou.net/loa/青森県北津軽郡中泊町",
+      "label": "青森県北津軽郡中泊町"
+    }
+  ],
+  "中標津町": [
+    {
+      "prefecture": "北海道",
+      "county": "標津郡",
+      "municipality": "標津郡中標津町",
+      "uri": "https://uedayou.net/loa/北海道標津郡中標津町",
+      "label": "北海道標津郡中標津町"
+    }
+  ],
+  "中富良野町": [
+    {
+      "prefecture": "北海道",
+      "county": "空知郡",
+      "municipality": "空知郡中富良野町",
+      "uri": "https://uedayou.net/loa/北海道空知郡中富良野町",
+      "label": "北海道空知郡中富良野町"
+    }
+  ],
+  "忠岡町": [
+    {
+      "prefecture": "大阪府",
+      "county": "泉北郡",
+      "municipality": "泉北郡忠岡町",
+      "uri": "https://uedayou.net/loa/大阪府泉北郡忠岡町",
+      "label": "大阪府泉北郡忠岡町"
+    }
+  ],
+  "猪苗代町": [
+    {
+      "prefecture": "福島県",
+      "county": "耶麻郡",
+      "municipality": "耶麻郡猪苗代町",
+      "uri": "https://uedayou.net/loa/福島県耶麻郡猪苗代町",
+      "label": "福島県耶麻郡猪苗代町"
+    }
+  ],
+  "猪名川町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "川辺郡",
+      "municipality": "川辺郡猪名川町",
+      "uri": "https://uedayou.net/loa/兵庫県川辺郡猪名川町",
+      "label": "兵庫県川辺郡猪名川町"
+    }
+  ],
+  "朝日村": [
+    {
+      "prefecture": "長野県",
+      "county": "東筑摩郡",
+      "municipality": "東筑摩郡朝日村",
+      "uri": "https://uedayou.net/loa/長野県東筑摩郡朝日村",
+      "label": "長野県東筑摩郡朝日村"
+    }
+  ],
+  "朝日町": [
+    {
+      "prefecture": "三重県",
+      "county": "三重郡",
+      "municipality": "三重郡朝日町",
+      "uri": "https://uedayou.net/loa/三重県三重郡朝日町",
+      "label": "三重県三重郡朝日町"
+    },
+    {
+      "prefecture": "富山県",
+      "county": "下新川郡",
+      "municipality": "下新川郡朝日町",
+      "uri": "https://uedayou.net/loa/富山県下新川郡朝日町",
+      "label": "富山県下新川郡朝日町"
+    },
+    {
+      "prefecture": "山形県",
+      "county": "西村山郡",
+      "municipality": "西村山郡朝日町",
+      "uri": "https://uedayou.net/loa/山形県西村山郡朝日町",
+      "label": "山形県西村山郡朝日町"
+    }
+  ],
+  "長洲町": [
+    {
+      "prefecture": "熊本県",
+      "county": "玉名郡",
+      "municipality": "玉名郡長洲町",
+      "uri": "https://uedayou.net/loa/熊本県玉名郡長洲町",
+      "label": "熊本県玉名郡長洲町"
+    }
+  ],
+  "長沼町": [
+    {
+      "prefecture": "北海道",
+      "county": "夕張郡",
+      "municipality": "夕張郡長沼町",
+      "uri": "https://uedayou.net/loa/北海道夕張郡長沼町",
+      "label": "北海道夕張郡長沼町"
+    }
+  ],
+  "長生村": [
+    {
+      "prefecture": "千葉県",
+      "county": "長生郡",
+      "municipality": "長生郡長生村",
+      "uri": "https://uedayou.net/loa/千葉県長生郡長生村",
+      "label": "千葉県長生郡長生村"
+    }
+  ],
+  "長泉町": [
+    {
+      "prefecture": "静岡県",
+      "county": "駿東郡",
+      "municipality": "駿東郡長泉町",
+      "uri": "https://uedayou.net/loa/静岡県駿東郡長泉町",
+      "label": "静岡県駿東郡長泉町"
+    }
+  ],
+  "長島町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "出水郡",
+      "municipality": "出水郡長島町",
+      "uri": "https://uedayou.net/loa/鹿児島県出水郡長島町",
+      "label": "鹿児島県出水郡長島町"
+    }
+  ],
+  "長瀞町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "秩父郡",
+      "municipality": "秩父郡長瀞町",
+      "uri": "https://uedayou.net/loa/埼玉県秩父郡長瀞町",
+      "label": "埼玉県秩父郡長瀞町"
+    }
+  ],
+  "長南町": [
+    {
+      "prefecture": "千葉県",
+      "county": "長生郡",
+      "municipality": "長生郡長南町",
+      "uri": "https://uedayou.net/loa/千葉県長生郡長南町",
+      "label": "千葉県長生郡長南町"
+    }
+  ],
+  "長柄町": [
+    {
+      "prefecture": "千葉県",
+      "county": "長生郡",
+      "municipality": "長生郡長柄町",
+      "uri": "https://uedayou.net/loa/千葉県長生郡長柄町",
+      "label": "千葉県長生郡長柄町"
+    }
+  ],
+  "長万部町": [
+    {
+      "prefecture": "北海道",
+      "county": "山越郡",
+      "municipality": "山越郡長万部町",
+      "uri": "https://uedayou.net/loa/北海道山越郡長万部町",
+      "label": "北海道山越郡長万部町"
+    }
+  ],
+  "長野原町": [
+    {
+      "prefecture": "群馬県",
+      "county": "吾妻郡",
+      "municipality": "吾妻郡長野原町",
+      "uri": "https://uedayou.net/loa/群馬県吾妻郡長野原町",
+      "label": "群馬県吾妻郡長野原町"
+    }
+  ],
+  "長与町": [
+    {
+      "prefecture": "長崎県",
+      "county": "西彼杵郡",
+      "municipality": "西彼杵郡長与町",
+      "uri": "https://uedayou.net/loa/長崎県西彼杵郡長与町",
+      "label": "長崎県西彼杵郡長与町"
+    }
+  ],
+  "長和町": [
+    {
+      "prefecture": "長野県",
+      "county": "小県郡",
+      "municipality": "小県郡長和町",
+      "uri": "https://uedayou.net/loa/長野県小県郡長和町",
+      "label": "長野県小県郡長和町"
+    }
+  ],
+  "直島町": [
+    {
+      "prefecture": "香川県",
+      "county": "香川郡",
+      "municipality": "香川郡直島町",
+      "uri": "https://uedayou.net/loa/香川県香川郡直島町",
+      "label": "香川県香川郡直島町"
+    }
+  ],
+  "津奈木町": [
+    {
+      "prefecture": "熊本県",
+      "county": "葦北郡",
+      "municipality": "葦北郡津奈木町",
+      "uri": "https://uedayou.net/loa/熊本県葦北郡津奈木町",
+      "label": "熊本県葦北郡津奈木町"
+    }
+  ],
+  "津南町": [
+    {
+      "prefecture": "新潟県",
+      "county": "中魚沼郡",
+      "municipality": "中魚沼郡津南町",
+      "uri": "https://uedayou.net/loa/新潟県中魚沼郡津南町",
+      "label": "新潟県中魚沼郡津南町"
+    }
+  ],
+  "津幡町": [
+    {
+      "prefecture": "石川県",
+      "county": "河北郡",
+      "municipality": "河北郡津幡町",
+      "uri": "https://uedayou.net/loa/石川県河北郡津幡町",
+      "label": "石川県河北郡津幡町"
+    }
+  ],
+  "津別町": [
+    {
+      "prefecture": "北海道",
+      "county": "網走郡",
+      "municipality": "網走郡津別町",
+      "uri": "https://uedayou.net/loa/北海道網走郡津別町",
+      "label": "北海道網走郡津別町"
+    }
+  ],
+  "津野町": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡津野町",
+      "uri": "https://uedayou.net/loa/高知県高岡郡津野町",
+      "label": "高知県高岡郡津野町"
+    }
+  ],
+  "津和野町": [
+    {
+      "prefecture": "島根県",
+      "county": "鹿足郡",
+      "municipality": "鹿足郡津和野町",
+      "uri": "https://uedayou.net/loa/島根県鹿足郡津和野町",
+      "label": "島根県鹿足郡津和野町"
+    }
+  ],
+  "椎葉村": [
+    {
+      "prefecture": "宮崎県",
+      "county": "東臼杵郡",
+      "municipality": "東臼杵郡椎葉村",
+      "uri": "https://uedayou.net/loa/宮崎県東臼杵郡椎葉村",
+      "label": "宮崎県東臼杵郡椎葉村"
+    }
+  ],
+  "嬬恋村": [
+    {
+      "prefecture": "群馬県",
+      "county": "吾妻郡",
+      "municipality": "吾妻郡嬬恋村",
+      "uri": "https://uedayou.net/loa/群馬県吾妻郡嬬恋村",
+      "label": "群馬県吾妻郡嬬恋村"
+    }
+  ],
+  "鶴居村": [
+    {
+      "prefecture": "北海道",
+      "county": "阿寒郡",
+      "municipality": "阿寒郡鶴居村",
+      "uri": "https://uedayou.net/loa/北海道阿寒郡鶴居村",
+      "label": "北海道阿寒郡鶴居村"
+    }
+  ],
+  "鶴田町": [
+    {
+      "prefecture": "青森県",
+      "county": "北津軽郡",
+      "municipality": "北津軽郡鶴田町",
+      "uri": "https://uedayou.net/loa/青森県北津軽郡鶴田町",
+      "label": "青森県北津軽郡鶴田町"
+    }
+  ],
+  "弟子屈町": [
+    {
+      "prefecture": "北海道",
+      "county": "川上郡",
+      "municipality": "川上郡弟子屈町",
+      "uri": "https://uedayou.net/loa/北海道川上郡弟子屈町",
+      "label": "北海道川上郡弟子屈町"
+    }
+  ],
+  "天栄村": [
+    {
+      "prefecture": "福島県",
+      "county": "岩瀬郡",
+      "municipality": "岩瀬郡天栄村",
+      "uri": "https://uedayou.net/loa/福島県岩瀬郡天栄村",
+      "label": "福島県岩瀬郡天栄村"
+    }
+  ],
+  "天塩町": [
+    {
+      "prefecture": "北海道",
+      "county": "天塩郡",
+      "municipality": "天塩郡天塩町",
+      "uri": "https://uedayou.net/loa/北海道天塩郡天塩町",
+      "label": "北海道天塩郡天塩町"
+    }
+  ],
+  "天城町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡天城町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡天城町",
+      "label": "鹿児島県大島郡天城町"
+    }
+  ],
+  "天川村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡天川村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡天川村",
+      "label": "奈良県吉野郡天川村"
+    }
+  ],
+  "天龍村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡天龍村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡天龍村",
+      "label": "長野県下伊那郡天龍村"
+    }
+  ],
+  "添田町": [
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡添田町",
+      "uri": "https://uedayou.net/loa/福岡県田川郡添田町",
+      "label": "福岡県田川郡添田町"
+    }
+  ],
+  "田原本町": [
+    {
+      "prefecture": "奈良県",
+      "county": "磯城郡",
+      "municipality": "磯城郡田原本町",
+      "uri": "https://uedayou.net/loa/奈良県磯城郡田原本町",
+      "label": "奈良県磯城郡田原本町"
+    }
+  ],
+  "田子町": [
+    {
+      "prefecture": "青森県",
+      "county": "三戸郡",
+      "municipality": "三戸郡田子町",
+      "uri": "https://uedayou.net/loa/青森県三戸郡田子町",
+      "label": "青森県三戸郡田子町"
+    }
+  ],
+  "田舎館村": [
+    {
+      "prefecture": "青森県",
+      "county": "南津軽郡",
+      "municipality": "南津軽郡田舎館村",
+      "uri": "https://uedayou.net/loa/青森県南津軽郡田舎館村",
+      "label": "青森県南津軽郡田舎館村"
+    }
+  ],
+  "田上町": [
+    {
+      "prefecture": "新潟県",
+      "county": "南蒲原郡",
+      "municipality": "南蒲原郡田上町",
+      "uri": "https://uedayou.net/loa/新潟県南蒲原郡田上町",
+      "label": "新潟県南蒲原郡田上町"
+    }
+  ],
+  "田尻町": [
+    {
+      "prefecture": "大阪府",
+      "county": "泉南郡",
+      "municipality": "泉南郡田尻町",
+      "uri": "https://uedayou.net/loa/大阪府泉南郡田尻町",
+      "label": "大阪府泉南郡田尻町"
+    }
+  ],
+  "田布施町": [
+    {
+      "prefecture": "山口県",
+      "county": "熊毛郡",
+      "municipality": "熊毛郡田布施町",
+      "uri": "https://uedayou.net/loa/山口県熊毛郡田布施町",
+      "label": "山口県熊毛郡田布施町"
+    }
+  ],
+  "田野町": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡田野町",
+      "uri": "https://uedayou.net/loa/高知県安芸郡田野町",
+      "label": "高知県安芸郡田野町"
+    }
+  ],
+  "田野畑村": [
+    {
+      "prefecture": "岩手県",
+      "county": "下閉伊郡",
+      "municipality": "下閉伊郡田野畑村",
+      "uri": "https://uedayou.net/loa/岩手県下閉伊郡田野畑村",
+      "label": "岩手県下閉伊郡田野畑村"
+    }
+  ],
+  "渡嘉敷村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡渡嘉敷村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡渡嘉敷村",
+      "label": "沖縄県島尻郡渡嘉敷村"
+    }
+  ],
+  "渡名喜村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡渡名喜村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡渡名喜村",
+      "label": "沖縄県島尻郡渡名喜村"
+    }
+  ],
+  "都農町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "児湯郡",
+      "municipality": "児湯郡都農町",
+      "uri": "https://uedayou.net/loa/宮崎県児湯郡都農町",
+      "label": "宮崎県児湯郡都農町"
+    }
+  ],
+  "砥部町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "伊予郡",
+      "municipality": "伊予郡砥部町",
+      "uri": "https://uedayou.net/loa/愛媛県伊予郡砥部町",
+      "label": "愛媛県伊予郡砥部町"
+    }
+  ],
+  "度会町": [
+    {
+      "prefecture": "三重県",
+      "county": "度会郡",
+      "municipality": "度会郡度会町",
+      "uri": "https://uedayou.net/loa/三重県度会郡度会町",
+      "label": "三重県度会郡度会町"
+    }
+  ],
+  "土佐町": [
+    {
+      "prefecture": "高知県",
+      "county": "土佐郡",
+      "municipality": "土佐郡土佐町",
+      "uri": "https://uedayou.net/loa/高知県土佐郡土佐町",
+      "label": "高知県土佐郡土佐町"
+    }
+  ],
+  "土庄町": [
+    {
+      "prefecture": "香川県",
+      "county": "小豆郡",
+      "municipality": "小豆郡土庄町",
+      "uri": "https://uedayou.net/loa/香川県小豆郡土庄町",
+      "label": "香川県小豆郡土庄町"
+    }
+  ],
+  "島牧村": [
+    {
+      "prefecture": "北海道",
+      "county": "島牧郡",
+      "municipality": "島牧郡島牧村",
+      "uri": "https://uedayou.net/loa/北海道島牧郡島牧村",
+      "label": "北海道島牧郡島牧村"
+    }
+  ],
+  "島本町": [
+    {
+      "prefecture": "大阪府",
+      "county": "三島郡",
+      "municipality": "三島郡島本町",
+      "uri": "https://uedayou.net/loa/大阪府三島郡島本町",
+      "label": "大阪府三島郡島本町"
+    }
+  ],
+  "東みよし町": [
+    {
+      "prefecture": "徳島県",
+      "county": "三好郡",
+      "municipality": "三好郡東みよし町",
+      "uri": "https://uedayou.net/loa/徳島県三好郡東みよし町",
+      "label": "徳島県三好郡東みよし町"
+    }
+  ],
+  "東伊豆町": [
+    {
+      "prefecture": "静岡県",
+      "county": "賀茂郡",
+      "municipality": "賀茂郡東伊豆町",
+      "uri": "https://uedayou.net/loa/静岡県賀茂郡東伊豆町",
+      "label": "静岡県賀茂郡東伊豆町"
+    }
+  ],
+  "東員町": [
+    {
+      "prefecture": "三重県",
+      "county": "員弁郡",
+      "municipality": "員弁郡東員町",
+      "uri": "https://uedayou.net/loa/三重県員弁郡東員町",
+      "label": "三重県員弁郡東員町"
+    }
+  ],
+  "東浦町": [
+    {
+      "prefecture": "愛知県",
+      "county": "知多郡",
+      "municipality": "知多郡東浦町",
+      "uri": "https://uedayou.net/loa/愛知県知多郡東浦町",
+      "label": "愛知県知多郡東浦町"
+    }
+  ],
+  "東栄町": [
+    {
+      "prefecture": "愛知県",
+      "county": "北設楽郡",
+      "municipality": "北設楽郡東栄町",
+      "uri": "https://uedayou.net/loa/愛知県北設楽郡東栄町",
+      "label": "愛知県北設楽郡東栄町"
+    }
+  ],
+  "東海村": [
+    {
+      "prefecture": "茨城県",
+      "county": "那珂郡",
+      "municipality": "那珂郡東海村",
+      "uri": "https://uedayou.net/loa/茨城県那珂郡東海村",
+      "label": "茨城県那珂郡東海村"
+    }
+  ],
+  "東吉野村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡東吉野村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡東吉野村",
+      "label": "奈良県吉野郡東吉野村"
+    }
+  ],
+  "東郷町": [
+    {
+      "prefecture": "愛知県",
+      "county": "愛知郡",
+      "municipality": "愛知郡東郷町",
+      "uri": "https://uedayou.net/loa/愛知県愛知郡東郷町",
+      "label": "愛知県愛知郡東郷町"
+    }
+  ],
+  "東串良町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "肝属郡",
+      "municipality": "肝属郡東串良町",
+      "uri": "https://uedayou.net/loa/鹿児島県肝属郡東串良町",
+      "label": "鹿児島県肝属郡東串良町"
+    }
+  ],
+  "東吾妻町": [
+    {
+      "prefecture": "群馬県",
+      "county": "吾妻郡",
+      "municipality": "吾妻郡東吾妻町",
+      "uri": "https://uedayou.net/loa/群馬県吾妻郡東吾妻町",
+      "label": "群馬県吾妻郡東吾妻町"
+    }
+  ],
+  "東庄町": [
+    {
+      "prefecture": "千葉県",
+      "county": "香取郡",
+      "municipality": "香取郡東庄町",
+      "uri": "https://uedayou.net/loa/千葉県香取郡東庄町",
+      "label": "千葉県香取郡東庄町"
+    }
+  ],
+  "東神楽町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡東神楽町",
+      "uri": "https://uedayou.net/loa/北海道上川郡東神楽町",
+      "label": "北海道上川郡東神楽町"
+    }
+  ],
+  "東成瀬村": [
+    {
+      "prefecture": "秋田県",
+      "county": "雄勝郡",
+      "municipality": "雄勝郡東成瀬村",
+      "uri": "https://uedayou.net/loa/秋田県雄勝郡東成瀬村",
+      "label": "秋田県雄勝郡東成瀬村"
+    }
+  ],
+  "東川町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡東川町",
+      "uri": "https://uedayou.net/loa/北海道上川郡東川町",
+      "label": "北海道上川郡東川町"
+    }
+  ],
+  "東村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡東村",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡東村",
+      "label": "沖縄県国頭郡東村"
+    }
+  ],
+  "東秩父村": [
+    {
+      "prefecture": "埼玉県",
+      "county": "秩父郡",
+      "municipality": "秩父郡東秩父村",
+      "uri": "https://uedayou.net/loa/埼玉県秩父郡東秩父村",
+      "label": "埼玉県秩父郡東秩父村"
+    }
+  ],
+  "東通村": [
+    {
+      "prefecture": "青森県",
+      "county": "下北郡",
+      "municipality": "下北郡東通村",
+      "uri": "https://uedayou.net/loa/青森県下北郡東通村",
+      "label": "青森県下北郡東通村"
+    }
+  ],
+  "東白川村": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡東白川村",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡東白川村",
+      "label": "岐阜県加茂郡東白川村"
+    }
+  ],
+  "東彼杵町": [
+    {
+      "prefecture": "長崎県",
+      "county": "東彼杵郡",
+      "municipality": "東彼杵郡東彼杵町",
+      "uri": "https://uedayou.net/loa/長崎県東彼杵郡東彼杵町",
+      "label": "長崎県東彼杵郡東彼杵町"
+    }
+  ],
+  "東峰村": [
+    {
+      "prefecture": "福岡県",
+      "county": "朝倉郡",
+      "municipality": "朝倉郡東峰村",
+      "uri": "https://uedayou.net/loa/福岡県朝倉郡東峰村",
+      "label": "福岡県朝倉郡東峰村"
+    }
+  ],
+  "東北町": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡東北町",
+      "uri": "https://uedayou.net/loa/青森県上北郡東北町",
+      "label": "青森県上北郡東北町"
+    }
+  ],
+  "東洋町": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡東洋町",
+      "uri": "https://uedayou.net/loa/高知県安芸郡東洋町",
+      "label": "高知県安芸郡東洋町"
+    }
+  ],
+  "湯河原町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄下郡",
+      "municipality": "足柄下郡湯河原町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄下郡湯河原町",
+      "label": "神奈川県足柄下郡湯河原町"
+    }
+  ],
+  "湯川村": [
+    {
+      "prefecture": "福島県",
+      "county": "河沼郡",
+      "municipality": "河沼郡湯川村",
+      "uri": "https://uedayou.net/loa/福島県河沼郡湯川村",
+      "label": "福島県河沼郡湯川村"
+    }
+  ],
+  "湯浅町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "有田郡",
+      "municipality": "有田郡湯浅町",
+      "uri": "https://uedayou.net/loa/和歌山県有田郡湯浅町",
+      "label": "和歌山県有田郡湯浅町"
+    }
+  ],
+  "湯前町": [
+    {
+      "prefecture": "熊本県",
+      "county": "球磨郡",
+      "municipality": "球磨郡湯前町",
+      "uri": "https://uedayou.net/loa/熊本県球磨郡湯前町",
+      "label": "熊本県球磨郡湯前町"
+    }
+  ],
+  "湯沢町": [
+    {
+      "prefecture": "新潟県",
+      "county": "南魚沼郡",
+      "municipality": "南魚沼郡湯沢町",
+      "uri": "https://uedayou.net/loa/新潟県南魚沼郡湯沢町",
+      "label": "新潟県南魚沼郡湯沢町"
+    }
+  ],
+  "湯梨浜町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "東伯郡",
+      "municipality": "東伯郡湯梨浜町",
+      "uri": "https://uedayou.net/loa/鳥取県東伯郡湯梨浜町",
+      "label": "鳥取県東伯郡湯梨浜町"
+    }
+  ],
+  "当別町": [
+    {
+      "prefecture": "北海道",
+      "county": "石狩郡",
+      "municipality": "石狩郡当別町",
+      "uri": "https://uedayou.net/loa/北海道石狩郡当別町",
+      "label": "北海道石狩郡当別町"
+    }
+  ],
+  "当麻町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡当麻町",
+      "uri": "https://uedayou.net/loa/北海道上川郡当麻町",
+      "label": "北海道上川郡当麻町"
+    }
+  ],
+  "藤崎町": [
+    {
+      "prefecture": "青森県",
+      "county": "南津軽郡",
+      "municipality": "南津軽郡藤崎町",
+      "uri": "https://uedayou.net/loa/青森県南津軽郡藤崎町",
+      "label": "青森県南津軽郡藤崎町"
+    }
+  ],
+  "藤里町": [
+    {
+      "prefecture": "秋田県",
+      "county": "山本郡",
+      "municipality": "山本郡藤里町",
+      "uri": "https://uedayou.net/loa/秋田県山本郡藤里町",
+      "label": "秋田県山本郡藤里町"
+    }
+  ],
+  "洞爺湖町": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡洞爺湖町",
+      "uri": "https://uedayou.net/loa/北海道虻田郡洞爺湖町",
+      "label": "北海道虻田郡洞爺湖町"
+    }
+  ],
+  "道志村": [
+    {
+      "prefecture": "山梨県",
+      "county": "南都留郡",
+      "municipality": "南都留郡道志村",
+      "uri": "https://uedayou.net/loa/山梨県南都留郡道志村",
+      "label": "山梨県南都留郡道志村"
+    }
+  ],
+  "徳之島町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡徳之島町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡徳之島町",
+      "label": "鹿児島県大島郡徳之島町"
+    }
+  ],
+  "読谷村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "中頭郡",
+      "municipality": "中頭郡読谷村",
+      "uri": "https://uedayou.net/loa/沖縄県中頭郡読谷村",
+      "label": "沖縄県中頭郡読谷村"
+    }
+  ],
+  "苫前町": [
+    {
+      "prefecture": "北海道",
+      "county": "苫前郡",
+      "municipality": "苫前郡苫前町",
+      "uri": "https://uedayou.net/loa/北海道苫前郡苫前町",
+      "label": "北海道苫前郡苫前町"
+    }
+  ],
+  "奈井江町": [
+    {
+      "prefecture": "北海道",
+      "county": "空知郡",
+      "municipality": "空知郡奈井江町",
+      "uri": "https://uedayou.net/loa/北海道空知郡奈井江町",
+      "label": "北海道空知郡奈井江町"
+    }
+  ],
+  "奈義町": [
+    {
+      "prefecture": "岡山県",
+      "county": "勝田郡",
+      "municipality": "勝田郡奈義町",
+      "uri": "https://uedayou.net/loa/岡山県勝田郡奈義町",
+      "label": "岡山県勝田郡奈義町"
+    }
+  ],
+  "奈半利町": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡奈半利町",
+      "uri": "https://uedayou.net/loa/高知県安芸郡奈半利町",
+      "label": "高知県安芸郡奈半利町"
+    }
+  ],
+  "那珂川町": [
+    {
+      "prefecture": "栃木県",
+      "county": "那須郡",
+      "municipality": "那須郡那珂川町",
+      "uri": "https://uedayou.net/loa/栃木県那須郡那珂川町",
+      "label": "栃木県那須郡那珂川町"
+    }
+  ],
+  "那賀町": [
+    {
+      "prefecture": "徳島県",
+      "county": "那賀郡",
+      "municipality": "那賀郡那賀町",
+      "uri": "https://uedayou.net/loa/徳島県那賀郡那賀町",
+      "label": "徳島県那賀郡那賀町"
+    }
+  ],
+  "那須町": [
+    {
+      "prefecture": "栃木県",
+      "county": "那須郡",
+      "municipality": "那須郡那須町",
+      "uri": "https://uedayou.net/loa/栃木県那須郡那須町",
+      "label": "栃木県那須郡那須町"
+    }
+  ],
+  "那智勝浦町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "東牟婁郡",
+      "municipality": "東牟婁郡那智勝浦町",
+      "uri": "https://uedayou.net/loa/和歌山県東牟婁郡那智勝浦町",
+      "label": "和歌山県東牟婁郡那智勝浦町"
+    }
+  ],
+  "内子町": [
+    {
+      "prefecture": "愛媛県",
+      "county": "喜多郡",
+      "municipality": "喜多郡内子町",
+      "uri": "https://uedayou.net/loa/愛媛県喜多郡内子町",
+      "label": "愛媛県喜多郡内子町"
+    }
+  ],
+  "内灘町": [
+    {
+      "prefecture": "石川県",
+      "county": "河北郡",
+      "municipality": "河北郡内灘町",
+      "uri": "https://uedayou.net/loa/石川県河北郡内灘町",
+      "label": "石川県河北郡内灘町"
+    }
+  ],
+  "楢葉町": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡楢葉町",
+      "uri": "https://uedayou.net/loa/福島県双葉郡楢葉町",
+      "label": "福島県双葉郡楢葉町"
+    }
+  ],
+  "南阿蘇村": [
+    {
+      "prefecture": "熊本県",
+      "county": "阿蘇郡",
+      "municipality": "阿蘇郡南阿蘇村",
+      "uri": "https://uedayou.net/loa/熊本県阿蘇郡南阿蘇村",
+      "label": "熊本県阿蘇郡南阿蘇村"
+    }
+  ],
+  "南伊勢町": [
+    {
+      "prefecture": "三重県",
+      "county": "度会郡",
+      "municipality": "度会郡南伊勢町",
+      "uri": "https://uedayou.net/loa/三重県度会郡南伊勢町",
+      "label": "三重県度会郡南伊勢町"
+    }
+  ],
+  "南伊豆町": [
+    {
+      "prefecture": "静岡県",
+      "county": "賀茂郡",
+      "municipality": "賀茂郡南伊豆町",
+      "uri": "https://uedayou.net/loa/静岡県賀茂郡南伊豆町",
+      "label": "静岡県賀茂郡南伊豆町"
+    }
+  ],
+  "南越前町": [
+    {
+      "prefecture": "福井県",
+      "county": "南条郡",
+      "municipality": "南条郡南越前町",
+      "uri": "https://uedayou.net/loa/福井県南条郡南越前町",
+      "label": "福井県南条郡南越前町"
+    }
+  ],
+  "南会津町": [
+    {
+      "prefecture": "福島県",
+      "county": "南会津郡",
+      "municipality": "南会津郡南会津町",
+      "uri": "https://uedayou.net/loa/福島県南会津郡南会津町",
+      "label": "福島県南会津郡南会津町"
+    }
+  ],
+  "南関町": [
+    {
+      "prefecture": "熊本県",
+      "county": "玉名郡",
+      "municipality": "玉名郡南関町",
+      "uri": "https://uedayou.net/loa/熊本県玉名郡南関町",
+      "label": "熊本県玉名郡南関町"
+    }
+  ],
+  "南三陸町": [
+    {
+      "prefecture": "宮城県",
+      "county": "本吉郡",
+      "municipality": "本吉郡南三陸町",
+      "uri": "https://uedayou.net/loa/宮城県本吉郡南三陸町",
+      "label": "宮城県本吉郡南三陸町"
+    }
+  ],
+  "南種子町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "熊毛郡",
+      "municipality": "熊毛郡南種子町",
+      "uri": "https://uedayou.net/loa/鹿児島県熊毛郡南種子町",
+      "label": "鹿児島県熊毛郡南種子町"
+    }
+  ],
+  "南小国町": [
+    {
+      "prefecture": "熊本県",
+      "county": "阿蘇郡",
+      "municipality": "阿蘇郡南小国町",
+      "uri": "https://uedayou.net/loa/熊本県阿蘇郡南小国町",
+      "label": "熊本県阿蘇郡南小国町"
+    }
+  ],
+  "南相木村": [
+    {
+      "prefecture": "長野県",
+      "county": "南佐久郡",
+      "municipality": "南佐久郡南相木村",
+      "uri": "https://uedayou.net/loa/長野県南佐久郡南相木村",
+      "label": "長野県南佐久郡南相木村"
+    }
+  ],
+  "南大隅町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "肝属郡",
+      "municipality": "肝属郡南大隅町",
+      "uri": "https://uedayou.net/loa/鹿児島県肝属郡南大隅町",
+      "label": "鹿児島県肝属郡南大隅町"
+    }
+  ],
+  "南大東村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡南大東村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡南大東村",
+      "label": "沖縄県島尻郡南大東村"
+    }
+  ],
+  "南知多町": [
+    {
+      "prefecture": "愛知県",
+      "county": "知多郡",
+      "municipality": "知多郡南知多町",
+      "uri": "https://uedayou.net/loa/愛知県知多郡南知多町",
+      "label": "愛知県知多郡南知多町"
+    }
+  ],
+  "南富良野町": [
+    {
+      "prefecture": "北海道",
+      "county": "空知郡",
+      "municipality": "空知郡南富良野町",
+      "uri": "https://uedayou.net/loa/北海道空知郡南富良野町",
+      "label": "北海道空知郡南富良野町"
+    }
+  ],
+  "南部町": [
+    {
+      "prefecture": "山梨県",
+      "county": "南巨摩郡",
+      "municipality": "南巨摩郡南部町",
+      "uri": "https://uedayou.net/loa/山梨県南巨摩郡南部町",
+      "label": "山梨県南巨摩郡南部町"
+    },
+    {
+      "prefecture": "鳥取県",
+      "county": "西伯郡",
+      "municipality": "西伯郡南部町",
+      "uri": "https://uedayou.net/loa/鳥取県西伯郡南部町",
+      "label": "鳥取県西伯郡南部町"
+    },
+    {
+      "prefecture": "青森県",
+      "county": "三戸郡",
+      "municipality": "三戸郡南部町",
+      "uri": "https://uedayou.net/loa/青森県三戸郡南部町",
+      "label": "青森県三戸郡南部町"
+    }
+  ],
+  "南風原町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡南風原町",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡南風原町",
+      "label": "沖縄県島尻郡南風原町"
+    }
+  ],
+  "南牧村": [
+    {
+      "prefecture": "群馬県",
+      "county": "甘楽郡",
+      "municipality": "甘楽郡南牧村",
+      "uri": "https://uedayou.net/loa/群馬県甘楽郡南牧村",
+      "label": "群馬県甘楽郡南牧村"
+    },
+    {
+      "prefecture": "長野県",
+      "county": "南佐久郡",
+      "municipality": "南佐久郡南牧村",
+      "uri": "https://uedayou.net/loa/長野県南佐久郡南牧村",
+      "label": "長野県南佐久郡南牧村"
+    }
+  ],
+  "南幌町": [
+    {
+      "prefecture": "北海道",
+      "county": "空知郡",
+      "municipality": "空知郡南幌町",
+      "uri": "https://uedayou.net/loa/北海道空知郡南幌町",
+      "label": "北海道空知郡南幌町"
+    }
+  ],
+  "南箕輪村": [
+    {
+      "prefecture": "長野県",
+      "county": "上伊那郡",
+      "municipality": "上伊那郡南箕輪村",
+      "uri": "https://uedayou.net/loa/長野県上伊那郡南箕輪村",
+      "label": "長野県上伊那郡南箕輪村"
+    }
+  ],
+  "南木曽町": [
+    {
+      "prefecture": "長野県",
+      "county": "木曽郡",
+      "municipality": "木曽郡南木曽町",
+      "uri": "https://uedayou.net/loa/長野県木曽郡南木曽町",
+      "label": "長野県木曽郡南木曽町"
+    }
+  ],
+  "二宮町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "中郡",
+      "municipality": "中郡二宮町",
+      "uri": "https://uedayou.net/loa/神奈川県中郡二宮町",
+      "label": "神奈川県中郡二宮町"
+    }
+  ],
+  "日の出町": [
+    {
+      "prefecture": "東京都",
+      "county": "西多摩郡",
+      "municipality": "西多摩郡日の出町",
+      "uri": "https://uedayou.net/loa/東京都西多摩郡日の出町",
+      "label": "東京都西多摩郡日の出町"
+    }
+  ],
+  "日吉津村": [
+    {
+      "prefecture": "鳥取県",
+      "county": "西伯郡",
+      "municipality": "西伯郡日吉津村",
+      "uri": "https://uedayou.net/loa/鳥取県西伯郡日吉津村",
+      "label": "鳥取県西伯郡日吉津村"
+    }
+  ],
+  "日高川町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "日高郡",
+      "municipality": "日高郡日高川町",
+      "uri": "https://uedayou.net/loa/和歌山県日高郡日高川町",
+      "label": "和歌山県日高郡日高川町"
+    }
+  ],
+  "日高村": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡日高村",
+      "uri": "https://uedayou.net/loa/高知県高岡郡日高村",
+      "label": "高知県高岡郡日高村"
+    }
+  ],
+  "日高町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "日高郡",
+      "municipality": "日高郡日高町",
+      "uri": "https://uedayou.net/loa/和歌山県日高郡日高町",
+      "label": "和歌山県日高郡日高町"
+    },
+    {
+      "prefecture": "北海道",
+      "county": "沙流郡",
+      "municipality": "沙流郡日高町",
+      "uri": "https://uedayou.net/loa/北海道沙流郡日高町",
+      "label": "北海道沙流郡日高町"
+    }
+  ],
+  "日出町": [
+    {
+      "prefecture": "大分県",
+      "county": "速見郡",
+      "municipality": "速見郡日出町",
+      "uri": "https://uedayou.net/loa/大分県速見郡日出町",
+      "label": "大分県速見郡日出町"
+    }
+  ],
+  "日南町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "日野郡",
+      "municipality": "日野郡日南町",
+      "uri": "https://uedayou.net/loa/鳥取県日野郡日南町",
+      "label": "鳥取県日野郡日南町"
+    }
+  ],
+  "日之影町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "西臼杵郡",
+      "municipality": "西臼杵郡日之影町",
+      "uri": "https://uedayou.net/loa/宮崎県西臼杵郡日之影町",
+      "label": "宮崎県西臼杵郡日之影町"
+    }
+  ],
+  "日野町": [
+    {
+      "prefecture": "滋賀県",
+      "county": "蒲生郡",
+      "municipality": "蒲生郡日野町",
+      "uri": "https://uedayou.net/loa/滋賀県蒲生郡日野町",
+      "label": "滋賀県蒲生郡日野町"
+    },
+    {
+      "prefecture": "鳥取県",
+      "county": "日野郡",
+      "municipality": "日野郡日野町",
+      "uri": "https://uedayou.net/loa/鳥取県日野郡日野町",
+      "label": "鳥取県日野郡日野町"
+    }
+  ],
+  "入善町": [
+    {
+      "prefecture": "富山県",
+      "county": "下新川郡",
+      "municipality": "下新川郡入善町",
+      "uri": "https://uedayou.net/loa/富山県下新川郡入善町",
+      "label": "富山県下新川郡入善町"
+    }
+  ],
+  "忍野村": [
+    {
+      "prefecture": "山梨県",
+      "county": "南都留郡",
+      "municipality": "南都留郡忍野村",
+      "uri": "https://uedayou.net/loa/山梨県南都留郡忍野村",
+      "label": "山梨県南都留郡忍野村"
+    }
+  ],
+  "能勢町": [
+    {
+      "prefecture": "大阪府",
+      "county": "豊能郡",
+      "municipality": "豊能郡能勢町",
+      "uri": "https://uedayou.net/loa/大阪府豊能郡能勢町",
+      "label": "大阪府豊能郡能勢町"
+    }
+  ],
+  "能登町": [
+    {
+      "prefecture": "石川県",
+      "county": "鳳珠郡",
+      "municipality": "鳳珠郡能登町",
+      "uri": "https://uedayou.net/loa/石川県鳳珠郡能登町",
+      "label": "石川県鳳珠郡能登町"
+    }
+  ],
+  "播磨町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "加古郡",
+      "municipality": "加古郡播磨町",
+      "uri": "https://uedayou.net/loa/兵庫県加古郡播磨町",
+      "label": "兵庫県加古郡播磨町"
+    }
+  ],
+  "波佐見町": [
+    {
+      "prefecture": "長崎県",
+      "county": "東彼杵郡",
+      "municipality": "東彼杵郡波佐見町",
+      "uri": "https://uedayou.net/loa/長崎県東彼杵郡波佐見町",
+      "label": "長崎県東彼杵郡波佐見町"
+    }
+  ],
+  "馬路村": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡馬路村",
+      "uri": "https://uedayou.net/loa/高知県安芸郡馬路村",
+      "label": "高知県安芸郡馬路村"
+    }
+  ],
+  "売木村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡売木村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡売木村",
+      "label": "長野県下伊那郡売木村"
+    }
+  ],
+  "伯耆町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "西伯郡",
+      "municipality": "西伯郡伯耆町",
+      "uri": "https://uedayou.net/loa/鳥取県西伯郡伯耆町",
+      "label": "鳥取県西伯郡伯耆町"
+    }
+  ],
+  "泊村": [
+    {
+      "prefecture": "北海道",
+      "county": "国後郡",
+      "municipality": "国後郡泊村",
+      "uri": "https://uedayou.net/loa/北海道国後郡泊村",
+      "label": "北海道国後郡泊村"
+    },
+    {
+      "prefecture": "北海道",
+      "county": "古宇郡",
+      "municipality": "古宇郡泊村",
+      "uri": "https://uedayou.net/loa/北海道古宇郡泊村",
+      "label": "北海道古宇郡泊村"
+    }
+  ],
+  "白糠町": [
+    {
+      "prefecture": "北海道",
+      "county": "白糠郡",
+      "municipality": "白糠郡白糠町",
+      "uri": "https://uedayou.net/loa/北海道白糠郡白糠町",
+      "label": "北海道白糠郡白糠町"
+    }
+  ],
+  "白子町": [
+    {
+      "prefecture": "千葉県",
+      "county": "長生郡",
+      "municipality": "長生郡白子町",
+      "uri": "https://uedayou.net/loa/千葉県長生郡白子町",
+      "label": "千葉県長生郡白子町"
+    }
+  ],
+  "白石町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "杵島郡",
+      "municipality": "杵島郡白石町",
+      "uri": "https://uedayou.net/loa/佐賀県杵島郡白石町",
+      "label": "佐賀県杵島郡白石町"
+    }
+  ],
+  "白川村": [
+    {
+      "prefecture": "岐阜県",
+      "county": "大野郡",
+      "municipality": "大野郡白川村",
+      "uri": "https://uedayou.net/loa/岐阜県大野郡白川村",
+      "label": "岐阜県大野郡白川村"
+    }
+  ],
+  "白川町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡白川町",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡白川町",
+      "label": "岐阜県加茂郡白川町"
+    }
+  ],
+  "白鷹町": [
+    {
+      "prefecture": "山形県",
+      "county": "西置賜郡",
+      "municipality": "西置賜郡白鷹町",
+      "uri": "https://uedayou.net/loa/山形県西置賜郡白鷹町",
+      "label": "山形県西置賜郡白鷹町"
+    }
+  ],
+  "白馬村": [
+    {
+      "prefecture": "長野県",
+      "county": "北安曇郡",
+      "municipality": "北安曇郡白馬村",
+      "uri": "https://uedayou.net/loa/長野県北安曇郡白馬村",
+      "label": "長野県北安曇郡白馬村"
+    }
+  ],
+  "白浜町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "西牟婁郡",
+      "municipality": "西牟婁郡白浜町",
+      "uri": "https://uedayou.net/loa/和歌山県西牟婁郡白浜町",
+      "label": "和歌山県西牟婁郡白浜町"
+    }
+  ],
+  "白老町": [
+    {
+      "prefecture": "北海道",
+      "county": "白老郡",
+      "municipality": "白老郡白老町",
+      "uri": "https://uedayou.net/loa/北海道白老郡白老町",
+      "label": "北海道白老郡白老町"
+    }
+  ],
+  "粕屋町": [
+    {
+      "prefecture": "福岡県",
+      "county": "糟屋郡",
+      "municipality": "糟屋郡粕屋町",
+      "uri": "https://uedayou.net/loa/福岡県糟屋郡粕屋町",
+      "label": "福岡県糟屋郡粕屋町"
+    }
+  ],
+  "函南町": [
+    {
+      "prefecture": "静岡県",
+      "county": "田方郡",
+      "municipality": "田方郡函南町",
+      "uri": "https://uedayou.net/loa/静岡県田方郡函南町",
+      "label": "静岡県田方郡函南町"
+    }
+  ],
+  "箱根町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "足柄下郡",
+      "municipality": "足柄下郡箱根町",
+      "uri": "https://uedayou.net/loa/神奈川県足柄下郡箱根町",
+      "label": "神奈川県足柄下郡箱根町"
+    }
+  ],
+  "八雲町": [
+    {
+      "prefecture": "北海道",
+      "county": "二海郡",
+      "municipality": "二海郡八雲町",
+      "uri": "https://uedayou.net/loa/北海道二海郡八雲町",
+      "label": "北海道二海郡八雲町"
+    }
+  ],
+  "八重瀬町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡八重瀬町",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡八重瀬町",
+      "label": "沖縄県島尻郡八重瀬町"
+    }
+  ],
+  "八千代町": [
+    {
+      "prefecture": "茨城県",
+      "county": "結城郡",
+      "municipality": "結城郡八千代町",
+      "uri": "https://uedayou.net/loa/茨城県結城郡八千代町",
+      "label": "茨城県結城郡八千代町"
+    }
+  ],
+  "八頭町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "八頭郡",
+      "municipality": "八頭郡八頭町",
+      "uri": "https://uedayou.net/loa/鳥取県八頭郡八頭町",
+      "label": "鳥取県八頭郡八頭町"
+    }
+  ],
+  "八百津町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡八百津町",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡八百津町",
+      "label": "岐阜県加茂郡八百津町"
+    }
+  ],
+  "八峰町": [
+    {
+      "prefecture": "秋田県",
+      "county": "山本郡",
+      "municipality": "山本郡八峰町",
+      "uri": "https://uedayou.net/loa/秋田県山本郡八峰町",
+      "label": "秋田県山本郡八峰町"
+    }
+  ],
+  "八郎潟町": [
+    {
+      "prefecture": "秋田県",
+      "county": "南秋田郡",
+      "municipality": "南秋田郡八郎潟町",
+      "uri": "https://uedayou.net/loa/秋田県南秋田郡八郎潟町",
+      "label": "秋田県南秋田郡八郎潟町"
+    }
+  ],
+  "鳩山町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡鳩山町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡鳩山町",
+      "label": "埼玉県比企郡鳩山町"
+    }
+  ],
+  "塙町": [
+    {
+      "prefecture": "福島県",
+      "county": "東白川郡",
+      "municipality": "東白川郡塙町",
+      "uri": "https://uedayou.net/loa/福島県東白川郡塙町",
+      "label": "福島県東白川郡塙町"
+    }
+  ],
+  "斑鳩町": [
+    {
+      "prefecture": "奈良県",
+      "county": "生駒郡",
+      "municipality": "生駒郡斑鳩町",
+      "uri": "https://uedayou.net/loa/奈良県生駒郡斑鳩町",
+      "label": "奈良県生駒郡斑鳩町"
+    }
+  ],
+  "板倉町": [
+    {
+      "prefecture": "群馬県",
+      "county": "邑楽郡",
+      "municipality": "邑楽郡板倉町",
+      "uri": "https://uedayou.net/loa/群馬県邑楽郡板倉町",
+      "label": "群馬県邑楽郡板倉町"
+    }
+  ],
+  "板野町": [
+    {
+      "prefecture": "徳島県",
+      "county": "板野郡",
+      "municipality": "板野郡板野町",
+      "uri": "https://uedayou.net/loa/徳島県板野郡板野町",
+      "label": "徳島県板野郡板野町"
+    }
+  ],
+  "板柳町": [
+    {
+      "prefecture": "青森県",
+      "county": "北津軽郡",
+      "municipality": "北津軽郡板柳町",
+      "uri": "https://uedayou.net/loa/青森県北津軽郡板柳町",
+      "label": "青森県北津軽郡板柳町"
+    }
+  ],
+  "飯舘村": [
+    {
+      "prefecture": "福島県",
+      "county": "相馬郡",
+      "municipality": "相馬郡飯舘村",
+      "uri": "https://uedayou.net/loa/福島県相馬郡飯舘村",
+      "label": "福島県相馬郡飯舘村"
+    }
+  ],
+  "飯綱町": [
+    {
+      "prefecture": "長野県",
+      "county": "上水内郡",
+      "municipality": "上水内郡飯綱町",
+      "uri": "https://uedayou.net/loa/長野県上水内郡飯綱町",
+      "label": "長野県上水内郡飯綱町"
+    }
+  ],
+  "飯島町": [
+    {
+      "prefecture": "長野県",
+      "county": "上伊那郡",
+      "municipality": "上伊那郡飯島町",
+      "uri": "https://uedayou.net/loa/長野県上伊那郡飯島町",
+      "label": "長野県上伊那郡飯島町"
+    }
+  ],
+  "飯南町": [
+    {
+      "prefecture": "島根県",
+      "county": "飯石郡",
+      "municipality": "飯石郡飯南町",
+      "uri": "https://uedayou.net/loa/島根県飯石郡飯南町",
+      "label": "島根県飯石郡飯南町"
+    }
+  ],
+  "飯豊町": [
+    {
+      "prefecture": "山形県",
+      "county": "西置賜郡",
+      "municipality": "西置賜郡飯豊町",
+      "uri": "https://uedayou.net/loa/山形県西置賜郡飯豊町",
+      "label": "山形県西置賜郡飯豊町"
+    }
+  ],
+  "磐梯町": [
+    {
+      "prefecture": "福島県",
+      "county": "耶麻郡",
+      "municipality": "耶麻郡磐梯町",
+      "uri": "https://uedayou.net/loa/福島県耶麻郡磐梯町",
+      "label": "福島県耶麻郡磐梯町"
+    }
+  ],
+  "比布町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡比布町",
+      "uri": "https://uedayou.net/loa/北海道上川郡比布町",
+      "label": "北海道上川郡比布町"
+    }
+  ],
+  "飛島村": [
+    {
+      "prefecture": "愛知県",
+      "county": "海部郡",
+      "municipality": "海部郡飛島村",
+      "uri": "https://uedayou.net/loa/愛知県海部郡飛島村",
+      "label": "愛知県海部郡飛島村"
+    }
+  ],
+  "美浦村": [
+    {
+      "prefecture": "茨城県",
+      "county": "稲敷郡",
+      "municipality": "稲敷郡美浦村",
+      "uri": "https://uedayou.net/loa/茨城県稲敷郡美浦村",
+      "label": "茨城県稲敷郡美浦村"
+    }
+  ],
+  "美瑛町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡美瑛町",
+      "uri": "https://uedayou.net/loa/北海道上川郡美瑛町",
+      "label": "北海道上川郡美瑛町"
+    }
+  ],
+  "美郷町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "東臼杵郡",
+      "municipality": "東臼杵郡美郷町",
+      "uri": "https://uedayou.net/loa/宮崎県東臼杵郡美郷町",
+      "label": "宮崎県東臼杵郡美郷町"
+    },
+    {
+      "prefecture": "秋田県",
+      "county": "仙北郡",
+      "municipality": "仙北郡美郷町",
+      "uri": "https://uedayou.net/loa/秋田県仙北郡美郷町",
+      "label": "秋田県仙北郡美郷町"
+    },
+    {
+      "prefecture": "島根県",
+      "county": "邑智郡",
+      "municipality": "邑智郡美郷町",
+      "uri": "https://uedayou.net/loa/島根県邑智郡美郷町",
+      "label": "島根県邑智郡美郷町"
+    }
+  ],
+  "美咲町": [
+    {
+      "prefecture": "岡山県",
+      "county": "久米郡",
+      "municipality": "久米郡美咲町",
+      "uri": "https://uedayou.net/loa/岡山県久米郡美咲町",
+      "label": "岡山県久米郡美咲町"
+    }
+  ],
+  "美深町": [
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡美深町",
+      "uri": "https://uedayou.net/loa/北海道中川郡美深町",
+      "label": "北海道中川郡美深町"
+    }
+  ],
+  "美波町": [
+    {
+      "prefecture": "徳島県",
+      "county": "海部郡",
+      "municipality": "海部郡美波町",
+      "uri": "https://uedayou.net/loa/徳島県海部郡美波町",
+      "label": "徳島県海部郡美波町"
+    }
+  ],
+  "美浜町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "日高郡",
+      "municipality": "日高郡美浜町",
+      "uri": "https://uedayou.net/loa/和歌山県日高郡美浜町",
+      "label": "和歌山県日高郡美浜町"
+    },
+    {
+      "prefecture": "福井県",
+      "county": "三方郡",
+      "municipality": "三方郡美浜町",
+      "uri": "https://uedayou.net/loa/福井県三方郡美浜町",
+      "label": "福井県三方郡美浜町"
+    },
+    {
+      "prefecture": "愛知県",
+      "county": "知多郡",
+      "municipality": "知多郡美浜町",
+      "uri": "https://uedayou.net/loa/愛知県知多郡美浜町",
+      "label": "愛知県知多郡美浜町"
+    }
+  ],
+  "美幌町": [
+    {
+      "prefecture": "北海道",
+      "county": "網走郡",
+      "municipality": "網走郡美幌町",
+      "uri": "https://uedayou.net/loa/北海道網走郡美幌町",
+      "label": "北海道網走郡美幌町"
+    }
+  ],
+  "美里町": [
+    {
+      "prefecture": "熊本県",
+      "county": "下益城郡",
+      "municipality": "下益城郡美里町",
+      "uri": "https://uedayou.net/loa/熊本県下益城郡美里町",
+      "label": "熊本県下益城郡美里町"
+    },
+    {
+      "prefecture": "宮城県",
+      "county": "遠田郡",
+      "municipality": "遠田郡美里町",
+      "uri": "https://uedayou.net/loa/宮城県遠田郡美里町",
+      "label": "宮城県遠田郡美里町"
+    },
+    {
+      "prefecture": "埼玉県",
+      "county": "児玉郡",
+      "municipality": "児玉郡美里町",
+      "uri": "https://uedayou.net/loa/埼玉県児玉郡美里町",
+      "label": "埼玉県児玉郡美里町"
+    }
+  ],
+  "姫島村": [
+    {
+      "prefecture": "大分県",
+      "county": "東国東郡",
+      "municipality": "東国東郡姫島村",
+      "uri": "https://uedayou.net/loa/大分県東国東郡姫島村",
+      "label": "大分県東国東郡姫島村"
+    }
+  ],
+  "標茶町": [
+    {
+      "prefecture": "北海道",
+      "county": "川上郡",
+      "municipality": "川上郡標茶町",
+      "uri": "https://uedayou.net/loa/北海道川上郡標茶町",
+      "label": "北海道川上郡標茶町"
+    }
+  ],
+  "標津町": [
+    {
+      "prefecture": "北海道",
+      "county": "標津郡",
+      "municipality": "標津郡標津町",
+      "uri": "https://uedayou.net/loa/北海道標津郡標津町",
+      "label": "北海道標津郡標津町"
+    }
+  ],
+  "氷川町": [
+    {
+      "prefecture": "熊本県",
+      "county": "八代郡",
+      "municipality": "八代郡氷川町",
+      "uri": "https://uedayou.net/loa/熊本県八代郡氷川町",
+      "label": "熊本県八代郡氷川町"
+    }
+  ],
+  "浜中町": [
+    {
+      "prefecture": "北海道",
+      "county": "厚岸郡",
+      "municipality": "厚岸郡浜中町",
+      "uri": "https://uedayou.net/loa/北海道厚岸郡浜中町",
+      "label": "北海道厚岸郡浜中町"
+    }
+  ],
+  "浜頓別町": [
+    {
+      "prefecture": "北海道",
+      "county": "枝幸郡",
+      "municipality": "枝幸郡浜頓別町",
+      "uri": "https://uedayou.net/loa/北海道枝幸郡浜頓別町",
+      "label": "北海道枝幸郡浜頓別町"
+    }
+  ],
+  "富岡町": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡富岡町",
+      "uri": "https://uedayou.net/loa/福島県双葉郡富岡町",
+      "label": "福島県双葉郡富岡町"
+    }
+  ],
+  "富加町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "加茂郡",
+      "municipality": "加茂郡富加町",
+      "uri": "https://uedayou.net/loa/岐阜県加茂郡富加町",
+      "label": "岐阜県加茂郡富加町"
+    }
+  ],
+  "富士河口湖町": [
+    {
+      "prefecture": "山梨県",
+      "county": "南都留郡",
+      "municipality": "南都留郡富士河口湖町",
+      "uri": "https://uedayou.net/loa/山梨県南都留郡富士河口湖町",
+      "label": "山梨県南都留郡富士河口湖町"
+    }
+  ],
+  "富士見町": [
+    {
+      "prefecture": "長野県",
+      "county": "諏訪郡",
+      "municipality": "諏訪郡富士見町",
+      "uri": "https://uedayou.net/loa/長野県諏訪郡富士見町",
+      "label": "長野県諏訪郡富士見町"
+    }
+  ],
+  "富士川町": [
+    {
+      "prefecture": "山梨県",
+      "county": "南巨摩郡",
+      "municipality": "南巨摩郡富士川町",
+      "uri": "https://uedayou.net/loa/山梨県南巨摩郡富士川町",
+      "label": "山梨県南巨摩郡富士川町"
+    }
+  ],
+  "府中町": [
+    {
+      "prefecture": "広島県",
+      "county": "安芸郡",
+      "municipality": "安芸郡府中町",
+      "uri": "https://uedayou.net/loa/広島県安芸郡府中町",
+      "label": "広島県安芸郡府中町"
+    }
+  ],
+  "扶桑町": [
+    {
+      "prefecture": "愛知県",
+      "county": "丹羽郡",
+      "municipality": "丹羽郡扶桑町",
+      "uri": "https://uedayou.net/loa/愛知県丹羽郡扶桑町",
+      "label": "愛知県丹羽郡扶桑町"
+    }
+  ],
+  "普代村": [
+    {
+      "prefecture": "岩手県",
+      "county": "下閉伊郡",
+      "municipality": "下閉伊郡普代村",
+      "uri": "https://uedayou.net/loa/岩手県下閉伊郡普代村",
+      "label": "岩手県下閉伊郡普代村"
+    }
+  ],
+  "武豊町": [
+    {
+      "prefecture": "愛知県",
+      "county": "知多郡",
+      "municipality": "知多郡武豊町",
+      "uri": "https://uedayou.net/loa/愛知県知多郡武豊町",
+      "label": "愛知県知多郡武豊町"
+    }
+  ],
+  "風間浦村": [
+    {
+      "prefecture": "青森県",
+      "county": "下北郡",
+      "municipality": "下北郡風間浦村",
+      "uri": "https://uedayou.net/loa/青森県下北郡風間浦村",
+      "label": "青森県下北郡風間浦村"
+    }
+  ],
+  "福崎町": [
+    {
+      "prefecture": "兵庫県",
+      "county": "神崎郡",
+      "municipality": "神崎郡福崎町",
+      "uri": "https://uedayou.net/loa/兵庫県神崎郡福崎町",
+      "label": "兵庫県神崎郡福崎町"
+    }
+  ],
+  "福智町": [
+    {
+      "prefecture": "福岡県",
+      "county": "田川郡",
+      "municipality": "田川郡福智町",
+      "uri": "https://uedayou.net/loa/福岡県田川郡福智町",
+      "label": "福岡県田川郡福智町"
+    }
+  ],
+  "福島町": [
+    {
+      "prefecture": "北海道",
+      "county": "松前郡",
+      "municipality": "松前郡福島町",
+      "uri": "https://uedayou.net/loa/北海道松前郡福島町",
+      "label": "北海道松前郡福島町"
+    }
+  ],
+  "平群町": [
+    {
+      "prefecture": "奈良県",
+      "county": "生駒郡",
+      "municipality": "生駒郡平群町",
+      "uri": "https://uedayou.net/loa/奈良県生駒郡平群町",
+      "label": "奈良県生駒郡平群町"
+    }
+  ],
+  "平取町": [
+    {
+      "prefecture": "北海道",
+      "county": "沙流郡",
+      "municipality": "沙流郡平取町",
+      "uri": "https://uedayou.net/loa/北海道沙流郡平取町",
+      "label": "北海道沙流郡平取町"
+    }
+  ],
+  "平生町": [
+    {
+      "prefecture": "山口県",
+      "county": "熊毛郡",
+      "municipality": "熊毛郡平生町",
+      "uri": "https://uedayou.net/loa/山口県熊毛郡平生町",
+      "label": "山口県熊毛郡平生町"
+    }
+  ],
+  "平泉町": [
+    {
+      "prefecture": "岩手県",
+      "county": "西磐井郡",
+      "municipality": "西磐井郡平泉町",
+      "uri": "https://uedayou.net/loa/岩手県西磐井郡平泉町",
+      "label": "岩手県西磐井郡平泉町"
+    }
+  ],
+  "平谷村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡平谷村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡平谷村",
+      "label": "長野県下伊那郡平谷村"
+    }
+  ],
+  "平田村": [
+    {
+      "prefecture": "福島県",
+      "county": "石川郡",
+      "municipality": "石川郡平田村",
+      "uri": "https://uedayou.net/loa/福島県石川郡平田村",
+      "label": "福島県石川郡平田村"
+    }
+  ],
+  "平内町": [
+    {
+      "prefecture": "青森県",
+      "county": "東津軽郡",
+      "municipality": "東津軽郡平内町",
+      "uri": "https://uedayou.net/loa/青森県東津軽郡平内町",
+      "label": "青森県東津軽郡平内町"
+    }
+  ],
+  "別海町": [
+    {
+      "prefecture": "北海道",
+      "county": "野付郡",
+      "municipality": "野付郡別海町",
+      "uri": "https://uedayou.net/loa/北海道野付郡別海町",
+      "label": "北海道野付郡別海町"
+    }
+  ],
+  "片品村": [
+    {
+      "prefecture": "群馬県",
+      "county": "利根郡",
+      "municipality": "利根郡片品村",
+      "uri": "https://uedayou.net/loa/群馬県利根郡片品村",
+      "label": "群馬県利根郡片品村"
+    }
+  ],
+  "宝達志水町": [
+    {
+      "prefecture": "石川県",
+      "county": "羽咋郡",
+      "municipality": "羽咋郡宝達志水町",
+      "uri": "https://uedayou.net/loa/石川県羽咋郡宝達志水町",
+      "label": "石川県羽咋郡宝達志水町"
+    }
+  ],
+  "芳賀町": [
+    {
+      "prefecture": "栃木県",
+      "county": "芳賀郡",
+      "municipality": "芳賀郡芳賀町",
+      "uri": "https://uedayou.net/loa/栃木県芳賀郡芳賀町",
+      "label": "栃木県芳賀郡芳賀町"
+    }
+  ],
+  "蓬田村": [
+    {
+      "prefecture": "青森県",
+      "county": "東津軽郡",
+      "municipality": "東津軽郡蓬田村",
+      "uri": "https://uedayou.net/loa/青森県東津軽郡蓬田村",
+      "label": "青森県東津軽郡蓬田村"
+    }
+  ],
+  "豊浦町": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡豊浦町",
+      "uri": "https://uedayou.net/loa/北海道虻田郡豊浦町",
+      "label": "北海道虻田郡豊浦町"
+    }
+  ],
+  "豊丘村": [
+    {
+      "prefecture": "長野県",
+      "county": "下伊那郡",
+      "municipality": "下伊那郡豊丘村",
+      "uri": "https://uedayou.net/loa/長野県下伊那郡豊丘村",
+      "label": "長野県下伊那郡豊丘村"
+    }
+  ],
+  "豊郷町": [
+    {
+      "prefecture": "滋賀県",
+      "county": "犬上郡",
+      "municipality": "犬上郡豊郷町",
+      "uri": "https://uedayou.net/loa/滋賀県犬上郡豊郷町",
+      "label": "滋賀県犬上郡豊郷町"
+    }
+  ],
+  "豊頃町": [
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡豊頃町",
+      "uri": "https://uedayou.net/loa/北海道中川郡豊頃町",
+      "label": "北海道中川郡豊頃町"
+    }
+  ],
+  "豊根村": [
+    {
+      "prefecture": "愛知県",
+      "county": "北設楽郡",
+      "municipality": "北設楽郡豊根村",
+      "uri": "https://uedayou.net/loa/愛知県北設楽郡豊根村",
+      "label": "愛知県北設楽郡豊根村"
+    }
+  ],
+  "豊山町": [
+    {
+      "prefecture": "愛知県",
+      "county": "西春日井郡",
+      "municipality": "西春日井郡豊山町",
+      "uri": "https://uedayou.net/loa/愛知県西春日井郡豊山町",
+      "label": "愛知県西春日井郡豊山町"
+    }
+  ],
+  "豊能町": [
+    {
+      "prefecture": "大阪府",
+      "county": "豊能郡",
+      "municipality": "豊能郡豊能町",
+      "uri": "https://uedayou.net/loa/大阪府豊能郡豊能町",
+      "label": "大阪府豊能郡豊能町"
+    }
+  ],
+  "豊富町": [
+    {
+      "prefecture": "北海道",
+      "county": "天塩郡",
+      "municipality": "天塩郡豊富町",
+      "uri": "https://uedayou.net/loa/北海道天塩郡豊富町",
+      "label": "北海道天塩郡豊富町"
+    }
+  ],
+  "北栄町": [
+    {
+      "prefecture": "鳥取県",
+      "county": "東伯郡",
+      "municipality": "東伯郡北栄町",
+      "uri": "https://uedayou.net/loa/鳥取県東伯郡北栄町",
+      "label": "鳥取県東伯郡北栄町"
+    }
+  ],
+  "北塩原村": [
+    {
+      "prefecture": "福島県",
+      "county": "耶麻郡",
+      "municipality": "耶麻郡北塩原村",
+      "uri": "https://uedayou.net/loa/福島県耶麻郡北塩原村",
+      "label": "福島県耶麻郡北塩原村"
+    }
+  ],
+  "北広島町": [
+    {
+      "prefecture": "広島県",
+      "county": "山県郡",
+      "municipality": "山県郡北広島町",
+      "uri": "https://uedayou.net/loa/広島県山県郡北広島町",
+      "label": "広島県山県郡北広島町"
+    }
+  ],
+  "北山村": [
+    {
+      "prefecture": "和歌山県",
+      "county": "東牟婁郡",
+      "municipality": "東牟婁郡北山村",
+      "uri": "https://uedayou.net/loa/和歌山県東牟婁郡北山村",
+      "label": "和歌山県東牟婁郡北山村"
+    }
+  ],
+  "北川村": [
+    {
+      "prefecture": "高知県",
+      "county": "安芸郡",
+      "municipality": "安芸郡北川村",
+      "uri": "https://uedayou.net/loa/高知県安芸郡北川村",
+      "label": "高知県安芸郡北川村"
+    }
+  ],
+  "北相木村": [
+    {
+      "prefecture": "長野県",
+      "county": "南佐久郡",
+      "municipality": "南佐久郡北相木村",
+      "uri": "https://uedayou.net/loa/長野県南佐久郡北相木村",
+      "label": "長野県南佐久郡北相木村"
+    }
+  ],
+  "北大東村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡北大東村",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡北大東村",
+      "label": "沖縄県島尻郡北大東村"
+    }
+  ],
+  "北谷町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "中頭郡",
+      "municipality": "中頭郡北谷町",
+      "uri": "https://uedayou.net/loa/沖縄県中頭郡北谷町",
+      "label": "沖縄県中頭郡北谷町"
+    }
+  ],
+  "北中城村": [
+    {
+      "prefecture": "沖縄県",
+      "county": "中頭郡",
+      "municipality": "中頭郡北中城村",
+      "uri": "https://uedayou.net/loa/沖縄県中頭郡北中城村",
+      "label": "沖縄県中頭郡北中城村"
+    }
+  ],
+  "北島町": [
+    {
+      "prefecture": "徳島県",
+      "county": "板野郡",
+      "municipality": "板野郡北島町",
+      "uri": "https://uedayou.net/loa/徳島県板野郡北島町",
+      "label": "徳島県板野郡北島町"
+    }
+  ],
+  "北方町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "本巣郡",
+      "municipality": "本巣郡北方町",
+      "uri": "https://uedayou.net/loa/岐阜県本巣郡北方町",
+      "label": "岐阜県本巣郡北方町"
+    }
+  ],
+  "北竜町": [
+    {
+      "prefecture": "北海道",
+      "county": "雨竜郡",
+      "municipality": "雨竜郡北竜町",
+      "uri": "https://uedayou.net/loa/北海道雨竜郡北竜町",
+      "label": "北海道雨竜郡北竜町"
+    }
+  ],
+  "睦沢町": [
+    {
+      "prefecture": "千葉県",
+      "county": "長生郡",
+      "municipality": "長生郡睦沢町",
+      "uri": "https://uedayou.net/loa/千葉県長生郡睦沢町",
+      "label": "千葉県長生郡睦沢町"
+    }
+  ],
+  "幌延町": [
+    {
+      "prefecture": "北海道",
+      "county": "天塩郡",
+      "municipality": "天塩郡幌延町",
+      "uri": "https://uedayou.net/loa/北海道天塩郡幌延町",
+      "label": "北海道天塩郡幌延町"
+    }
+  ],
+  "幌加内町": [
+    {
+      "prefecture": "北海道",
+      "county": "雨竜郡",
+      "municipality": "雨竜郡幌加内町",
+      "uri": "https://uedayou.net/loa/北海道雨竜郡幌加内町",
+      "label": "北海道雨竜郡幌加内町"
+    }
+  ],
+  "本山町": [
+    {
+      "prefecture": "高知県",
+      "county": "長岡郡",
+      "municipality": "長岡郡本山町",
+      "uri": "https://uedayou.net/loa/高知県長岡郡本山町",
+      "label": "高知県長岡郡本山町"
+    }
+  ],
+  "本部町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "国頭郡",
+      "municipality": "国頭郡本部町",
+      "uri": "https://uedayou.net/loa/沖縄県国頭郡本部町",
+      "label": "沖縄県国頭郡本部町"
+    }
+  ],
+  "本別町": [
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡本別町",
+      "uri": "https://uedayou.net/loa/北海道中川郡本別町",
+      "label": "北海道中川郡本別町"
+    }
+  ],
+  "麻績村": [
+    {
+      "prefecture": "長野県",
+      "county": "東筑摩郡",
+      "municipality": "東筑摩郡麻績村",
+      "uri": "https://uedayou.net/loa/長野県東筑摩郡麻績村",
+      "label": "長野県東筑摩郡麻績村"
+    }
+  ],
+  "妹背牛町": [
+    {
+      "prefecture": "北海道",
+      "county": "雨竜郡",
+      "municipality": "雨竜郡妹背牛町",
+      "uri": "https://uedayou.net/loa/北海道雨竜郡妹背牛町",
+      "label": "北海道雨竜郡妹背牛町"
+    }
+  ],
+  "幕別町": [
+    {
+      "prefecture": "北海道",
+      "county": "中川郡",
+      "municipality": "中川郡幕別町",
+      "uri": "https://uedayou.net/loa/北海道中川郡幕別町",
+      "label": "北海道中川郡幕別町"
+    }
+  ],
+  "箕輪町": [
+    {
+      "prefecture": "長野県",
+      "county": "上伊那郡",
+      "municipality": "上伊那郡箕輪町",
+      "uri": "https://uedayou.net/loa/長野県上伊那郡箕輪町",
+      "label": "長野県上伊那郡箕輪町"
+    }
+  ],
+  "岬町": [
+    {
+      "prefecture": "大阪府",
+      "county": "泉南郡",
+      "municipality": "泉南郡岬町",
+      "uri": "https://uedayou.net/loa/大阪府泉南郡岬町",
+      "label": "大阪府泉南郡岬町"
+    }
+  ],
+  "牟岐町": [
+    {
+      "prefecture": "徳島県",
+      "county": "海部郡",
+      "municipality": "海部郡牟岐町",
+      "uri": "https://uedayou.net/loa/徳島県海部郡牟岐町",
+      "label": "徳島県海部郡牟岐町"
+    }
+  ],
+  "明日香村": [
+    {
+      "prefecture": "奈良県",
+      "county": "高市郡",
+      "municipality": "高市郡明日香村",
+      "uri": "https://uedayou.net/loa/奈良県高市郡明日香村",
+      "label": "奈良県高市郡明日香村"
+    }
+  ],
+  "明和町": [
+    {
+      "prefecture": "三重県",
+      "county": "多気郡",
+      "municipality": "多気郡明和町",
+      "uri": "https://uedayou.net/loa/三重県多気郡明和町",
+      "label": "三重県多気郡明和町"
+    },
+    {
+      "prefecture": "群馬県",
+      "county": "邑楽郡",
+      "municipality": "邑楽郡明和町",
+      "uri": "https://uedayou.net/loa/群馬県邑楽郡明和町",
+      "label": "群馬県邑楽郡明和町"
+    }
+  ],
+  "鳴沢村": [
+    {
+      "prefecture": "山梨県",
+      "county": "南都留郡",
+      "municipality": "南都留郡鳴沢村",
+      "uri": "https://uedayou.net/loa/山梨県南都留郡鳴沢村",
+      "label": "山梨県南都留郡鳴沢村"
+    }
+  ],
+  "茂木町": [
+    {
+      "prefecture": "栃木県",
+      "county": "芳賀郡",
+      "municipality": "芳賀郡茂木町",
+      "uri": "https://uedayou.net/loa/栃木県芳賀郡茂木町",
+      "label": "栃木県芳賀郡茂木町"
+    }
+  ],
+  "毛呂山町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "入間郡",
+      "municipality": "入間郡毛呂山町",
+      "uri": "https://uedayou.net/loa/埼玉県入間郡毛呂山町",
+      "label": "埼玉県入間郡毛呂山町"
+    }
+  ],
+  "木古内町": [
+    {
+      "prefecture": "北海道",
+      "county": "上磯郡",
+      "municipality": "上磯郡木古内町",
+      "uri": "https://uedayou.net/loa/北海道上磯郡木古内町",
+      "label": "北海道上磯郡木古内町"
+    }
+  ],
+  "木城町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "児湯郡",
+      "municipality": "児湯郡木城町",
+      "uri": "https://uedayou.net/loa/宮崎県児湯郡木城町",
+      "label": "宮崎県児湯郡木城町"
+    }
+  ],
+  "木曽町": [
+    {
+      "prefecture": "長野県",
+      "county": "木曽郡",
+      "municipality": "木曽郡木曽町",
+      "uri": "https://uedayou.net/loa/長野県木曽郡木曽町",
+      "label": "長野県木曽郡木曽町"
+    }
+  ],
+  "木曽岬町": [
+    {
+      "prefecture": "三重県",
+      "county": "桑名郡",
+      "municipality": "桑名郡木曽岬町",
+      "uri": "https://uedayou.net/loa/三重県桑名郡木曽岬町",
+      "label": "三重県桑名郡木曽岬町"
+    }
+  ],
+  "木祖村": [
+    {
+      "prefecture": "長野県",
+      "county": "木曽郡",
+      "municipality": "木曽郡木祖村",
+      "uri": "https://uedayou.net/loa/長野県木曽郡木祖村",
+      "label": "長野県木曽郡木祖村"
+    }
+  ],
+  "木島平村": [
+    {
+      "prefecture": "長野県",
+      "county": "下高井郡",
+      "municipality": "下高井郡木島平村",
+      "uri": "https://uedayou.net/loa/長野県下高井郡木島平村",
+      "label": "長野県下高井郡木島平村"
+    }
+  ],
+  "門川町": [
+    {
+      "prefecture": "宮崎県",
+      "county": "東臼杵郡",
+      "municipality": "東臼杵郡門川町",
+      "uri": "https://uedayou.net/loa/宮崎県東臼杵郡門川町",
+      "label": "宮崎県東臼杵郡門川町"
+    }
+  ],
+  "野沢温泉村": [
+    {
+      "prefecture": "長野県",
+      "county": "下高井郡",
+      "municipality": "下高井郡野沢温泉村",
+      "uri": "https://uedayou.net/loa/長野県下高井郡野沢温泉村",
+      "label": "長野県下高井郡野沢温泉村"
+    }
+  ],
+  "野田村": [
+    {
+      "prefecture": "岩手県",
+      "county": "九戸郡",
+      "municipality": "九戸郡野田村",
+      "uri": "https://uedayou.net/loa/岩手県九戸郡野田村",
+      "label": "岩手県九戸郡野田村"
+    }
+  ],
+  "野迫川村": [
+    {
+      "prefecture": "奈良県",
+      "county": "吉野郡",
+      "municipality": "吉野郡野迫川村",
+      "uri": "https://uedayou.net/loa/奈良県吉野郡野迫川村",
+      "label": "奈良県吉野郡野迫川村"
+    }
+  ],
+  "野辺地町": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡野辺地町",
+      "uri": "https://uedayou.net/loa/青森県上北郡野辺地町",
+      "label": "青森県上北郡野辺地町"
+    }
+  ],
+  "野木町": [
+    {
+      "prefecture": "栃木県",
+      "county": "下都賀郡",
+      "municipality": "下都賀郡野木町",
+      "uri": "https://uedayou.net/loa/栃木県下都賀郡野木町",
+      "label": "栃木県下都賀郡野木町"
+    }
+  ],
+  "弥彦村": [
+    {
+      "prefecture": "新潟県",
+      "county": "西蒲原郡",
+      "municipality": "西蒲原郡弥彦村",
+      "uri": "https://uedayou.net/loa/新潟県西蒲原郡弥彦村",
+      "label": "新潟県西蒲原郡弥彦村"
+    }
+  ],
+  "矢掛町": [
+    {
+      "prefecture": "岡山県",
+      "county": "小田郡",
+      "municipality": "小田郡矢掛町",
+      "uri": "https://uedayou.net/loa/岡山県小田郡矢掛町",
+      "label": "岡山県小田郡矢掛町"
+    }
+  ],
+  "矢巾町": [
+    {
+      "prefecture": "岩手県",
+      "county": "紫波郡",
+      "municipality": "紫波郡矢巾町",
+      "uri": "https://uedayou.net/loa/岩手県紫波郡矢巾町",
+      "label": "岩手県紫波郡矢巾町"
+    }
+  ],
+  "矢祭町": [
+    {
+      "prefecture": "福島県",
+      "county": "東白川郡",
+      "municipality": "東白川郡矢祭町",
+      "uri": "https://uedayou.net/loa/福島県東白川郡矢祭町",
+      "label": "福島県東白川郡矢祭町"
+    }
+  ],
+  "矢吹町": [
+    {
+      "prefecture": "福島県",
+      "county": "西白河郡",
+      "municipality": "西白河郡矢吹町",
+      "uri": "https://uedayou.net/loa/福島県西白河郡矢吹町",
+      "label": "福島県西白河郡矢吹町"
+    }
+  ],
+  "柳津町": [
+    {
+      "prefecture": "福島県",
+      "county": "河沼郡",
+      "municipality": "河沼郡柳津町",
+      "uri": "https://uedayou.net/loa/福島県河沼郡柳津町",
+      "label": "福島県河沼郡柳津町"
+    }
+  ],
+  "揖斐川町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "揖斐郡",
+      "municipality": "揖斐郡揖斐川町",
+      "uri": "https://uedayou.net/loa/岐阜県揖斐郡揖斐川町",
+      "label": "岐阜県揖斐郡揖斐川町"
+    }
+  ],
+  "有田川町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "有田郡",
+      "municipality": "有田郡有田川町",
+      "uri": "https://uedayou.net/loa/和歌山県有田郡有田川町",
+      "label": "和歌山県有田郡有田川町"
+    }
+  ],
+  "有田町": [
+    {
+      "prefecture": "佐賀県",
+      "county": "西松浦郡",
+      "municipality": "西松浦郡有田町",
+      "uri": "https://uedayou.net/loa/佐賀県西松浦郡有田町",
+      "label": "佐賀県西松浦郡有田町"
+    }
+  ],
+  "湧水町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "姶良郡",
+      "municipality": "姶良郡湧水町",
+      "uri": "https://uedayou.net/loa/鹿児島県姶良郡湧水町",
+      "label": "鹿児島県姶良郡湧水町"
+    }
+  ],
+  "湧別町": [
+    {
+      "prefecture": "北海道",
+      "county": "紋別郡",
+      "municipality": "紋別郡湧別町",
+      "uri": "https://uedayou.net/loa/北海道紋別郡湧別町",
+      "label": "北海道紋別郡湧別町"
+    }
+  ],
+  "涌谷町": [
+    {
+      "prefecture": "宮城県",
+      "county": "遠田郡",
+      "municipality": "遠田郡涌谷町",
+      "uri": "https://uedayou.net/loa/宮城県遠田郡涌谷町",
+      "label": "宮城県遠田郡涌谷町"
+    }
+  ],
+  "由仁町": [
+    {
+      "prefecture": "北海道",
+      "county": "夕張郡",
+      "municipality": "夕張郡由仁町",
+      "uri": "https://uedayou.net/loa/北海道夕張郡由仁町",
+      "label": "北海道夕張郡由仁町"
+    }
+  ],
+  "由良町": [
+    {
+      "prefecture": "和歌山県",
+      "county": "日高郡",
+      "municipality": "日高郡由良町",
+      "uri": "https://uedayou.net/loa/和歌山県日高郡由良町",
+      "label": "和歌山県日高郡由良町"
+    }
+  ],
+  "遊佐町": [
+    {
+      "prefecture": "山形県",
+      "county": "飽海郡",
+      "municipality": "飽海郡遊佐町",
+      "uri": "https://uedayou.net/loa/山形県飽海郡遊佐町",
+      "label": "山形県飽海郡遊佐町"
+    }
+  ],
+  "邑楽町": [
+    {
+      "prefecture": "群馬県",
+      "county": "邑楽郡",
+      "municipality": "邑楽郡邑楽町",
+      "uri": "https://uedayou.net/loa/群馬県邑楽郡邑楽町",
+      "label": "群馬県邑楽郡邑楽町"
+    }
+  ],
+  "邑南町": [
+    {
+      "prefecture": "島根県",
+      "county": "邑智郡",
+      "municipality": "邑智郡邑南町",
+      "uri": "https://uedayou.net/loa/島根県邑智郡邑南町",
+      "label": "島根県邑智郡邑南町"
+    }
+  ],
+  "雄武町": [
+    {
+      "prefecture": "北海道",
+      "county": "紋別郡",
+      "municipality": "紋別郡雄武町",
+      "uri": "https://uedayou.net/loa/北海道紋別郡雄武町",
+      "label": "北海道紋別郡雄武町"
+    }
+  ],
+  "余市町": [
+    {
+      "prefecture": "北海道",
+      "county": "余市郡",
+      "municipality": "余市郡余市町",
+      "uri": "https://uedayou.net/loa/北海道余市郡余市町",
+      "label": "北海道余市郡余市町"
+    }
+  ],
+  "与那原町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "島尻郡",
+      "municipality": "島尻郡与那原町",
+      "uri": "https://uedayou.net/loa/沖縄県島尻郡与那原町",
+      "label": "沖縄県島尻郡与那原町"
+    }
+  ],
+  "与那国町": [
+    {
+      "prefecture": "沖縄県",
+      "county": "八重山郡",
+      "municipality": "八重山郡与那国町",
+      "uri": "https://uedayou.net/loa/沖縄県八重山郡与那国町",
+      "label": "沖縄県八重山郡与那国町"
+    }
+  ],
+  "与論町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡与論町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡与論町",
+      "label": "鹿児島県大島郡与論町"
+    }
+  ],
+  "様似町": [
+    {
+      "prefecture": "北海道",
+      "county": "様似郡",
+      "municipality": "様似郡様似町",
+      "uri": "https://uedayou.net/loa/北海道様似郡様似町",
+      "label": "北海道様似郡様似町"
+    }
+  ],
+  "洋野町": [
+    {
+      "prefecture": "岩手県",
+      "county": "九戸郡",
+      "municipality": "九戸郡洋野町",
+      "uri": "https://uedayou.net/loa/岩手県九戸郡洋野町",
+      "label": "岩手県九戸郡洋野町"
+    }
+  ],
+  "葉山町": [
+    {
+      "prefecture": "神奈川県",
+      "county": "三浦郡",
+      "municipality": "三浦郡葉山町",
+      "uri": "https://uedayou.net/loa/神奈川県三浦郡葉山町",
+      "label": "神奈川県三浦郡葉山町"
+    }
+  ],
+  "養老町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "養老郡",
+      "municipality": "養老郡養老町",
+      "uri": "https://uedayou.net/loa/岐阜県養老郡養老町",
+      "label": "岐阜県養老郡養老町"
+    }
+  ],
+  "羅臼町": [
+    {
+      "prefecture": "北海道",
+      "county": "目梨郡",
+      "municipality": "目梨郡羅臼町",
+      "uri": "https://uedayou.net/loa/北海道目梨郡羅臼町",
+      "label": "北海道目梨郡羅臼町"
+    }
+  ],
+  "嵐山町": [
+    {
+      "prefecture": "埼玉県",
+      "county": "比企郡",
+      "municipality": "比企郡嵐山町",
+      "uri": "https://uedayou.net/loa/埼玉県比企郡嵐山町",
+      "label": "埼玉県比企郡嵐山町"
+    }
+  ],
+  "藍住町": [
+    {
+      "prefecture": "徳島県",
+      "county": "板野郡",
+      "municipality": "板野郡藍住町",
+      "uri": "https://uedayou.net/loa/徳島県板野郡藍住町",
+      "label": "徳島県板野郡藍住町"
+    }
+  ],
+  "蘭越町": [
+    {
+      "prefecture": "北海道",
+      "county": "磯谷郡",
+      "municipality": "磯谷郡蘭越町",
+      "uri": "https://uedayou.net/loa/北海道磯谷郡蘭越町",
+      "label": "北海道磯谷郡蘭越町"
+    }
+  ],
+  "利根町": [
+    {
+      "prefecture": "茨城県",
+      "county": "北相馬郡",
+      "municipality": "北相馬郡利根町",
+      "uri": "https://uedayou.net/loa/茨城県北相馬郡利根町",
+      "label": "茨城県北相馬郡利根町"
+    }
+  ],
+  "利尻町": [
+    {
+      "prefecture": "北海道",
+      "county": "利尻郡",
+      "municipality": "利尻郡利尻町",
+      "uri": "https://uedayou.net/loa/北海道利尻郡利尻町",
+      "label": "北海道利尻郡利尻町"
+    }
+  ],
+  "利尻富士町": [
+    {
+      "prefecture": "北海道",
+      "county": "利尻郡",
+      "municipality": "利尻郡利尻富士町",
+      "uri": "https://uedayou.net/loa/北海道利尻郡利尻富士町",
+      "label": "北海道利尻郡利尻富士町"
+    }
+  ],
+  "利府町": [
+    {
+      "prefecture": "宮城県",
+      "county": "宮城郡",
+      "municipality": "宮城郡利府町",
+      "uri": "https://uedayou.net/loa/宮城県宮城郡利府町",
+      "label": "宮城県宮城郡利府町"
+    }
+  ],
+  "里庄町": [
+    {
+      "prefecture": "岡山県",
+      "county": "浅口郡",
+      "municipality": "浅口郡里庄町",
+      "uri": "https://uedayou.net/loa/岡山県浅口郡里庄町",
+      "label": "岡山県浅口郡里庄町"
+    }
+  ],
+  "陸別町": [
+    {
+      "prefecture": "北海道",
+      "county": "足寄郡",
+      "municipality": "足寄郡陸別町",
+      "uri": "https://uedayou.net/loa/北海道足寄郡陸別町",
+      "label": "北海道足寄郡陸別町"
+    }
+  ],
+  "立科町": [
+    {
+      "prefecture": "長野県",
+      "county": "北佐久郡",
+      "municipality": "北佐久郡立科町",
+      "uri": "https://uedayou.net/loa/長野県北佐久郡立科町",
+      "label": "長野県北佐久郡立科町"
+    }
+  ],
+  "立山町": [
+    {
+      "prefecture": "富山県",
+      "county": "中新川郡",
+      "municipality": "中新川郡立山町",
+      "uri": "https://uedayou.net/loa/富山県中新川郡立山町",
+      "label": "富山県中新川郡立山町"
+    }
+  ],
+  "留寿都村": [
+    {
+      "prefecture": "北海道",
+      "county": "虻田郡",
+      "municipality": "虻田郡留寿都村",
+      "uri": "https://uedayou.net/loa/北海道虻田郡留寿都村",
+      "label": "北海道虻田郡留寿都村"
+    }
+  ],
+  "留別村": [
+    {
+      "prefecture": "北海道",
+      "county": "択捉郡",
+      "municipality": "択捉郡留別村",
+      "uri": "https://uedayou.net/loa/北海道択捉郡留別村",
+      "label": "北海道択捉郡留別村"
+    }
+  ],
+  "留夜別村": [
+    {
+      "prefecture": "北海道",
+      "county": "国後郡",
+      "municipality": "国後郡留夜別村",
+      "uri": "https://uedayou.net/loa/北海道国後郡留夜別村",
+      "label": "北海道国後郡留夜別村"
+    }
+  ],
+  "竜王町": [
+    {
+      "prefecture": "滋賀県",
+      "county": "蒲生郡",
+      "municipality": "蒲生郡竜王町",
+      "uri": "https://uedayou.net/loa/滋賀県蒲生郡竜王町",
+      "label": "滋賀県蒲生郡竜王町"
+    }
+  ],
+  "龍郷町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡龍郷町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡龍郷町",
+      "label": "鹿児島県大島郡龍郷町"
+    }
+  ],
+  "輪之内町": [
+    {
+      "prefecture": "岐阜県",
+      "county": "安八郡",
+      "municipality": "安八郡輪之内町",
+      "uri": "https://uedayou.net/loa/岐阜県安八郡輪之内町",
+      "label": "岐阜県安八郡輪之内町"
+    }
+  ],
+  "礼文町": [
+    {
+      "prefecture": "北海道",
+      "county": "礼文郡",
+      "municipality": "礼文郡礼文町",
+      "uri": "https://uedayou.net/loa/北海道礼文郡礼文町",
+      "label": "北海道礼文郡礼文町"
+    }
+  ],
+  "苓北町": [
+    {
+      "prefecture": "熊本県",
+      "county": "天草郡",
+      "municipality": "天草郡苓北町",
+      "uri": "https://uedayou.net/loa/熊本県天草郡苓北町",
+      "label": "熊本県天草郡苓北町"
+    }
+  ],
+  "浪江町": [
+    {
+      "prefecture": "福島県",
+      "county": "双葉郡",
+      "municipality": "双葉郡浪江町",
+      "uri": "https://uedayou.net/loa/福島県双葉郡浪江町",
+      "label": "福島県双葉郡浪江町"
+    }
+  ],
+  "六ケ所村": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡六ケ所村",
+      "uri": "https://uedayou.net/loa/青森県上北郡六ケ所村",
+      "label": "青森県上北郡六ケ所村"
+    }
+  ],
+  "六戸町": [
+    {
+      "prefecture": "青森県",
+      "county": "上北郡",
+      "municipality": "上北郡六戸町",
+      "uri": "https://uedayou.net/loa/青森県上北郡六戸町",
+      "label": "青森県上北郡六戸町"
+    }
+  ],
+  "和寒町": [
+    {
+      "prefecture": "北海道",
+      "county": "上川郡",
+      "municipality": "上川郡和寒町",
+      "uri": "https://uedayou.net/loa/北海道上川郡和寒町",
+      "label": "北海道上川郡和寒町"
+    }
+  ],
+  "和気町": [
+    {
+      "prefecture": "岡山県",
+      "county": "和気郡",
+      "municipality": "和気郡和気町",
+      "uri": "https://uedayou.net/loa/岡山県和気郡和気町",
+      "label": "岡山県和気郡和気町"
+    }
+  ],
+  "和水町": [
+    {
+      "prefecture": "熊本県",
+      "county": "玉名郡",
+      "municipality": "玉名郡和水町",
+      "uri": "https://uedayou.net/loa/熊本県玉名郡和水町",
+      "label": "熊本県玉名郡和水町"
+    }
+  ],
+  "和泊町": [
+    {
+      "prefecture": "鹿児島県",
+      "county": "大島郡",
+      "municipality": "大島郡和泊町",
+      "uri": "https://uedayou.net/loa/鹿児島県大島郡和泊町",
+      "label": "鹿児島県大島郡和泊町"
+    }
+  ],
+  "和木町": [
+    {
+      "prefecture": "山口県",
+      "county": "玖珂郡",
+      "municipality": "玖珂郡和木町",
+      "uri": "https://uedayou.net/loa/山口県玖珂郡和木町",
+      "label": "山口県玖珂郡和木町"
+    }
+  ],
+  "亘理町": [
+    {
+      "prefecture": "宮城県",
+      "county": "亘理郡",
+      "municipality": "亘理郡亘理町",
+      "uri": "https://uedayou.net/loa/宮城県亘理郡亘理町",
+      "label": "宮城県亘理郡亘理町"
+    }
+  ],
+  "檜原村": [
+    {
+      "prefecture": "東京都",
+      "county": "西多摩郡",
+      "municipality": "西多摩郡檜原村",
+      "uri": "https://uedayou.net/loa/東京都西多摩郡檜原村",
+      "label": "東京都西多摩郡檜原村"
+    }
+  ],
+  "檜枝岐村": [
+    {
+      "prefecture": "福島県",
+      "county": "南会津郡",
+      "municipality": "南会津郡檜枝岐村",
+      "uri": "https://uedayou.net/loa/福島県南会津郡檜枝岐村",
+      "label": "福島県南会津郡檜枝岐村"
+    }
+  ],
+  "檮原町": [
+    {
+      "prefecture": "高知県",
+      "county": "高岡郡",
+      "municipality": "高岡郡檮原町",
+      "uri": "https://uedayou.net/loa/高知県高岡郡檮原町",
+      "label": "高知県高岡郡檮原町"
+    }
+  ],
+  "蘂取村": [
+    {
+      "prefecture": "北海道",
+      "county": "蘂取郡",
+      "municipality": "蘂取郡蘂取村",
+      "uri": "https://uedayou.net/loa/北海道蘂取郡蘂取村",
+      "label": "北海道蘂取郡蘂取村"
+    }
+  ],
+  "鰺ケ沢町": [
+    {
+      "prefecture": "青森県",
+      "county": "西津軽郡",
+      "municipality": "西津軽郡鰺ケ沢町",
+      "uri": "https://uedayou.net/loa/青森県西津軽郡鰺ケ沢町",
+      "label": "青森県西津軽郡鰺ケ沢町"
+    }
+  ]
+}

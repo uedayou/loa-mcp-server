@@ -1,0 +1,25 @@
+# 合成データ(実データではない、geosp:asWKTは実際の島根県の形状ではない)。
+# 都道府県レベルの判定に実在する県名(島根県)を使う。MultiPolygonは本土に
+# 相当する巨大なパーツ(1度四方、約1万km^2)と、dropSmallIslands のしきい値
+# (0.01km^2)は上回るが細長い「へら状」の島(面積約0.15km^2)を1つ持つ。
+# 細長い島はVisvalingam-Whyattの実効面積(重み)が小さいため、simplify:'high'
+# のようなトポロジー簡略化で退化しやすい -- degenerateIslands:"omit" の
+# エンドツーエンドのテスト用。
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <#>.
+@prefix lo: <https://uedayou.net/loa/>.
+@prefix rd: <http://imi.go.jp/ns/core/rdf#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix ont: <http://www.geonames.org/ontology#>.
+@prefix geosp: <http://www.opengis.net/ont/geosparql#>.
+@prefix r: <http://www.w3.org/2000/01/rdf-schema#>.
+
+lo:島根県
+    a rd:住所型;
+    rd:住所コード [ a rd:コード型; rd:識別値 "99" ];
+    rd:表記 "島根県"@ja;
+    rd:都道府県 "島根県"@ja;
+    rd:都道府県コード [ a rd:コード型; rd:識別値 "99" ];
+    terms:created "2019-01-01";
+    geosp:asWKT "MULTIPOLYGON(((139.0000000 35.0000000,140.0000000 35.0000000,140.0000000 36.0000000,139.0000000 36.0000000,139.0000000 35.0000000)),((150.0000000 35.0000000,150.0125000 35.0000100,150.0250000 35.0000000,150.0375000 35.0000100,150.0500000 35.0000000,150.0500000 35.0003000,150.0375000 35.0002900,150.0250000 35.0003000,150.0125000 35.0002900,150.0000000 35.0003000,150.0000000 35.0000000)))";
+    r:label "島根県"@ja.

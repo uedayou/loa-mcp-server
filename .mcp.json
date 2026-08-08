@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "loa-mcp-server": {
+      "command": "npx",
+      "args": ["tsx", "src/index.ts"]
+    }
+  }
+}

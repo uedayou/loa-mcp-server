@@ -1,0 +1,35 @@
+# 東京都西多摩郡瑞穂町箱根ケ崎(実データ抜粋)。正式表記は小さくない「ケ」であり、
+# 「ヶ」(小さいケ)で問い合わせると404になる実例として異体字正規化のテストで使う。
+# hasPartは間引き、asWKTの座標はテストfixtureとして簡略化した矩形に差し替えている。
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix lo: <https://uedayou.net/loa/>.
+@prefix rd: <http://imi.go.jp/ns/core/rdf#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix geosp: <http://www.opengis.net/ont/geosparql#>.
+@prefix ont: <http://www.geonames.org/ontology#>.
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+
+lo:東京都西多摩郡瑞穂町箱根ケ崎
+    a rd:住所型;
+    rd:住所コード [ a rd:コード型; rd:識別値 "133030030002" ];
+    rd:市区町村 "西多摩郡瑞穂町"@ja, "瑞穂町"@ja;
+    rd:市区町村コード [ a rd:コード型; rd:識別値 "303" ];
+    rd:町名 "箱根ケ崎"@ja;
+    rd:表記 "東京都西多摩郡瑞穂町箱根ケ崎"@ja, "東京都瑞穂町箱根ケ崎"@ja;
+    rd:都道府県 "東京都"@ja;
+    rd:都道府県コード [ a rd:コード型; rd:識別値 "13" ];
+    terms:created "2019-01-01";
+    terms:hasPart
+        lo:東京都西多摩郡瑞穂町箱根ケ崎1, lo:東京都西多摩郡瑞穂町箱根ケ崎2;
+    ont:parentFeature lo:東京都西多摩郡瑞穂町;
+    geosp:asWKT "POLYGON((139.328 35.791,139.335 35.791,139.335 35.795,139.328 35.795,139.328 35.791))";
+    wgs:lat 35.785399;
+    wgs:long 139.337671.
+
+lo:東京都西多摩郡瑞穂町箱根ケ崎1 ont:parentFeature lo:東京都西多摩郡瑞穂町箱根ケ崎.
+
+lo:東京都西多摩郡瑞穂町箱根ケ崎2 ont:parentFeature lo:東京都西多摩郡瑞穂町箱根ケ崎.
+
+lo:東京都西多摩郡瑞穂町箱根ケ崎 rdfs:label "東京都西多摩郡瑞穂町箱根ケ崎"@ja.
+
+lo:東京都西多摩郡瑞穂町箱根ケ崎 rdfs:label "東京都瑞穂町箱根ケ崎"@ja.
