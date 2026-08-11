@@ -7,6 +7,7 @@ import { registerListBanchiTool } from "./listBanchi.js";
 import { registerReverseGeocodeAddressTool } from "./reverseGeocodeAddress.js";
 import { registerListPrefecturesTool } from "./listPrefectures.js";
 import { registerSaveAddressLocationsToFileTool } from "./saveAddressLocationsToFile.js";
+import { registerGetAddressAreasTool } from "./getAddressAreas.js";
 
 // Add new tool registrations here as the server grows.
 export function registerAllTools(server: McpServer): void {
@@ -18,4 +19,5 @@ export function registerAllTools(server: McpServer): void {
   registerReverseGeocodeAddressTool(server);
   registerListPrefecturesTool(server);
   registerSaveAddressLocationsToFileTool(server);
+  registerGetAddressAreasTool(server);
 }

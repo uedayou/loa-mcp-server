@@ -1,4 +1,5 @@
 import type { GeoJsonGeometry } from "./wkt.js";
+import { ringAreaKm2 } from "./area.js";
 
 // 都道府県レベルのMultiPolygonから、実面積が小さい離島(岩礁・洲を含む)を
 // 丸ごと除外するフィルタ。47都道府県を結合した日本地図をGeoJSONとして
@@ -14,24 +15,6 @@ import type { GeoJsonGeometry } from "./wkt.js";
 // アプローチでは解決できず、小さい離島そのものを結果から除外する必要が
 // あると判断した。実測では面積0.01km^2(≒100m四方)未満のパーツを除外
 // しても、失われる面積は日本の国土面積のわずか0.0065%だった。
-
-// 緯度によって経度1度あたりの実距離が大きく変わる(沖縄と北海道で経度の
-// 縮尺が約20%異なる)ため、リングごとに実際の緯度範囲からcos補正する。
-function ringAreaKm2(ring: number[][]): number {
-  let latSum = 0;
-  for (const [, lat] of ring) latSum += lat;
-  const lat0 = latSum / ring.length;
-  const kmPerDegLat = 111.32;
-  const kmPerDegLon = kmPerDegLat * Math.cos((lat0 * Math.PI) / 180);
-
-  let sum = 0;
-  for (let i = 0; i < ring.length - 1; i++) {
-    const [x1, y1] = ring[i];
-    const [x2, y2] = ring[i + 1];
-    sum += x1 * y2 - x2 * y1;
-  }
-  return Math.abs(sum / 2) * kmPerDegLon * kmPerDegLat;
-}
 
 // 実データ(47都道府県)で効果測定して選定: 0.01km^2未満を除外すると、
 // パーツ数は121,834→2,167(98.2%削減)まで減る一方、失われる面積は

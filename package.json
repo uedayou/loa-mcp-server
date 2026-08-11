@@ -1,6 +1,6 @@
 {
   "name": "loa-mcp-server",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "住所LOD(uedayou.net/loa)を利用し、日本の住所を検索してポリゴン/ポイントの位置情報を取得できるローカル実行のMCPサーバー",
   "license": "MIT",
   "author": "uedayou",
