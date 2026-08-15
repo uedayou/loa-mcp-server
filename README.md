@@ -72,6 +72,10 @@ Windowsの場合はパス区切りをエスケープした`\\`で指定します
 
 プロジェクト直下の`.mcp.json`に登録済みです。このリポジトリをClaude Codeで開くと自動的に検出されます。
 
+## その他のMCPクライアントでの動作
+
+このMCPサーバーはstdioで通信する標準的なMCP実装のため、Claude Desktop / Claude Code以外のMCP対応クライアントからも利用できます。[LM Studio](https://lmstudio.ai/)からの接続・動作を確認済みです。
+
 ## 使い方の例
 
 プロンプトの冒頭に「**住所LOD MCPサーバーを使って**」と入れると、このMCPサーバーが確実に呼ばれやすくなります(Claude DesktopがWeb検索など別の手段に頼ろうとすることがあるため)。
