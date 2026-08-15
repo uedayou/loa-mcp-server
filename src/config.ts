@@ -1,13 +1,21 @@
 import "dotenv/config";
+import { createRequire } from "node:module";
 
 function readEnv(name: string, fallback: string): string {
   const value = process.env[name];
   return value === undefined || value === "" ? fallback : value;
 }
 
+// package.jsonのversionをこのサーバーの既定バージョンとして使う(MCPプロトコル上の
+// バージョン・住所LODへのUser-Agentヘッダーの両方に反映される)。resolveJsonModuleでの
+// staticなJSON importではなくcreateRequireを使うのは、Node 18.17でも(import assertions/
+// attributesの構文サポートを問わず)確実に動く一番互換性の高い方法のため。
+const require = createRequire(import.meta.url);
+const packageJson = require("../package.json") as { version: string };
+
 export const config = {
   serverName: readEnv("MCP_SERVER_NAME", "loa-mcp-server"),
-  serverVersion: readEnv("MCP_SERVER_VERSION", "0.1.0"),
+  serverVersion: readEnv("MCP_SERVER_VERSION", packageJson.version),
   addressLod: {
     baseUrl: readEnv("ADDRESS_LOD_BASE_URL", "https://uedayou.net/loa/"),
     sparqlEndpoint: readEnv(
