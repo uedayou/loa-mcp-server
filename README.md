@@ -181,6 +181,10 @@ Claude Desktop等の多くのMCPクライアントには、Tool呼び出し1回�
 
 *上記はClaude Codeがこのプロンプトから生成したHTML(Leaflet地図)のキャプチャです(大阪府のアイコンをクリックした状態)。*
 
+## 紹介記事
+
+[住所LOD MCPサーバー:検索から地図生成・面積比較まで](https://zenn.dev/uedayou/articles/4f81c65b3d08df) — このMCPサーバーの機能・応用例をまとめた解説記事です。
+
 ## 元データについて
 
 このMCPサーバーは[住所LOD](https://uedayou.net/loa/)が公開するデータを利用しています。以下は**2026年8月時点**の情報です。住所LOD側の更新により変わることがあるため、最新情報は[住所LODサイト](https://uedayou.net/loa/)を参照してください。
