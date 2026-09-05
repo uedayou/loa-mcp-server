@@ -1,10 +1,11 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { resolveAddressFeature } from "../lib/addressLod/resolveAddress.js";
-import { finalizeFeature } from "../lib/addressLod/featureNotes.js";
-import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../lib/addressLod/simplify.js";
-import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../lib/addressLod/islandFilter.js";
-import { isPrefectureName } from "../lib/addressLod/prefectures.js";
+import type { DatasetProfile } from "../core/profile.js";
+import { resolveEntityFeature } from "../core/resolveEntity.js";
+import { finalizeFeature } from "../core/featureNotes.js";
+import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../geo/simplify.js";
+import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../geo/islandFilter.js";
+import { profile as activeProfile, ctx } from "./activeProfile.js";
 
 const inputSchema = {
   address: z
@@ -51,11 +52,12 @@ export async function getAddressLocation({
   simplify?: SimplifyLevel;
   dropSmallIslands?: boolean;
 }) {
-  const resolved = await resolveAddressFeature(address);
+  const resolved = await resolveEntityFeature(activeProfile, ctx, address);
 
   switch (resolved.status) {
     case "resolved": {
-      if (shouldDropSmallIslands && !isPrefectureName(resolved.feature.properties.name)) {
+      const allowDrop = activeProfile.geometryPolicy?.allowDropSmallIslands;
+      if (shouldDropSmallIslands && allowDrop && !allowDrop(resolved.feature)) {
         return {
           isError: true,
           content: [
@@ -79,7 +81,7 @@ export async function getAddressLocation({
         }
       }
 
-      const { feature: finalFeature, notes } = finalizeFeature(feature, simplify);
+      const { feature: finalFeature, notes } = finalizeFeature(activeProfile, feature, simplify);
       const content = [
         { type: "text" as const, text: JSON.stringify(finalFeature) },
         ...(resolved.note ? [{ type: "text" as const, text: resolved.note }] : []),
@@ -123,25 +125,11 @@ export async function getAddressLocation({
   }
 }
 
-export function registerGetAddressLocationTool(server: McpServer): void {
+export function registerGetAddressLocationTool(server: McpServer, profile: DatasetProfile): void {
+  const t = profile.toolText.get_location;
   server.registerTool(
-    "get_address_location",
-    {
-      title: "住所の位置(ポリゴン/ポイント)を取得",
-      description:
-        "住所LODから、指定した住所のポリゴンまたはポイントをGeoJSON Featureとして取得する。" +
-        "住所LODの `.ttl`(Turtle)を取得し、クライアント側(このサーバー)でGeoJSONに変換する " +
-        "(住所LOD側のサーバー負荷軽減のため、`.geojson`ではなく`.ttl`を使う)。" +
-        "「〇〇郡△△町」の郡名、政令指定都市の市名の省略、「ケ/ヶ/ヵ」等の異体字表記ゆれは自動補完を試みる。" +
-        "`simplify` でポリゴンの座標点数を間引ける(市区町村レベル以上は数千点になることがあり、必要精度が低い用途では指定を推奨)。" +
-        "都道府県・市区町村・一部の町丁目レベルは住所LODが代表点(lat/long)を持たないため、その場合はポリゴンの重心" +
-        "(MultiPolygonは最大面積のポリゴンの重心)で自動的に補完する(`properties.point_source: 'centroid'`で判別可能)。" +
-        "戻り値のgeometryは標準的なGeoJSON(RFC 7946)。地図に表示する場合はLeafletの`L.geoJSON()`やMapLibre GL JS、" +
-        "deck.gl等のGeoJSON対応の地図ライブラリにそのまま渡せばよく、座標変換やSVGでの手動描画を自前で行う必要はない。" +
-        "複数の住所(例: 23区すべて)をまとめて取得したい場合は、1件ずつこのToolを呼ぶ代わりに get_address_locations を使う。" +
-        "`dropSmallIslands`(都道府県のみ指定可)で、点数の大半を占める極小の離島を除外して大幅に軽量化できる。",
-      inputSchema,
-    },
+    t?.name ?? "get_address_location",
+    { title: t?.title ?? "", description: t?.description ?? "", inputSchema },
     getAddressLocation
   );
 }

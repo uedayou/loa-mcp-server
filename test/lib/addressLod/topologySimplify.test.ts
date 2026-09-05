@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { simplifyGeometriesTopologically } from "../../../src/lib/addressLod/topologySimplify.js";
-import type { GeoJsonGeometry } from "../../../src/lib/addressLod/wkt.js";
+import { simplifyGeometriesTopologically } from "../../../src/geo/topologySimplify.js";
+import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
 
 function ringsOf(geometry: GeoJsonGeometry | null): number[][][] {
   if (!geometry) return [];

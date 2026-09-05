@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { completeMunicipalityOmission } from "../../../src/lib/addressLod/municipalityCompletion.js";
+import { completeMunicipalityOmission } from "../../../src/profiles/loa/resolution/municipalityCompletion.js";
 
 describe("completeMunicipalityOmission", () => {
   it("tries county-town completion first (実データ: 東京都瑞穂町)", () => {

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../../../src/lib/addressLod/islandFilter.js";
-import type { GeoJsonGeometry } from "../../../src/lib/addressLod/wkt.js";
+import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../../../src/geo/islandFilter.js";
+import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
 
 // Square ring helper: [lon0,lat0] is the bottom-left corner, side in degrees.
 function square(lon0: number, lat0: number, side: number): number[][] {

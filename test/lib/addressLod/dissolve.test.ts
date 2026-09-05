@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { dissolveMultiPolygon } from "../../../src/lib/addressLod/dissolve.js";
-import type { GeoJsonGeometry } from "../../../src/lib/addressLod/wkt.js";
+import { dissolveMultiPolygon } from "../../../src/geo/dissolve.js";
+import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
 
 function ringArea(ring: number[][]): number {
   let sum = 0;

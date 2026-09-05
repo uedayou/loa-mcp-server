@@ -3,8 +3,8 @@ import {
   roundCoordinate,
   roundGeometry,
   decimalPlacesFor,
-} from "../../../src/lib/addressLod/coordinatePrecision.js";
-import type { GeoJsonGeometry } from "../../../src/lib/addressLod/wkt.js";
+} from "../../../src/geo/coordinatePrecision.js";
+import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
 
 describe("roundCoordinate", () => {
   it("rounds to 6 decimal places", () => {

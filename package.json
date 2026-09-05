@@ -1,6 +1,6 @@
 {
   "name": "loa-mcp-server",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "住所LOD(uedayou.net/loa)を利用し、日本の住所を検索してポリゴン/ポイントの位置情報を取得できるローカル実行のMCPサーバー",
   "license": "MIT",
   "author": "uedayou",
@@ -23,8 +23,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "inspector": "npx @modelcontextprotocol/inspector@latest tsx src/index.ts",
-    "collect:county-towns": "node scripts/collect-county-towns.mjs > src/lib/addressLod/data/countyTowns.json",
-    "collect:designated-city-wards": "node scripts/collect-designated-city-wards.mjs > src/lib/addressLod/data/designatedCityWards.json"
+    "collect:county-towns": "node scripts/collect-county-towns.mjs > src/profiles/loa/resolution/data/countyTowns.json",
+    "collect:designated-city-wards": "node scripts/collect-designated-city-wards.mjs > src/profiles/loa/resolution/data/designatedCityWards.json"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",

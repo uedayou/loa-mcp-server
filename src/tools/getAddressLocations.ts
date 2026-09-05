@@ -1,16 +1,18 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { renderingHintNote } from "../lib/addressLod/featureNotes.js";
-import { type DegenerateRingStrategy } from "../lib/addressLod/topologySimplify.js";
-import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../lib/addressLod/islandFilter.js";
-import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../lib/addressLod/simplify.js";
+import type { DatasetProfile } from "../core/profile.js";
+import { renderingHintNote } from "../core/featureNotes.js";
+import { type DegenerateRingStrategy } from "../geo/topologySimplify.js";
+import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../geo/islandFilter.js";
+import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../geo/simplify.js";
 import {
   applyDropAndSimplify,
   degenerateIslandsUsageError,
   dropSmallIslandsUsageError,
   resolveBatch,
   type BatchFeature,
-} from "../lib/addressLod/batchAddressPipeline.js";
+} from "../core/batchPipeline.js";
+import { profile as activeProfile, ctx } from "./activeProfile.js";
 
 export const MAX_ADDRESSES = 50;
 
@@ -125,15 +127,20 @@ export async function getAddressLocations({
   dropSmallIslands?: boolean;
   degenerateIslands?: DegenerateRingStrategy;
 }) {
-  const degenerateError = degenerateIslandsUsageError(shouldDropSmallIslands, simplify, degenerateIslands);
+  const degenerateError = degenerateIslandsUsageError(
+    activeProfile,
+    shouldDropSmallIslands,
+    simplify,
+    degenerateIslands
+  );
   if (degenerateError) {
     return { isError: true, content: [{ type: "text" as const, text: degenerateError }] };
   }
 
   const { features: resolvedFeatures, unresolved, resolvedViaCompletionCount, centroidCount } =
-    await resolveBatch(addresses);
+    await resolveBatch(activeProfile, ctx, addresses);
 
-  const islandsError = dropSmallIslandsUsageError(shouldDropSmallIslands, resolvedFeatures);
+  const islandsError = dropSmallIslandsUsageError(activeProfile, shouldDropSmallIslands, resolvedFeatures);
   if (islandsError) {
     return { isError: true, content: [{ type: "text" as const, text: islandsError }] };
   }
@@ -145,6 +152,7 @@ export async function getAddressLocations({
   // 除外がトポロジー共有を壊すことはない)。
   const pristineFeatures = resolvedFeatures.map((f) => structuredClone(f));
   let { features: transformedFeatures, islandDropNote, simplifyNote, degenerateOmitNote } = applyDropAndSimplify(
+    activeProfile,
     resolvedFeatures.map((f) => structuredClone(f)),
     shouldDropSmallIslands,
     simplify,
@@ -162,6 +170,7 @@ export async function getAddressLocations({
     shouldDropSmallIslands && degenerateIslands === STRONGEST_DEGENERATE_ISLANDS && simplify === STRONGEST_SIMPLIFY;
   if (responseBytes > SAFE_RESPONSE_BYTES && shouldDropSmallIslands && !alreadyAtStrongest) {
     const escalated = applyDropAndSimplify(
+      activeProfile,
       pristineFeatures.map((f) => structuredClone(f)),
       true,
       STRONGEST_SIMPLIFY,
@@ -208,7 +217,7 @@ export async function getAddressLocations({
   if (degenerateOmitNote) {
     notes.push(degenerateOmitNote);
   }
-  if (features.some((f) => renderingHintNote(f))) {
+  if (features.some((f) => renderingHintNote(activeProfile, f))) {
     notes.push(
       "featuresの各geometryは標準的なGeoJSON。FeatureCollectionをLeafletの L.geoJSON()、MapLibre GL JS、" +
         "deck.gl等のGeoJSON対応の地図ライブラリにそのまま渡して表示できる。座標変換やSVGでの手動描画は不要。"
@@ -230,25 +239,11 @@ export async function getAddressLocations({
   return { isError: features.length === 0, content };
 }
 
-export function registerGetAddressLocationsTool(server: McpServer): void {
+export function registerGetAddressLocationsTool(server: McpServer, profile: DatasetProfile): void {
+  const t = profile.toolText.get_locations;
   server.registerTool(
-    "get_address_locations",
-    {
-      title: "複数住所の位置(ポリゴン/ポイント)をまとめて取得(地図・アプリをその場で作る場合は必ずこちら)",
-      description:
-        "複数の住所をまとめて取得し、1つのGeoJSON FeatureCollectionとして返す。" +
-        `get_address_location を住所ごとに何度も呼ぶ代わりに使う(例: 「23区すべて」のような複数エンティティをまとめて地図表示したい場合)。最大${MAX_ADDRESSES}件まで。` +
-        "各要素の解決ルール(郡名・政令市名の省略補完、数字表記・異体字の正規化、代表点がない場合のポリゴン重心補完)は get_address_location と共通。" +
-        "`simplify`は全Featureをまとめてトポロジー(共有境界線)を保持したまま簡略化するため、get_address_locationと違って隣接する地域間に隙間が生じない。" +
-        "一部の住所が解決できなくても全体を失敗にはせず、featuresから除外した上でunresolvedとして注記する(全件失敗のときのみisError)。" +
-        "戻り値のFeatureCollectionは標準的なGeoJSON(RFC 7946)なので、Leaflet等の地図ライブラリにそのまま渡せる(座標変換・SVGでの手動描画は不要)。" +
-        "`dropSmallIslands`(都道府県のみ指定可)を使うと、47都道府県すべてを結合した日本地図のような全国スケールの用途でも扱えるサイズまで縮小できる。" +
-        "`degenerateIslands`(dropSmallIslands:trueかつsimplify指定時のみ)でさらに軽量化できるが、いずれの設定でも地図に表示されない離島があることは必ずnoteで案内される。" +
-        "**地図を作りたい/表示したい/見せてほしい、のようにClaude自身が取得したポリゴンを使ってその場で地図やアプリを組み立てる依頼では、必ずこのTool(get_address_locations)を使うこと** — " +
-        "save_address_locations_to_fileはファイルに書き出すだけで中身がレスポンスに含まれないため、地図を描画できない。" +
-        "結果をそのまま会話に返す必要がなく、ファイルとして保存したいだけの場合(例: 「GeoJSONとしてエクスポートして」)にのみ save_address_locations_to_file を使うこと。",
-      inputSchema,
-    },
+    t?.name ?? "get_address_locations",
+    { title: t?.title ?? "", description: t?.description ?? "", inputSchema },
     getAddressLocations
   );
 }

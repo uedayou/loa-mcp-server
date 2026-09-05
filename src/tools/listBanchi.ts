@@ -1,11 +1,12 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { executeSparqlQuery } from "../lib/addressLod/sparql.js";
-import { normalizeToEntityPath, toFullIri } from "../lib/addressLod/uri.js";
-import { completeMunicipalityOmission } from "../lib/addressLod/municipalityCompletion.js";
-import { generateVariantCandidates } from "../lib/addressLod/variantCharacters.js";
-import { AddressLodError } from "../lib/addressLod/errors.js";
+import type { DatasetProfile } from "../core/profile.js";
+import { LodError } from "../core/errors.js";
+import { profile as activeProfile, runSparql, normalizePath, toIri } from "./activeProfile.js";
 
+// list_subparts は住所ドメイン色が濃い(「番地」「丁目」の2段ネスト hasPart)。
+// SPARQL のクエリ形は loa の構造をそのまま持つ。サブパート構造が異なるフォークは
+// この Tool ごと置き換える想定(capability.subParts で gate、design §6)。
 const inputSchema = {
   town: z
     .string()
@@ -26,13 +27,8 @@ const inputSchema = {
 };
 
 async function fetchBanchi(entityPath: string, chome: number | undefined, limit: number) {
-  const townIri = toFullIri(entityPath);
+  const townIri = toIri(entityPath);
 
-  // 丁目を持つ町の番地は「町 --hasPart--> 丁目 --hasPart--> 番地」という
-  // 2段ネストでしか辿れない(丁目エンティティに直接hasPartしても取れない
-  // ことを実機確認済み)。丁目を持たない町は「町 --hasPart--> 番地」の1段。
-  // chome が指定されていなければ両方を UNION で拾い、呼び出し側が
-  // 事前にどちらの構造か知らなくても使えるようにする。
   const sparql = chome
     ? `
 PREFIX ic:    <http://imi.go.jp/ns/core/rdf#>
@@ -51,7 +47,7 @@ SELECT ?chome ?banchi WHERE {
 }
 LIMIT ${limit}`.trim();
 
-  const rows = await executeSparqlQuery(sparql);
+  const rows = await runSparql(sparql);
   return chome
     ? rows.map((row) => ({ chome, banchi: row.banchi }))
     : rows.map((row) => ({ chome: row.chome, banchi: row.banchi }));
@@ -67,35 +63,29 @@ export async function listBanchi({
   limit: number;
 }) {
   try {
-    const entityPath = normalizeToEntityPath(town);
+    const entityPath = normalizePath(town);
     let results = await fetchBanchi(entityPath, chome, limit);
     let note: string | undefined;
 
     if (results.length === 0) {
-      // 「〇〇郡△△町」の郡名、または政令指定都市の市名が省略されている
-      // 可能性がある。一度だけ正式名で再試行する(詳細は getAddressLocation.ts
-      // と同じ理由)。
-      const completion = completeMunicipalityOmission(entityPath);
-      if (completion.type === "corrected") {
-        results = await fetchBanchi(completion.entityPath, chome, limit);
-        if (results.length > 0) {
-          note = `"${town}" は表記が省略されていたため「${completion.entityPath}」として解決した。`;
-        }
-      } else if (completion.type === "ambiguous") {
-        note =
-          `"${town}" は郡名または政令市名を省略した表記だが、同名の地名が複数存在するため一意に決められない: ` +
-          `${completion.candidates.map((c) => c.label).join("、")}。いずれかの正式名を指定して再試行すること。`;
-      }
-    }
-
-    if (results.length === 0) {
-      // 「ケ/ヶ/ヵ」等の異体字表記ゆれの可能性がある。既知の候補を順に試す。
-      for (const candidate of generateVariantCandidates(entityPath)) {
-        const variantResults = await fetchBanchi(candidate, chome, limit);
-        if (variantResults.length > 0) {
-          results = variantResults;
-          note = `"${town}" は異体字の表記ゆれがあったため「${candidate}」として解決した。`;
+      for (const fallback of activeProfile.resolution?.fallbacks ?? []) {
+        const outcome = fallback.run(entityPath, town);
+        if (outcome.type === "ambiguous") {
+          note =
+            `"${town}" は郡名または政令市名を省略した表記だが、同名の地名が複数存在するため一意に決められない: ` +
+            `${outcome.labels.join("、")}。いずれかの正式名を指定して再試行すること。`;
           break;
+        }
+        if (outcome.type === "candidates") {
+          for (const candidatePath of outcome.paths) {
+            const retry = await fetchBanchi(candidatePath, chome, limit);
+            if (retry.length > 0) {
+              results = retry;
+              note = outcome.note(candidatePath);
+              break;
+            }
+          }
+          if (results.length > 0) break;
         }
       }
     }
@@ -115,9 +105,7 @@ export async function listBanchi({
     };
   } catch (error) {
     const message =
-      error instanceof AddressLodError
-        ? error.message
-        : `Unexpected error: ${(error as Error).message}`;
+      error instanceof LodError ? error.message : `Unexpected error: ${(error as Error).message}`;
     return {
       isError: true,
       content: [{ type: "text" as const, text: `番地一覧の取得に失敗した: ${message}` }],
@@ -125,17 +113,11 @@ export async function listBanchi({
   }
 }
 
-export function registerListBanchiTool(server: McpServer): void {
+export function registerListBanchiTool(server: McpServer, profile: DatasetProfile): void {
+  const t = profile.toolText.list_subparts;
   server.registerTool(
-    "list_banchi",
-    {
-      title: "町丁目配下の番地一覧",
-      description:
-        "指定した町丁目に属する番地を列挙する。丁目のある町は丁目ごとの番地、丁目のない町はそのまま番地一覧になる。" +
-        "号(建物番号)は元データに含まれないため取得できない。" +
-        "「〇〇郡△△町」の郡名、政令指定都市の市名の省略、「ケ/ヶ/ヵ」等の異体字表記ゆれは自動補完を試みる。",
-      inputSchema,
-    },
+    t?.name ?? "list_banchi",
+    { title: t?.title ?? "", description: t?.description ?? "", inputSchema },
     listBanchi
   );
 }

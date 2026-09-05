@@ -1,15 +1,20 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { executeSparqlQuery } from "../lib/addressLod/sparql.js";
-import { escapeSparqlLiteral } from "../lib/addressLod/uri.js";
-import { hasVariantCharacter, buildVariantAwareRegexPattern } from "../lib/addressLod/variantCharacters.js";
-import { AddressLodError } from "../lib/addressLod/errors.js";
+import type { DatasetProfile } from "../core/profile.js";
+import { LodError } from "../core/errors.js";
+import { escapeSparqlLiteral } from "../core/sparql.js";
+import {
+  hasVariantCharacter,
+  buildVariantAwareRegexPattern,
+} from "../profiles/loa/resolution/variantCharacters.js";
+import { profile as activeProfile, runSparql } from "./activeProfile.js";
+
+// プロファイル所有 Tool(汎用化しない、design §3.11 / §3.12)。loa は
+// label CONTAINS + 都道府県スコープ + 異体字 REGEX 切替。フォークは自サイト用に
+// 置き換える(検索軸・クエリ形はサイトごとに大きく異なるため)。
 
 const inputSchema = {
-  query: z
-    .string()
-    .min(2)
-    .describe("検索したい住所文字列の一部(例: '永田町')"),
+  query: z.string().min(2).describe("検索したい住所文字列の一部(例: '永田町')"),
   prefecture: z
     .string()
     .optional()
@@ -28,27 +33,28 @@ export async function searchAddress({
   prefecture?: string;
   limit: number;
 }) {
-  const prefectureFilter = prefecture
-    ? `?address ic:都道府県 "${escapeSparqlLiteral(prefecture)}"@ja.\n  `
-    : "";
-  // 「ケ/ヶ/ヵ」等、既知の異体字を含むqueryはCONTAINSでは書き分けを吸収できない
-  // (別のUnicode文字なので単純な部分文字列一致では一致しない)。その場合だけ
-  // REGEXに切り替えて文字クラスで両方拾う。異体字を含まない大多数のケースは
-  // 従来通りCONTAINSのままにして性能を落とさない。
+  const v = activeProfile.vocab;
+  const lang = v.labelLang ? `@${v.labelLang}` : "";
+  const prefPredicate = v.propertyMap.prefecture?.predicate;
+  const prefectureFilter =
+    prefecture && prefPredicate
+      ? `?address <${prefPredicate}> "${escapeSparqlLiteral(prefecture)}"${lang}.\n  `
+      : "";
+  // 「ケ/ヶ/ヵ」等、既知の異体字を含む query は CONTAINS では書き分けを吸収できない
+  // ため、その場合だけ REGEX に切り替えて文字クラスで両方拾う。
   const labelFilter = hasVariantCharacter(query)
     ? `FILTER(REGEX(?label, "${escapeSparqlLiteral(buildVariantAwareRegexPattern(query))}"))`
     : `FILTER(CONTAINS(?label, "${escapeSparqlLiteral(query)}"))`;
+  const typeConstraint = v.entityTypeIri ? `a <${v.entityTypeIri}>; ` : "";
   const sparql = `
-PREFIX ic:   <http://imi.go.jp/ns/core/rdf#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?address ?label WHERE {
-  ?address a ic:住所型; rdfs:label ?label.
+  ?address ${typeConstraint}<${v.labelIri}> ?label.
   ${prefectureFilter}${labelFilter}
 }
 LIMIT ${limit}`.trim();
 
   try {
-    const rows = await executeSparqlQuery(sparql);
+    const rows = await runSparql(sparql);
     const results = rows.map((row) => ({ uri: row.address, label: row.label }));
 
     const notes: string[] = [];
@@ -73,9 +79,7 @@ LIMIT ${limit}`.trim();
     };
   } catch (error) {
     const message =
-      error instanceof AddressLodError
-        ? error.message
-        : `Unexpected error: ${(error as Error).message}`;
+      error instanceof LodError ? error.message : `Unexpected error: ${(error as Error).message}`;
     return {
       isError: true,
       content: [
@@ -88,17 +92,11 @@ LIMIT ${limit}`.trim();
   }
 }
 
-export function registerSearchAddressTool(server: McpServer): void {
+export function registerSearchAddressTool(server: McpServer, profile: DatasetProfile): void {
+  const t = profile.toolText.search;
   server.registerTool(
-    "search_address",
-    {
-      title: "住所を検索",
-      description:
-        "住所LODを使って、住所ラベルの部分一致で候補を検索する。" +
-        "「ケ/ヶ/ヵ」等の異体字表記ゆれは自動的に吸収する。" +
-        "形状(ポリゴン/ポイント)が必要な場合は、結果のURIを get_address_location に渡すこと。",
-      inputSchema,
-    },
+    t?.name ?? "search_address",
+    { title: t?.title ?? "", description: t?.description ?? "", inputSchema },
     searchAddress
   );
 }

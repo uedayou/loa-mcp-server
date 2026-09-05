@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   findCountyTownCandidates,
   completeCountyTown,
-} from "../../../src/lib/addressLod/countyTownIndex.js";
+} from "../../../src/profiles/loa/resolution/countyTownIndex.js";
 
 describe("findCountyTownCandidates", () => {
   it("finds the county for a bare town name (実データ: 瑞穂町 -> 西多摩郡瑞穂町)", () => {

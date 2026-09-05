@@ -1,7 +1,9 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { calculateAreaKm2 } from "../lib/addressLod/area.js";
-import { resolveBatch } from "../lib/addressLod/batchAddressPipeline.js";
+import type { DatasetProfile } from "../core/profile.js";
+import { calculateAreaKm2 } from "../geo/area.js";
+import { resolveBatch } from "../core/batchPipeline.js";
+import { profile as activeProfile, ctx } from "./activeProfile.js";
 
 export const MAX_ADDRESSES = 50;
 
@@ -23,7 +25,11 @@ function roundAreaKm2(areaKm2: number): number {
 }
 
 export async function getAddressAreas({ addresses }: { addresses: string[] }) {
-  const { features, unresolved, resolvedViaCompletionCount } = await resolveBatch(addresses);
+  const { features, unresolved, resolvedViaCompletionCount } = await resolveBatch(
+    activeProfile,
+    ctx,
+    addresses
+  );
 
   const areas: { query: string; name?: string; areaKm2: number }[] = [];
   const noAreaReasons: { address: string; reason: string }[] = [...unresolved];
@@ -73,23 +79,11 @@ export async function getAddressAreas({ addresses }: { addresses: string[] }) {
   return { isError: areas.length === 0, content };
 }
 
-export function registerGetAddressAreasTool(server: McpServer): void {
+export function registerGetAddressAreasTool(server: McpServer, profile: DatasetProfile): void {
+  const t = profile.toolText.get_areas;
   server.registerTool(
-    "get_address_areas",
-    {
-      title: "住所(都道府県・市区町村・町丁目)の面積を算出",
-      description:
-        "1件以上の住所の面積(km^2)をまとめて算出して返す。都道府県・市区町村・町丁目・丁目のいずれのレベルでも使えるが、" +
-        "都道府県・主要市区町村レベルの面積は公表された統計値がよく知られているため、このToolの価値は相対的に低い。" +
-        "**むしろ町丁目・丁目レベルのような、公表資料に載っていない細かい単位の面積や、" +
-        "複数件を横断した合計・比較(例: 「23区のうち面積10km^2以上の区は?」)でこそ真価を発揮する** — " +
-        "そうした値は住所LODのポリゴンから算出する以外に入手手段がないため。" +
-        "面積は緯度経度座標に対する平面近似(cos補正付きshoelace公式)による概算値であり、" +
-        "国土地理院等の公式統計とは一致しないことがある点に注意(戻り値の注記にも毎回明記される)。" +
-        "番地レベル(ポイントのみ)は面積を算出できないため対象外。" +
-        "各要素の解決ルール(郡名・政令市名の省略補完、数字表記・異体字の正規化)は get_address_location と共通。",
-      inputSchema,
-    },
+    t?.name ?? "get_address_areas",
+    { title: t?.title ?? "", description: t?.description ?? "", inputSchema },
     getAddressAreas
   );
 }

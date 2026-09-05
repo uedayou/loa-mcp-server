@@ -3,8 +3,8 @@ import {
   getPrefectureGeohashes,
   findBestPrefectureMatch,
   resetPrefectureGeohashCacheForTests,
-} from "../../../src/lib/addressLod/prefectureGeohashCache.js";
-import { encodeGeohash } from "../../../src/lib/addressLod/geohash.js";
+} from "../../../src/profiles/loa/geohashCache.js";
+import { encodeGeohash } from "../../../src/geo/geohash.js";
 import { fixtureResponse } from "../../helpers/loadFixture.js";
 
 afterEach(() => {

@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   findDesignatedCityWardCandidates,
   completeDesignatedCityWard,
-} from "../../../src/lib/addressLod/designatedCityWardIndex.js";
+} from "../../../src/profiles/loa/resolution/designatedCityWardIndex.js";
 
 describe("findDesignatedCityWardCandidates", () => {
   it("finds the designated city for a bare ward name (実データ: 南区 -> 複数候補)", () => {

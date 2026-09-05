@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { encodeGeohash } from "../../../src/lib/addressLod/geohash.js";
+import { encodeGeohash } from "../../../src/geo/geohash.js";
 
 describe("encodeGeohash", () => {
   it("matches the classic reference value", () => {

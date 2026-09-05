@@ -1,6 +1,6 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { reverseGeocodeAddress } from "../../src/tools/reverseGeocodeAddress.js";
-import { resetPrefectureGeohashCacheForTests } from "../../src/lib/addressLod/prefectureGeohashCache.js";
+import { resetPrefectureGeohashCacheForTests } from "../../src/profiles/loa/geohashCache.js";
 import { fixtureResponse, readFixtureText } from "../helpers/loadFixture.js";
 
 const prefecturesGeoResponse = () =>

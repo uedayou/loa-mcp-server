@@ -20,7 +20,9 @@ describe("searchAddress", () => {
     await searchAddress({ query: "永田町", prefecture: "東京都", limit: 20 });
 
     const requestedUrl = decodeURIComponent(fetchMock.mock.calls[0][0] as string);
-    expect(requestedUrl).toContain('ic:都道府県 "東京都"@ja');
+    // プロファイル駆動化でクエリは PREFIX ではなく完全 IRI を使う
+    // (述語 IRI は profile.vocab.propertyMap.prefecture 由来)。
+    expect(requestedUrl).toContain('<http://imi.go.jp/ns/core/rdf#都道府県> "東京都"@ja');
     expect(requestedUrl).toContain('CONTAINS(?label, "永田町")');
   });
 

@@ -3,7 +3,7 @@ import {
   hasVariantCharacter,
   buildVariantAwareRegexPattern,
   generateVariantCandidates,
-} from "../../../src/lib/addressLod/variantCharacters.js";
+} from "../../../src/profiles/loa/resolution/variantCharacters.js";
 
 describe("hasVariantCharacter", () => {
   it("detects a known variant character", () => {

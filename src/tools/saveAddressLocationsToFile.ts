@@ -2,15 +2,17 @@ import { z } from "zod";
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../lib/addressLod/islandFilter.js";
-import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../lib/addressLod/simplify.js";
-import type { DegenerateRingStrategy } from "../lib/addressLod/topologySimplify.js";
+import type { DatasetProfile } from "../core/profile.js";
+import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../geo/islandFilter.js";
+import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../geo/simplify.js";
+import type { DegenerateRingStrategy } from "../geo/topologySimplify.js";
 import {
   applyDropAndSimplify,
   degenerateIslandsUsageError,
   dropSmallIslandsUsageError,
   resolveBatch,
-} from "../lib/addressLod/batchAddressPipeline.js";
+} from "../core/batchPipeline.js";
+import { profile as activeProfile, ctx } from "./activeProfile.js";
 
 // get_address_locationsと違い、結果をMCPレスポンスに載せずローカルファイルへ
 // 直接書き出すため、多くのMCPクライアントが持つTool呼び出し1回あたり約1MBの
@@ -83,15 +85,20 @@ export async function saveAddressLocationsToFile({
   degenerateIslands?: DegenerateRingStrategy;
   outputPath: string;
 }) {
-  const degenerateError = degenerateIslandsUsageError(shouldDropSmallIslands, simplify, degenerateIslands);
+  const degenerateError = degenerateIslandsUsageError(
+    activeProfile,
+    shouldDropSmallIslands,
+    simplify,
+    degenerateIslands
+  );
   if (degenerateError) {
     return { isError: true, content: [{ type: "text" as const, text: degenerateError }] };
   }
 
   const { features: resolvedFeatures, unresolved, resolvedViaCompletionCount, centroidCount } =
-    await resolveBatch(addresses);
+    await resolveBatch(activeProfile, ctx, addresses);
 
-  const islandsError = dropSmallIslandsUsageError(shouldDropSmallIslands, resolvedFeatures);
+  const islandsError = dropSmallIslandsUsageError(activeProfile, shouldDropSmallIslands, resolvedFeatures);
   if (islandsError) {
     return { isError: true, content: [{ type: "text" as const, text: islandsError }] };
   }
@@ -113,6 +120,7 @@ export async function saveAddressLocationsToFile({
   }
 
   const { features, islandDropNote, simplifyNote, degenerateOmitNote } = applyDropAndSimplify(
+    activeProfile,
     resolvedFeatures,
     shouldDropSmallIslands,
     simplify,
@@ -157,12 +165,17 @@ export async function saveAddressLocationsToFile({
   return { isError: false, content };
 }
 
-export function registerSaveAddressLocationsToFileTool(server: McpServer): void {
+export function registerSaveAddressLocationsToFileTool(
+  server: McpServer,
+  profile: DatasetProfile
+): void {
+  const t = profile.toolText.save_to_file;
   server.registerTool(
-    "save_address_locations_to_file",
+    t?.name ?? "save_address_locations_to_file",
     {
-      title: "複数住所の位置をファイルへエクスポート保存(地図・アプリをその場で作る用途には使わない)",
+      title: t?.title ?? "複数住所の位置をファイルへエクスポート保存(地図・アプリをその場で作る用途には使わない)",
       description:
+        t?.description ??
         "**「地図を作りたい/表示したい/見せてほしい」等、Claude自身が取得したポリゴンを使ってその場で" +
         "地図・可視化・アプリを組み立てる依頼には、このToolを使ってはならない** — 書き出したファイルの中身は" +
         "MCPレスポンスに含まれずClaudeからは見えないため、地図を描画できなくなる。そのような依頼では" +

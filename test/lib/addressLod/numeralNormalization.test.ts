@@ -5,7 +5,7 @@ import {
   normalizeKanjiChomeNumerals,
   normalizeHyphenatedChomeBanchi,
   normalizeAddressNumerals,
-} from "../../../src/lib/addressLod/numeralNormalization.js";
+} from "../../../src/profiles/loa/resolution/numeralNormalization.js";
 
 describe("normalizeFullwidthDigits", () => {
   it("converts fullwidth digits to halfwidth", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { wktToGeoJson } from "../../../src/lib/addressLod/wkt.js";
+import { wktToGeoJson } from "../../../src/geo/wkt.js";
 import { readFixtureJson } from "../../helpers/loadFixture.js";
 
 describe("wktToGeoJson", () => {
@@ -49,8 +49,46 @@ describe("wktToGeoJson", () => {
     });
   });
 
+  it("parses a LINESTRING", () => {
+    expect(wktToGeoJson("LINESTRING(0 0,1 1,2 4)")).toEqual({
+      type: "LineString",
+      coordinates: [
+        [0, 0],
+        [1, 1],
+        [2, 4],
+      ],
+    });
+  });
+
+  it("parses a MULTILINESTRING with two disjoint parts", () => {
+    expect(
+      wktToGeoJson("MULTILINESTRING((0 0,1 1),(10 10,11 12,13 14))")
+    ).toEqual({
+      type: "MultiLineString",
+      coordinates: [
+        [
+          [0, 0],
+          [1, 1],
+        ],
+        [
+          [10, 10],
+          [11, 12],
+          [13, 14],
+        ],
+      ],
+    });
+  });
+
+  it("does not confuse MULTILINESTRING with MULTIPOLYGON (nesting depth)", () => {
+    const line = wktToGeoJson("MULTILINESTRING((0 0,1 1,2 2))");
+    expect(line.type).toBe("MultiLineString");
+    const poly = wktToGeoJson("MULTIPOLYGON(((0 0,1 1,2 2,0 0)))");
+    expect(poly.type).toBe("MultiPolygon");
+  });
+
   it("throws on an unsupported WKT type", () => {
-    expect(() => wktToGeoJson("LINESTRING(0 0,1 1)")).toThrow();
+    expect(() => wktToGeoJson("GEOMETRYCOLLECTION(POINT(0 0))")).toThrow();
+    expect(() => wktToGeoJson("CIRCULARSTRING(0 0,1 1,2 0)")).toThrow();
   });
 
   it("throws on malformed/unbalanced WKT", () => {

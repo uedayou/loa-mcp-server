@@ -21,7 +21,11 @@ describe("listChildAddresses", () => {
     // reveals the SPARQL text. The IRI itself must be raw Unicode (matching
     // how the store's actual triples are written), not percent-encoded.
     const requestedUrl = decodeURIComponent(fetchMock.mock.calls[0][0] as string);
-    expect(requestedUrl).toContain("ont:parentFeature <https://uedayou.net/loa/東京都>");
+    // プロファイル駆動化でクエリは PREFIX ではなく完全 IRI を使うようになった
+    // (述語 IRI は profile.vocab.childToParentIri 由来)。IRI は生 Unicode のまま。
+    expect(requestedUrl).toContain(
+      "<http://www.geonames.org/ontology#parentFeature> <https://uedayou.net/loa/東京都>"
+    );
 
     const results = JSON.parse(result.content[0].text);
     expect(results).toHaveLength(5);
@@ -63,7 +67,9 @@ describe("listChildAddresses", () => {
 
     expect(fetchMock).toHaveBeenCalledTimes(2);
     const secondRequestUrl = decodeURIComponent(fetchMock.mock.calls[1][0] as string);
-    expect(secondRequestUrl).toContain("ont:parentFeature <https://uedayou.net/loa/東京都西多摩郡瑞穂町>");
+    expect(secondRequestUrl).toContain(
+      "<http://www.geonames.org/ontology#parentFeature> <https://uedayou.net/loa/東京都西多摩郡瑞穂町>"
+    );
     const results = JSON.parse(result.content[0].text);
     expect(results.length).toBeGreaterThan(0);
     expect(result.content[1].text).toContain("西多摩郡瑞穂町");

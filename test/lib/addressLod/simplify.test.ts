@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest";
 import {
   simplifyGeometry,
   countGeometryPoints,
-} from "../../../src/lib/addressLod/simplify.js";
-import type { GeoJsonGeometry } from "../../../src/lib/addressLod/wkt.js";
+} from "../../../src/geo/simplify.js";
+import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
 
 // A 10x10 square ring with one exactly-collinear midpoint injected on each
 // edge. Every injected midpoint has zero perpendicular distance from its
@@ -92,6 +92,60 @@ describe("simplifyGeometry", () => {
       coordinates: [[RECTANGLE_CORNERS_ONLY], [RECTANGLE_CORNERS_ONLY]],
     });
   });
+
+  // LINESTRING/MULTILINESTRING are not produced by 住所LOD but the geo/
+  // pipeline supports them for forked line-based datasets. RDP applies to an
+  // open line directly (no closed-ring floor): collinear interior points go,
+  // endpoints stay.
+  it("drops collinear interior points of a LineString, keeping endpoints", () => {
+    const geometry: GeoJsonGeometry = {
+      type: "LineString",
+      coordinates: [
+        [0, 0],
+        [5, 0],
+        [10, 0],
+        [10, 10],
+      ],
+    };
+    expect(simplifyGeometry(geometry, "medium")).toEqual({
+      type: "LineString",
+      coordinates: [
+        [0, 0],
+        [10, 0],
+        [10, 10],
+      ],
+    });
+  });
+
+  it("simplifies each part of a MultiLineString independently", () => {
+    const geometry: GeoJsonGeometry = {
+      type: "MultiLineString",
+      coordinates: [
+        [
+          [0, 0],
+          [5, 0],
+          [10, 0],
+        ],
+        [
+          [0, 0],
+          [0, 5],
+        ],
+      ],
+    };
+    expect(simplifyGeometry(geometry, "medium")).toEqual({
+      type: "MultiLineString",
+      coordinates: [
+        [
+          [0, 0],
+          [10, 0],
+        ],
+        [
+          [0, 0],
+          [0, 5],
+        ],
+      ],
+    });
+  });
 });
 
 describe("countGeometryPoints", () => {
@@ -112,5 +166,17 @@ describe("countGeometryPoints", () => {
         coordinates: [[RECTANGLE_WITH_COLLINEAR_MIDPOINTS], [RECTANGLE_CORNERS_ONLY]],
       })
     ).toBe(14);
+  });
+
+  it("counts positions for LineString / MultiLineString", () => {
+    expect(
+      countGeometryPoints({ type: "LineString", coordinates: [[0, 0], [1, 1], [2, 2]] })
+    ).toBe(3);
+    expect(
+      countGeometryPoints({
+        type: "MultiLineString",
+        coordinates: [[[0, 0], [1, 1]], [[0, 0], [0, 1], [0, 2]]],
+      })
+    ).toBe(5);
   });
 });

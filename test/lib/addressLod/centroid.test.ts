@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { computeCentroid } from "../../../src/lib/addressLod/centroid.js";
-import type { GeoJsonGeometry } from "../../../src/lib/addressLod/wkt.js";
+import { computeCentroid } from "../../../src/geo/centroid.js";
+import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
 
 describe("computeCentroid", () => {
   it("returns a Point's own coordinates", () => {
