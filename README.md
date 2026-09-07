@@ -1,5 +1,7 @@
 # 住所LOD MCPサーバー
 
+[![test](https://github.com/uedayou/loa-mcp-server/actions/workflows/test.yml/badge.svg)](https://github.com/uedayou/loa-mcp-server/actions/workflows/test.yml)
+
 日本の住所を検索し、その位置をポリゴンまたはポイントで取得できる、ローカル実行(stdio)のMCPサーバーです。[住所LOD](https://uedayou.net/loa/)を利用しており、認証不要・オープンライセンスのデータソースなのですぐに使い始められます。
 
 Claude Desktop や Claude Code のようなMCP対応クライアントから、次のようなことができます:
