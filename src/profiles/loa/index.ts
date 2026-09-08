@@ -54,8 +54,8 @@ export const loaProfile: DatasetProfile = {
 
   staticLists: LOA_STATIC_LISTS,
 
-  // ownedTools(search / reverse_geocode の Tool 実装)はフェーズ3で
-  // profiles/loa/tools/ を作って登録する。
+  // Tool 実装は profiles/loa/tools/ にあり、profiles/loa/registerTools.ts が
+  // フラットに登録する(design-tools-layer-generalization.md §3)。
 
   geohashNearby: {
     narrowScope: loaNarrowScope,

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { listPrefectures } from "../../src/tools/listPrefectures.js";
+import { listPrefectures } from "../../src/profiles/loa/tools/listPrefectures.js";
 
 describe("listPrefectures", () => {
   it("returns all 47 prefecture names with no network access", async () => {

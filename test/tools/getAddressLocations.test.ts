@@ -4,7 +4,7 @@ import {
   getAddressLocations,
   inputSchema,
   MAX_ADDRESSES,
-} from "../../src/tools/getAddressLocations.js";
+} from "../../src/profiles/loa/tools/getAddressLocations.js";
 import { fixtureResponse } from "../helpers/loadFixture.js";
 
 afterEach(() => {

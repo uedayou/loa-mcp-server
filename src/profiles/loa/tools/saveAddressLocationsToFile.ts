@@ -2,17 +2,17 @@ import { z } from "zod";
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../geo/islandFilter.js";
-import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../geo/simplify.js";
-import type { DegenerateRingStrategy } from "../geo/topologySimplify.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../../../geo/islandFilter.js";
+import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../../../geo/simplify.js";
+import type { DegenerateRingStrategy } from "../../../geo/topologySimplify.js";
 import {
   applyDropAndSimplify,
   degenerateIslandsUsageError,
   dropSmallIslandsUsageError,
   resolveBatch,
-} from "../core/batchPipeline.js";
-import { profile as activeProfile, ctx } from "./activeProfile.js";
+} from "../../../core/batchPipeline.js";
+import { profile as activeProfile, ctx } from "../context.js";
 
 // get_address_locationsと違い、結果をMCPレスポンスに載せずローカルファイルへ
 // 直接書き出すため、多くのMCPクライアントが持つTool呼び出し1回あたり約1MBの

@@ -1,13 +1,13 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { LodError } from "../core/errors.js";
-import { escapeSparqlLiteral } from "../core/sparql.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { LodError } from "../../../core/errors.js";
+import { escapeSparqlLiteral } from "../../../core/sparql.js";
 import {
   hasVariantCharacter,
   buildVariantAwareRegexPattern,
-} from "../profiles/loa/resolution/variantCharacters.js";
-import { profile as activeProfile, runSparql } from "./activeProfile.js";
+} from "../resolution/variantCharacters.js";
+import { profile as activeProfile, runSparql } from "../context.js";
 
 // プロファイル所有 Tool(汎用化しない、design §3.11 / §3.12)。loa は
 // label CONTAINS + 都道府県スコープ + 異体字 REGEX 切替。フォークは自サイト用に

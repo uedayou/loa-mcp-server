@@ -1,11 +1,11 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { resolveEntityFeature } from "../core/resolveEntity.js";
-import { finalizeFeature } from "../core/featureNotes.js";
-import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../geo/simplify.js";
-import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../geo/islandFilter.js";
-import { profile as activeProfile, ctx } from "./activeProfile.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { resolveEntityFeature } from "../../../core/resolveEntity.js";
+import { finalizeFeature } from "../../../core/featureNotes.js";
+import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../../../geo/simplify.js";
+import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../../../geo/islandFilter.js";
+import { profile as activeProfile, ctx } from "../context.js";
 
 const inputSchema = {
   address: z

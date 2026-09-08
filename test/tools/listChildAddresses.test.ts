@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { listChildAddresses } from "../../src/tools/listChildAddresses.js";
+import { listChildAddresses } from "../../src/profiles/loa/tools/listChildAddresses.js";
 import { fixtureResponse } from "../helpers/loadFixture.js";
 
 afterEach(() => {

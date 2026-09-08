@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { getAddressLocation } from "../../src/tools/getAddressLocation.js";
+import { getAddressLocation } from "../../src/profiles/loa/tools/getAddressLocation.js";
 import { fixtureResponse } from "../helpers/loadFixture.js";
 
 afterEach(() => {

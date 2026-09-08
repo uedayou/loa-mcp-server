@@ -1,18 +1,18 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { renderingHintNote } from "../core/featureNotes.js";
-import { type DegenerateRingStrategy } from "../geo/topologySimplify.js";
-import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../geo/islandFilter.js";
-import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../geo/simplify.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { renderingHintNote } from "../../../core/featureNotes.js";
+import { type DegenerateRingStrategy } from "../../../geo/topologySimplify.js";
+import { DEFAULT_MIN_ISLAND_AREA_KM2 } from "../../../geo/islandFilter.js";
+import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../../../geo/simplify.js";
 import {
   applyDropAndSimplify,
   degenerateIslandsUsageError,
   dropSmallIslandsUsageError,
   resolveBatch,
   type BatchFeature,
-} from "../core/batchPipeline.js";
-import { profile as activeProfile, ctx } from "./activeProfile.js";
+} from "../../../core/batchPipeline.js";
+import { profile as activeProfile, ctx } from "../context.js";
 
 export const MAX_ADDRESSES = 50;
 

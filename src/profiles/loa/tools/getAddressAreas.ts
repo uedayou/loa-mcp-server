@@ -1,9 +1,9 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { calculateAreaKm2 } from "../geo/area.js";
-import { resolveBatch } from "../core/batchPipeline.js";
-import { profile as activeProfile, ctx } from "./activeProfile.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { calculateAreaKm2 } from "../../../geo/area.js";
+import { resolveBatch } from "../../../core/batchPipeline.js";
+import { profile as activeProfile, ctx } from "../context.js";
 
 export const MAX_ADDRESSES = 50;
 

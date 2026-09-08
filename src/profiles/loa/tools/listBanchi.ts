@@ -1,8 +1,8 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { LodError } from "../core/errors.js";
-import { profile as activeProfile, runSparql, normalizePath, toIri } from "./activeProfile.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { LodError } from "../../../core/errors.js";
+import { profile as activeProfile, runSparql, normalizePath, toIri } from "../context.js";
 
 // list_subparts は住所ドメイン色が濃い(「番地」「丁目」の2段ネスト hasPart)。
 // SPARQL のクエリ形は loa の構造をそのまま持つ。サブパート構造が異なるフォークは

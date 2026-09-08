@@ -1,6 +1,6 @@
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { profile as activeProfile } from "./activeProfile.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { profile as activeProfile } from "../context.js";
 
 // キュレーション済みの静的リストを Tool として登録する(profile.staticLists 駆動)。
 // loa では list_prefectures 1件のみ。パラメータなし・ネットワークアクセスなし。

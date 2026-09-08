@@ -1,8 +1,8 @@
-// このリポジトリで有効なプロファイル(loa のみ)。共通 Tool はここから
-// { profile, ctx } と補助関数を取る。フォークはこの1ファイルと server.ts の
-// import を差し替えるだけで済む(design-multi-lod-generalization.md §5.1)。
-import { loaProfile, loaContext } from "../profiles/loa/index.js";
-import { executeSparqlQuery } from "../core/sparql.js";
+// loa プロファイルの実行時コンテキスト。profiles/loa/tools/ の各 Tool は
+// ここから { profile, ctx } と補助関数を取る。フォーク先は profiles/<id>/
+// ディレクトリを丸ごと差し替える(design-tools-layer-generalization.md §3)。
+import { loaProfile, loaContext } from "./index.js";
+import { executeSparqlQuery } from "../../core/sparql.js";
 
 export const profile = loaProfile;
 export const ctx = loaContext;

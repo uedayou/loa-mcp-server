@@ -1,8 +1,8 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { LodError } from "../core/errors.js";
-import { profile as activeProfile, runSparql, normalizePath, toIri } from "./activeProfile.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { LodError } from "../../../core/errors.js";
+import { profile as activeProfile, runSparql, normalizePath, toIri } from "../context.js";
 
 const inputSchema = {
   parent: z

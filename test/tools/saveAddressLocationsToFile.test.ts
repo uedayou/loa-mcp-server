@@ -7,7 +7,7 @@ import {
   saveAddressLocationsToFile,
   inputSchema,
   MAX_ADDRESSES,
-} from "../../src/tools/saveAddressLocationsToFile.js";
+} from "../../src/profiles/loa/tools/saveAddressLocationsToFile.js";
 import { fixtureResponse } from "../helpers/loadFixture.js";
 
 afterEach(() => {

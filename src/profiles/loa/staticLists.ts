@@ -2,7 +2,7 @@ import type { StaticListDef } from "../../core/profile.js";
 import { PREFECTURES } from "./resolution/prefectures.js";
 
 // list_prefectures: 47都道府県の正式名称一覧。住所LOD への問い合わせなし。
-// 現行 src/tools/listPrefectures.ts の title/description を verbatim に移植。
+// 現行 profiles/loa/tools/listPrefectures.ts の title/description を verbatim に移植。
 export const LOA_STATIC_LISTS: StaticListDef[] = [
   {
     toolKey: "list_prefectures",

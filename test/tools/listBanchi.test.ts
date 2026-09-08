@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { listBanchi } from "../../src/tools/listBanchi.js";
+import { listBanchi } from "../../src/profiles/loa/tools/listBanchi.js";
 import { fixtureResponse } from "../helpers/loadFixture.js";
 
 afterEach(() => {

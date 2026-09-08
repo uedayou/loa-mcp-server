@@ -1,7 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { config } from "./config.js";
 import { loaProfile } from "./profiles/loa/index.js";
-import { registerAllTools } from "./tools/index.js";
+import { registerLoaTools } from "./profiles/loa/registerTools.js";
 import { registerAllResources } from "./resources/index.js";
 
 // このリポジトリのプロファイルは loa 1つだけ。フォーク側はこの import 行と
@@ -26,7 +26,7 @@ export function createServer(): McpServer {
     { instructions: profile.server.instructions }
   );
 
-  registerAllTools(server, profile);
+  registerLoaTools(server);
   registerAllResources(server);
 
   return server;

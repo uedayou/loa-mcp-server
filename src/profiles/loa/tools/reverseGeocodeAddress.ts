@@ -1,11 +1,11 @@
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import type { DatasetProfile } from "../core/profile.js";
-import { LodError } from "../core/errors.js";
-import { escapeSparqlLiteral } from "../core/sparql.js";
-import { encodeGeohash } from "../geo/geohash.js";
-import { GEOHASH_NS } from "../profiles/loa/vocab.js";
-import { profile as activeProfile, runSparql } from "./activeProfile.js";
+import type { DatasetProfile } from "../../../core/profile.js";
+import { LodError } from "../../../core/errors.js";
+import { escapeSparqlLiteral } from "../../../core/sparql.js";
+import { encodeGeohash } from "../../../geo/geohash.js";
+import { GEOHASH_NS } from "../vocab.js";
+import { profile as activeProfile, runSparql } from "../context.js";
 
 // プロファイル所有 Tool(design §3.11)。geohash 前方一致による近傍検索。
 // loa は Stage1(都道府県 geohash キャッシュで絞り込み)→ Stage2(全国)の2段。

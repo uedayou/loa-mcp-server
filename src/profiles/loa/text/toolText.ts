@@ -1,7 +1,7 @@
 import type { ToolKey, ToolText } from "../../../core/profile.js";
 
 // 各 Tool の LLM 向けメタ情報(name / title / description)。
-// 現行の src/tools/*.ts の registerTool 第2引数から verbatim に移植。
+// 現行の profiles/loa/tools/*.ts の registerTool 第2引数から verbatim に移植。
 // Tool 固有の集計注記(notes フィールド)はフェーズ3で共通 Tool を profile 駆動に
 // するときに埋める。list_prefectures は staticLists.ts 側。
 //
