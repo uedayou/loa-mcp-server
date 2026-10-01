@@ -139,7 +139,8 @@ export const LOA_TOOL_TEXT: Partial<Record<ToolKey, ToolText>> = {
       "save_address_locations_to_file(最大50件、uriの手渡しが必要)と違い、子が何百件あっても1回で済み、" +
       "LLMが子のuriを手で列挙する必要もない(書き漏らしが起きない)。" +
       "`simplify`は子全体を1つのトポロジーとして扱うため、隣接する町丁目同士の境界に隙間が生じない。" +
-      "`includeParent:true`で親自身の輪郭も含められる。" +
+      "出力は子だけで、親自身のポリゴンは含まれない(親のポリゴンが子を覆うと、地図上で子をクリックできなくなるため)。" +
+      "親自身の形も必要な場合は、get_address_location または save_address_locations_to_file で別途取得すること。" +
       "各Featureの`properties`には人口・世帯数(参考値)も含まれる。" +
       "対象は直下の子のみ(孫以下は含まない)で、町丁目より下(丁目・番地)は扱えない。" +
       "子の件数は既定1200件まで(`maxChildren`、超えると何も書き出さずエラー。より下位の親に絞って呼び直すこと)。" +

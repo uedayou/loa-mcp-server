@@ -48,13 +48,6 @@ export const inputSchema = {
         "トポロジー考慮型の簡略化で、子すべてを1つのトポロジーとして扱うため、隣接する町丁目同士の境界線は" +
         "共有されたまま間引かれ、隙間は生じない。ファイルサイズや後段の処理負荷を抑えたいときだけ指定する。"
     ),
-  includeParent: z
-    .boolean()
-    .optional()
-    .describe(
-      "既定false(子だけを出力)。trueにすると、親自身のFeature(例: 寝屋川市全体の輪郭)も先頭に含める。" +
-        "市の輪郭の上に町丁目を重ねる地図などに使う。"
-    ),
   maxChildren: z
     .number()
     .int()
@@ -73,13 +66,11 @@ export async function saveChildAddressLocationsToFile({
   parent,
   outputPath,
   simplify,
-  includeParent,
   maxChildren = DEFAULT_MAX_CHILDREN,
 }: {
   parent: string;
   outputPath: string;
   simplify?: SimplifyLevel;
-  includeParent?: boolean;
   maxChildren?: number;
 }) {
   const startedAt = Date.now();
@@ -133,7 +124,9 @@ export async function saveChildAddressLocationsToFile({
 
   // ファイルの内容を呼び出しごとに再現できるよう、uri 順に固定する。
   const childUris = children.map((c) => c.uri).sort();
-  const addresses = includeParent ? [parent, ...childUris] : childUris;
+  // 出力は子だけで、親自身のポリゴンは含めない(親のポリゴンが子を覆うと、地図上で子を
+  // クリックできなくなるため。親の形が必要なら get_address_location 等で別途取得する)。
+  const addresses = childUris;
 
   // 2. 各要素の位置を取得(同時実行数は profile の concurrency=5)。
   const { features: resolvedFeatures, unresolved, resolvedViaCompletionCount, centroidCount } =
@@ -173,7 +166,7 @@ export async function saveChildAddressLocationsToFile({
   const elapsedSec = ((Date.now() - startedAt) / 1000).toFixed(1);
   const notes: string[] = [];
   notes.push(
-    `"${parent}" の直下の子${children.length}件${includeParent ? "と親自身" : ""}のうち${features.length}件を ` +
+    `"${parent}" の直下の子${children.length}件のうち${features.length}件を ` +
       `${absolutePath} に書き出した(${Buffer.byteLength(text, "utf8").toLocaleString()}バイト、約${elapsedSec}秒)` +
       `${unresolved.length > 0 ? `。${unresolved.length}件は解決できず` : ""}。`
   );

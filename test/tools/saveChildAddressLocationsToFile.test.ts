@@ -107,29 +107,33 @@ describe("saveChildAddressLocationsToFile", () => {
     });
   });
 
-  it("includes the parent's own Feature first when includeParent is true", async () => {
+  it("never includes the parent's own polygon (it would cover the children and make them unclickable on a map)", async () => {
     await withTempDir(async (dir) => {
-      vi.stubGlobal(
-        "fetch",
-        mockFetch({
-          children: TWO_CHILDREN,
-          ttlRoutes: [
-            { match: "東京都千代田区.ttl", fixture: "prefecture.ttl" }, // 親(輪郭)
-            ...TTL_ROUTES,
-          ],
-        })
-      );
-      const outputPath = join(dir, "with-parent.geojson");
+      const fetchMock = mockFetch({
+        children: TWO_CHILDREN,
+        ttlRoutes: [
+          { match: "東京都千代田区.ttl", fixture: "prefecture.ttl" }, // 親の .ttl が取得できる状態でも含めない
+          ...TTL_ROUTES,
+        ],
+      });
+      vi.stubGlobal("fetch", fetchMock);
+      const outputPath = join(dir, "children-only.geojson");
 
+      // 以前あった includeParent を(LLMが勝手に付けてしまった場合を想定して)渡しても無視される。
       await saveChildAddressLocationsToFile({
         parent: "東京都千代田区",
         outputPath,
         includeParent: true,
-      });
+      } as Parameters<typeof saveChildAddressLocationsToFile>[0]);
 
       const written = JSON.parse(await readFile(outputPath, "utf8"));
-      expect(written.features).toHaveLength(3);
-      expect(written.features[0].properties.query).toBe("東京都千代田区");
+      expect(written.features).toHaveLength(2); // 子だけ
+      expect(
+        written.features.some((f: { properties: { query: string } }) => f.properties.query === "東京都千代田区")
+      ).toBe(false);
+      // 親の .ttl は取得すらしない
+      const urls = fetchMock.mock.calls.map((c) => decodeURIComponent(c[0] as string));
+      expect(urls.some((u) => u.endsWith("東京都千代田区.ttl"))).toBe(false);
     });
   });
 
@@ -247,5 +251,7 @@ describe("saveChildAddressLocationsToFile", () => {
     expect(schema.safeParse({ ...base, maxChildren: MAX_MAX_CHILDREN + 1 }).success).toBe(false);
     expect(schema.safeParse({ ...base, maxChildren: 0 }).success).toBe(false);
     expect(DEFAULT_MAX_CHILDREN).toBe(1200);
+    // 親自身を含めるオプションは廃止(意図せず指定されると、親のポリゴンが子を覆ってしまうため)
+    expect(Object.keys(inputSchema)).not.toContain("includeParent");
   });
 });
