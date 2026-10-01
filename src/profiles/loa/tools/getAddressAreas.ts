@@ -7,6 +7,11 @@ import { profile as activeProfile, ctx } from "../context.js";
 
 export const MAX_ADDRESSES = 50;
 
+export const AREA_APPROXIMATION_NOTE =
+  "面積はGeoJSON座標(緯度経度)に対する平面近似(緯度によるcos補正込みのshoelace公式)による概算であり、" +
+  "国土地理院等が公表する公式統計(測地系での厳密な計算、干潟・係争地の扱い等の実務ルールを含む)とは一致しないことがある。" +
+  "MultiPolygonは離島も含めた全パーツの合計面積。";
+
 export const inputSchema = {
   addresses: z
     .array(z.string())
@@ -58,11 +63,7 @@ export async function getAddressAreas({ addresses }: { addresses: string[] }) {
   if (resolvedViaCompletionCount > 0) {
     notes.push(`${resolvedViaCompletionCount}件は郡名/政令市名の省略・異体字表記ゆれ等を自動補完して解決した。`);
   }
-  notes.push(
-    "面積はGeoJSON座標(緯度経度)に対する平面近似(緯度によるcos補正込みのshoelace公式)による概算であり、" +
-      "国土地理院等が公表する公式統計(測地系での厳密な計算、干潟・係争地の扱い等の実務ルールを含む)とは一致しないことがある。" +
-      "MultiPolygonは離島も含めた全パーツの合計面積。"
-  );
+  notes.push(AREA_APPROXIMATION_NOTE);
 
   const content = [
     { type: "text" as const, text: JSON.stringify(areas) },

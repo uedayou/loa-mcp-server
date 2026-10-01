@@ -40,6 +40,38 @@ async function withTempDir<T>(fn: (dir: string) => Promise<T>): Promise<T> {
 }
 
 describe("saveAddressLocationsToFile", () => {
+  it("embeds the 参考値 note inside the written file (the file is read without the response text)", async () => {
+    await withTempDir(async (dir) => {
+      vi.stubGlobal(
+        "fetch",
+        mockFetchByPath([{ match: "みなとみらい3丁目", fixture: "minatomirai3chome.ttl" }])
+      );
+      const outputPath = join(dir, "pop.geojson");
+
+      const result = await saveAddressLocationsToFile({
+        addresses: ["神奈川県横浜市西区みなとみらい3丁目"],
+        outputPath,
+      });
+
+      const written = JSON.parse(await readFile(outputPath, "utf8"));
+      expect(written.features[0].properties.population).toBe(459);
+      expect(written.population_note).toContain("参考値");
+      expect(result.content.some((c) => c.text.includes("参考値"))).toBe(true);
+    });
+  });
+
+  it("writes no population_note when no Feature has population data", async () => {
+    await withTempDir(async (dir) => {
+      vi.stubGlobal("fetch", mockFetchByPath([{ match: "永田町1丁目", fixture: "chome.ttl" }]));
+      const outputPath = join(dir, "nopop.geojson");
+
+      await saveAddressLocationsToFile({ addresses: ["東京都千代田区永田町1丁目"], outputPath });
+
+      const written = JSON.parse(await readFile(outputPath, "utf8"));
+      expect("population_note" in written).toBe(false);
+    });
+  });
+
   it("writes a FeatureCollection to the given path and reports it without inlining the geometry", async () => {
     await withTempDir(async (dir) => {
       vi.stubGlobal(

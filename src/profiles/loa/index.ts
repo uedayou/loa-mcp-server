@@ -1,6 +1,7 @@
 import { config, userAgent } from "../../config.js";
 import type { DatasetProfile, ProfileContext } from "../../core/profile.js";
 import { LOA_VOCAB } from "./vocab.js";
+import { extractPopulation } from "./population.js";
 import { loaIdentifier } from "./identifier.js";
 import { LOA_INSTRUCTIONS } from "./instructions.js";
 import { LOA_NOTES } from "./text/notes.js";
@@ -34,6 +35,9 @@ export const loaProfile: DatasetProfile = {
   },
 
   vocab: LOA_VOCAB,
+
+  // 人口・世帯数(schema:additionalProperty の blank node)は propertyMap で表せない。
+  customExtract: extractPopulation,
 
   identifier: loaIdentifier,
 

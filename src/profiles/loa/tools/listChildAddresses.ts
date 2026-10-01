@@ -3,6 +3,8 @@ import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import type { DatasetProfile } from "../../../core/profile.js";
 import { LodError } from "../../../core/errors.js";
 import { profile as activeProfile, runSparql, normalizePath, toIri } from "../context.js";
+import { LOAP_JINKO, LOAP_SETAI } from "../vocab.js";
+import { POPULATION_REFERENCE_NOTE } from "../population.js";
 
 const inputSchema = {
   parent: z
@@ -14,27 +16,72 @@ const inputSchema = {
         "「ケ/ヶ/ヵ」等の異体字表記ゆれは自動的に補完を試みる。"
     ),
   limit: z.number().int().min(1).max(200).default(100),
+  sortBy: z
+    .enum(["none", "population", "households"])
+    .default("none")
+    .describe(
+      "並べ替え。'population'/'households'で人口・世帯数(2020年国勢調査の参考値)の多い順。" +
+        "上限(limit)の範囲内ではなく、全子要素のうち上位limit件が返るため「人口の多い区トップ5」等に使える。" +
+        "人口データがない子要素は末尾に回る。既定'none'は従来どおり順不同。"
+    ),
 };
 
-function childrenQuery(parentPath: string, limit: number): string {
+export type SortBy = "none" | "population" | "households";
+
+function childrenQuery(parentPath: string, limit: number, sortBy: SortBy): string {
   const v = activeProfile.vocab;
   const parentIri = toIri(parentPath);
-  const typeConstraint = v.entityTypeIri ? `a <${v.entityTypeIri}>; ` : "";
+  // 実測(2026-09-30): 住所LODの SPARQL エンドポイントでは「型制約(a ic:住所型)+ORDER BY」の
+  // 組み合わせだけが約1.3秒かかり(親の子要素数によらず一定)、型制約を外すと約20ms(60倍速)。
+  // ont:parentFeature の子は全て住所エンティティなので、型制約の有無で結果集合は変わらない
+  // (神奈川県/東京都/北海道/政令市/町丁目など8親で完全一致を確認)。並べ替え時のみ外す。
+  const typeConstraint =
+    v.entityTypeIri && sortBy === "none" ? `a <${v.entityTypeIri}>; ` : "";
   const hierarchyClause = v.childToParentIri
     ? `?child ${typeConstraint}<${v.labelIri}> ?label; <${v.childToParentIri}> ${parentIri}.`
     : `${parentIri} <${v.parentToChildIri}> ?child. ?child <${v.labelIri}> ?label.`;
-  return `SELECT ?child ?label WHERE {\n  ${hierarchyClause}\n}\nLIMIT ${limit}`;
+  // 人口・世帯数は SPARQL エンドポイントの独自語彙 loap:。丁目・番地には付かないため OPTIONAL。
+  const optionals =
+    `\n  OPTIONAL { ?child <${LOAP_JINKO}> ?population }` +
+    `\n  OPTIONAL { ?child <${LOAP_SETAI}> ?households }`;
+  // DESC 並べ替えでは未バインド(人口データなし)は SPARQL 仕様上自動的に末尾になる。
+  const orderBy = sortBy === "none" ? "" : `\nORDER BY DESC(?${sortBy})`;
+  return `SELECT ?child ?label ?population ?households WHERE {\n  ${hierarchyClause}${optionals}\n}${orderBy}\nLIMIT ${limit}`;
 }
 
-async function fetchChildren(parentPath: string, limit: number) {
-  const rows = await runSparql(childrenQuery(parentPath, limit));
-  return rows.map((row) => ({ uri: row.child, label: row.label }));
+export interface ChildAddress {
+  uri: string;
+  label: string;
+  population?: number;
+  households?: number;
 }
 
-export async function listChildAddresses({ parent, limit }: { parent: string; limit: number }) {
+async function fetchChildren(
+  parentPath: string,
+  limit: number,
+  sortBy: SortBy
+): Promise<ChildAddress[]> {
+  const rows = await runSparql(childrenQuery(parentPath, limit, sortBy));
+  return rows.map((row) => {
+    const child: ChildAddress = { uri: row.child, label: row.label };
+    if (row.population !== undefined) child.population = Number(row.population);
+    if (row.households !== undefined) child.households = Number(row.households);
+    return child;
+  });
+}
+
+export async function listChildAddresses({
+  parent,
+  limit,
+  sortBy = "none",
+}: {
+  parent: string;
+  limit: number;
+  sortBy?: SortBy;
+}) {
   try {
     const entityPath = normalizePath(parent);
-    let results = await fetchChildren(entityPath, limit);
+    let results = await fetchChildren(entityPath, limit, sortBy);
     let note: string | undefined;
 
     // SPARQL は dereference と別実装(簡略化グラフ)のため resolveEntity は使えない。
@@ -51,7 +98,7 @@ export async function listChildAddresses({ parent, limit }: { parent: string; li
         }
         if (outcome.type === "candidates") {
           for (const candidatePath of outcome.paths) {
-            const retry = await fetchChildren(candidatePath, limit);
+            const retry = await fetchChildren(candidatePath, limit, sortBy);
             if (retry.length > 0) {
               results = retry;
               note = outcome.note(candidatePath);
@@ -65,6 +112,9 @@ export async function listChildAddresses({ parent, limit }: { parent: string; li
 
     const content = [{ type: "text" as const, text: JSON.stringify(results) }];
     if (note) content.push({ type: "text" as const, text: note });
+    if (results.some((r) => r.population !== undefined || r.households !== undefined)) {
+      content.push({ type: "text" as const, text: POPULATION_REFERENCE_NOTE });
+    }
     return { content };
   } catch (error) {
     const message =

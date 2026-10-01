@@ -9,6 +9,7 @@ import { registerReverseGeocodeAddressTool } from "./tools/reverseGeocodeAddress
 import { registerListPrefecturesTool } from "./tools/listPrefectures.js";
 import { registerSaveAddressLocationsToFileTool } from "./tools/saveAddressLocationsToFile.js";
 import { registerGetAddressAreasTool } from "./tools/getAddressAreas.js";
+import { registerGetAddressPopulationsTool } from "./tools/getAddressPopulations.js";
 
 // このリポジトリのプロファイルは loa 1つだけなので、capability 分岐はせず
 // 住所LOD が持つ Tool をそのままフラットに列挙する(design-tools-layer-generalization.md §3)。
@@ -23,4 +24,5 @@ export function registerLoaTools(server: McpServer): void {
   registerReverseGeocodeAddressTool(server, loaProfile);
   registerListPrefecturesTool(server, loaProfile);
   registerGetAddressAreasTool(server, loaProfile);
+  registerGetAddressPopulationsTool(server, loaProfile);
 }

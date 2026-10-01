@@ -13,6 +13,7 @@ import {
   resolveBatch,
 } from "../../../core/batchPipeline.js";
 import { profile as activeProfile, ctx } from "../context.js";
+import { POPULATION_REFERENCE_NOTE, withPopulationNote } from "../population.js";
 
 // get_address_locationsと違い、結果をMCPレスポンスに載せずローカルファイルへ
 // 直接書き出すため、多くのMCPクライアントが持つTool呼び出し1回あたり約1MBの
@@ -127,7 +128,7 @@ export async function saveAddressLocationsToFile({
     degenerateIslands
   );
   const featureCollection = { type: "FeatureCollection" as const, features };
-  const text = JSON.stringify(featureCollection);
+  const text = JSON.stringify(withPopulationNote(featureCollection, features));
 
   const absolutePath = resolve(outputPath);
   await mkdir(dirname(absolutePath), { recursive: true });
@@ -149,6 +150,9 @@ export async function saveAddressLocationsToFile({
   if (islandDropNote) notes.push(islandDropNote);
   if (simplifyNote) notes.push(simplifyNote);
   if (degenerateOmitNote) notes.push(degenerateOmitNote);
+  if (features.some((f) => typeof f.properties.population === "number")) {
+    notes.push(POPULATION_REFERENCE_NOTE);
+  }
   notes.push(
     "書き出したファイルは標準的なGeoJSON(RFC 7946)。QGIS等のGISソフトでそのまま開けるほか、" +
       "Leafletの L.geoJSON()、MapLibre GL JS、deck.gl等の地図ライブラリにfetch/読み込みでそのまま渡せる。"

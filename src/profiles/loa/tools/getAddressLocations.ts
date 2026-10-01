@@ -13,6 +13,7 @@ import {
   type BatchFeature,
 } from "../../../core/batchPipeline.js";
 import { profile as activeProfile, ctx } from "../context.js";
+import { POPULATION_REFERENCE_NOTE, withPopulationNote } from "../population.js";
 
 export const MAX_ADDRESSES = 50;
 
@@ -217,6 +218,9 @@ export async function getAddressLocations({
   if (degenerateOmitNote) {
     notes.push(degenerateOmitNote);
   }
+  if (features.some((f) => typeof f.properties.population === "number")) {
+    notes.push(POPULATION_REFERENCE_NOTE);
+  }
   if (features.some((f) => renderingHintNote(activeProfile, f))) {
     notes.push(
       "featuresの各geometryは標準的なGeoJSON。FeatureCollectionをLeafletの L.geoJSON()、MapLibre GL JS、" +
@@ -225,7 +229,7 @@ export async function getAddressLocations({
   }
 
   const content = [
-    { type: "text" as const, text: JSON.stringify(featureCollection) },
+    { type: "text" as const, text: JSON.stringify(withPopulationNote(featureCollection, features)) },
     ...notes.map((text) => ({ type: "text" as const, text })),
   ];
 

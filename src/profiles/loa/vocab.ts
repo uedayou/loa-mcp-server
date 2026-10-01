@@ -15,6 +15,18 @@ export const IC_ADDRESS_TYPE = `${IC}住所型`;
 export const SCHEMA_GEO = "http://schema.org/geo";
 export const GEOHASH_NS = "http://geohash.org/";
 
+// 人口・世帯数(2020年国勢調査の参考値)。個別 .ttl では schema:additionalProperty の
+// PropertyValue blank node(propertyID で項目を区別)、SPARQL エンドポイントでは
+// 独自語彙 loap:jinko / loap:setai の数値直接格納(検索性能のため)。
+export const SCHEMA_ADDITIONAL_PROPERTY = "http://schema.org/additionalProperty";
+export const SCHEMA_PROPERTY_ID = "http://schema.org/propertyID";
+export const SCHEMA_VALUE = "http://schema.org/value";
+export const LOA_PROPERTY_ID_JINKO = "loa:jinko";
+export const LOA_PROPERTY_ID_SETAI = "loa:setai";
+const LOAP = "https://uedayou.net/loa/property.ttl#";
+export const LOAP_JINKO = `${LOAP}jinko`;
+export const LOAP_SETAI = `${LOAP}setai`;
+
 export const PRED = {
   都道府県: `${IC}都道府県`,
   市区町村: `${IC}市区町村`,

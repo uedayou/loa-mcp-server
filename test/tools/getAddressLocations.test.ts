@@ -57,6 +57,30 @@ describe("getAddressLocations", () => {
     expect(featureCollection.features[1].geometry.coordinates[0][0]).toEqual([139.747256, 35.679528]);
   });
 
+  it("embeds the 参考値 note in the FeatureCollection and adds a note block when population is present (実データ)", async () => {
+    vi.stubGlobal(
+      "fetch",
+      mockFetchByPath([{ match: "みなとみらい3丁目", fixture: "minatomirai3chome.ttl" }])
+    );
+
+    const result = await getAddressLocations({ addresses: ["神奈川県横浜市西区みなとみらい3丁目"] });
+
+    const fc = JSON.parse(result.content[0].text);
+    expect(fc.features[0].properties.population).toBe(459);
+    expect(fc.population_note).toContain("参考値");
+    expect(result.content.filter((c) => c.text.includes("参考値"))).not.toHaveLength(0);
+  });
+
+  it("adds no population note when no Feature has population data", async () => {
+    vi.stubGlobal("fetch", mockFetchByPath([{ match: "永田町1丁目", fixture: "chome.ttl" }]));
+
+    const result = await getAddressLocations({ addresses: ["東京都千代田区永田町1丁目"] });
+
+    const fc = JSON.parse(result.content[0].text);
+    expect("population_note" in fc).toBe(false);
+    expect(result.content.some((c) => c.text.includes("参考値"))).toBe(false);
+  });
+
   it("keeps partial results and reports unresolved addresses without failing the whole call", async () => {
     vi.stubGlobal(
       "fetch",

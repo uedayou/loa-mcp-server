@@ -7,6 +7,36 @@ afterEach(() => {
 });
 
 describe("getAddressLocation", () => {
+  it("adds the 参考値 note both as a separate block and inside the Feature when population is present (実データ: みなとみらい3丁目)", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(
+        fixtureResponse("minatomirai3chome.ttl", { contentType: "text/turtle" })
+      )
+    );
+
+    const result = await getAddressLocation({ address: "神奈川県横浜市西区みなとみらい3丁目" });
+
+    const feature = JSON.parse(result.content[0].text);
+    expect(feature.properties.population).toBe(459);
+    expect(feature.population_note).toContain("参考値");
+    expect(feature.population_note).toContain("必ず併記");
+    expect(result.content.some((c) => c.text.includes("参考値"))).toBe(true);
+  });
+
+  it("adds no population note when the entity has no population data", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(fixtureResponse("chome.ttl", { contentType: "text/turtle" }))
+    );
+
+    const result = await getAddressLocation({ address: "東京都千代田区永田町1丁目" });
+
+    const feature = JSON.parse(result.content[0].text);
+    expect("population_note" in feature).toBe(false);
+    expect(result.content.some((c) => c.text.includes("参考値"))).toBe(false);
+  });
+
   it("returns a GeoJSON Feature for a bare notation string", async () => {
     vi.stubGlobal(
       "fetch",

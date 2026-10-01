@@ -6,6 +6,7 @@ import { finalizeFeature } from "../../../core/featureNotes.js";
 import { SIMPLIFY_LEVELS, type SimplifyLevel } from "../../../geo/simplify.js";
 import { dropSmallIslands, DEFAULT_MIN_ISLAND_AREA_KM2 } from "../../../geo/islandFilter.js";
 import { profile as activeProfile, ctx } from "../context.js";
+import { POPULATION_REFERENCE_NOTE, withPopulationNote } from "../population.js";
 
 const inputSchema = {
   address: z
@@ -83,10 +84,13 @@ export async function getAddressLocation({
 
       const { feature: finalFeature, notes } = finalizeFeature(activeProfile, feature, simplify);
       const content = [
-        { type: "text" as const, text: JSON.stringify(finalFeature) },
+        { type: "text" as const, text: JSON.stringify(withPopulationNote(finalFeature, [finalFeature])) },
         ...(resolved.note ? [{ type: "text" as const, text: resolved.note }] : []),
         ...(islandDropNote ? [{ type: "text" as const, text: islandDropNote }] : []),
         ...notes.map((text) => ({ type: "text" as const, text })),
+        ...(typeof finalFeature.properties.population === "number"
+          ? [{ type: "text" as const, text: POPULATION_REFERENCE_NOTE }]
+          : []),
       ];
       return { content };
     }
