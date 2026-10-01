@@ -1,0 +1,53 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <#>.
+@prefix lo: <https://uedayou.net/loa/>.
+@prefix rd: <http://imi.go.jp/ns/core/rdf#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix schem: <http://schema.org/>.
+@prefix geoh: <http://geohash.org/>.
+@prefix ont: <http://www.geonames.org/ontology#>.
+@prefix geosp: <http://www.opengis.net/ont/geosparql#>.
+@prefix r: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+
+lo:神奈川県横浜市西区みなとみらい3丁目
+    a rd:住所型;
+    rd:丁目 3;
+    rd:住所コード [ a rd:コード型; rd:識別値 "141030640003" ];
+    rd:区 "西区"@ja;
+    rd:市区町村 "横浜市"@ja;
+    rd:市区町村コード [ a rd:コード型; rd:識別値 "103" ];
+    rd:町名 "みなとみらい"@ja;
+    rd:表記 "神奈川県横浜市西区みなとみらい3丁目"@ja;
+    rd:都道府県 "神奈川県"@ja;
+    rd:都道府県コード [ a rd:コード型; rd:識別値 "14" ];
+    terms:created "2019-01-01";
+    terms:hasPart
+        lo:神奈川県横浜市西区みなとみらい3丁目1, lo:神奈川県横浜市西区みなとみらい3丁目2, lo:神奈川県横浜市西区みなとみらい3丁目3, lo:神奈川県横浜市西区みなとみらい3丁目4, lo:神奈川県横浜市西区みなとみらい3丁目5, lo:神奈川県横浜市西区みなとみらい3丁目6,
+        lo:神奈川県横浜市西区みなとみらい3丁目7;
+    schem:additionalProperty
+        [ a schem:PropertyValue; schem:propertyID "loa:jinko"; schem:name "人口（参考値）"@ja; schem:value 459; schem:description "この丁目内の2020年国勢調査における基本単位区（計10個）の人口を合算した参考値。公式統計値ではない。"@ja ],
+        [ a schem:PropertyValue; schem:propertyID "loa:setai"; schem:name "世帯数（参考値）"@ja; schem:value 195; schem:description "この丁目内の2020年国勢調査における基本単位区（計10個）の世帯数を合算した参考値。公式統計値ではない。"@ja ],
+        [ a schem:PropertyValue; schem:propertyID "loa:kbsum"; schem:name "合算基本単位区数（参考値）"@ja; schem:value 10; schem:description "この人口・世帯数の参考値が2020年国勢調査の何個の基本単位区を合算したものかを示す（推計の粒度の目安）。"@ja ];
+    schem:geo geoh:xn739qezx;
+    ont:parentFeature lo:神奈川県横浜市西区みなとみらい;
+    geosp:asWKT "POLYGON((139.6302421 35.4541958,139.6289228 35.4534763,139.6287620 35.4536902,139.6279372 35.4547140,139.6276832 35.4550292,139.6266449 35.4563177,139.6270877 35.4565568,139.6281669 35.4571397,139.6292543 35.4577269,139.6304093 35.4583506,139.6315364 35.4589593,139.6320175 35.4592191,139.6325658 35.4595151,139.6329560 35.4597258,139.6335522 35.4600478,139.6336151 35.4599607,139.6341608 35.4592606,139.6343515 35.4590160,139.6344972 35.4588291,139.6346514 35.4586312,139.6347960 35.4584458,139.6350500 35.4581147,139.6340884 35.4575892,139.6330595 35.4570269,139.6319621 35.4564272,139.6308125 35.4557989,139.6297160 35.4551998,139.6304333 35.4543001,139.6302421 35.4541958))";
+    r:label "神奈川県横浜市西区みなとみらい3丁目"@ja;
+    wgs:lat 35.456944;
+    wgs:long 139.63071.
+
+lo:神奈川県横浜市西区みなとみらい3丁目1 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目2 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目3 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目4 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目5 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目6 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目7 ont:parentFeature lo:神奈川県横浜市西区みなとみらい3丁目.
+
+lo:神奈川県横浜市西区みなとみらい3丁目 rdfs:label "神奈川県横浜市西区みなとみらい3丁目"@ja.
