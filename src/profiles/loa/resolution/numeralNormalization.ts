@@ -65,9 +65,28 @@ export function normalizeHyphenatedChomeBanchi(text: string): string {
   return `${prefix}${chome}丁目${banchi}`;
 }
 
+// 括弧の組(全角「（…）」・半角「(…)」)。住所LODには「水橋花の井町（一丁目）」「音羽町2丁目（西部）」
+// のように、括弧付きで名前の一部になっている地名が実在する。括弧の中は地名の一部なので、
+// 数字表記の正規化をしない(「（一丁目）」を「（1丁目）」に書き換えると存在しない名前になる)。
+const BRACKET_GROUP_RE = /（[^（）]*）|\([^()]*\)/g;
+
+// text のうち、括弧の組の「外側」にだけ fn を適用する(括弧の組そのものはそのまま残す)。
+function mapOutsideBrackets(text: string, fn: (segment: string) => string): string {
+  let result = "";
+  let last = 0;
+  for (const match of text.matchAll(BRACKET_GROUP_RE)) {
+    result += fn(text.slice(last, match.index)) + match[0];
+    last = match.index + match[0].length;
+  }
+  return result + fn(text.slice(last));
+}
+
 export function normalizeAddressNumerals(text: string): string {
-  let result = normalizeFullwidthDigits(text);
-  result = normalizeKanjiChomeNumerals(result);
+  // 全角数字・漢数字の丁目は括弧の外側にだけ適用する。
+  let result = mapOutsideBrackets(text, (segment) =>
+    normalizeKanjiChomeNumerals(normalizeFullwidthDigits(segment))
+  );
+  // 末尾の「1-7」は文字列の末尾にだけ一致する(括弧は「）」で閉じるため、常に括弧の外側)。
   result = normalizeHyphenatedChomeBanchi(result);
   return result;
 }

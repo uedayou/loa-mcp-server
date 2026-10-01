@@ -2,8 +2,7 @@ import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import type { DatasetProfile } from "../../../core/profile.js";
 import { LodError } from "../../../core/errors.js";
-import { profile as activeProfile, runSparql, normalizePath, toIri } from "../context.js";
-import { LOAP_JINKO, LOAP_SETAI } from "../vocab.js";
+import { findChildren, type SortBy } from "../children.js";
 import { POPULATION_REFERENCE_NOTE } from "../population.js";
 
 const inputSchema = {
@@ -26,50 +25,6 @@ const inputSchema = {
     ),
 };
 
-export type SortBy = "none" | "population" | "households";
-
-function childrenQuery(parentPath: string, limit: number, sortBy: SortBy): string {
-  const v = activeProfile.vocab;
-  const parentIri = toIri(parentPath);
-  // 実測(2026-09-30): 住所LODの SPARQL エンドポイントでは「型制約(a ic:住所型)+ORDER BY」の
-  // 組み合わせだけが約1.3秒かかり(親の子要素数によらず一定)、型制約を外すと約20ms(60倍速)。
-  // ont:parentFeature の子は全て住所エンティティなので、型制約の有無で結果集合は変わらない
-  // (神奈川県/東京都/北海道/政令市/町丁目など8親で完全一致を確認)。並べ替え時のみ外す。
-  const typeConstraint =
-    v.entityTypeIri && sortBy === "none" ? `a <${v.entityTypeIri}>; ` : "";
-  const hierarchyClause = v.childToParentIri
-    ? `?child ${typeConstraint}<${v.labelIri}> ?label; <${v.childToParentIri}> ${parentIri}.`
-    : `${parentIri} <${v.parentToChildIri}> ?child. ?child <${v.labelIri}> ?label.`;
-  // 人口・世帯数は SPARQL エンドポイントの独自語彙 loap:。丁目・番地には付かないため OPTIONAL。
-  const optionals =
-    `\n  OPTIONAL { ?child <${LOAP_JINKO}> ?population }` +
-    `\n  OPTIONAL { ?child <${LOAP_SETAI}> ?households }`;
-  // DESC 並べ替えでは未バインド(人口データなし)は SPARQL 仕様上自動的に末尾になる。
-  const orderBy = sortBy === "none" ? "" : `\nORDER BY DESC(?${sortBy})`;
-  return `SELECT ?child ?label ?population ?households WHERE {\n  ${hierarchyClause}${optionals}\n}${orderBy}\nLIMIT ${limit}`;
-}
-
-export interface ChildAddress {
-  uri: string;
-  label: string;
-  population?: number;
-  households?: number;
-}
-
-async function fetchChildren(
-  parentPath: string,
-  limit: number,
-  sortBy: SortBy
-): Promise<ChildAddress[]> {
-  const rows = await runSparql(childrenQuery(parentPath, limit, sortBy));
-  return rows.map((row) => {
-    const child: ChildAddress = { uri: row.child, label: row.label };
-    if (row.population !== undefined) child.population = Number(row.population);
-    if (row.households !== undefined) child.households = Number(row.households);
-    return child;
-  });
-}
-
 export async function listChildAddresses({
   parent,
   limit,
@@ -80,38 +35,20 @@ export async function listChildAddresses({
   sortBy?: SortBy;
 }) {
   try {
-    const entityPath = normalizePath(parent);
-    let results = await fetchChildren(entityPath, limit, sortBy);
-    let note: string | undefined;
-
-    // SPARQL は dereference と別実装(簡略化グラフ)のため resolveEntity は使えない。
-    // 同じ profile.resolution.fallbacks を使って候補を生成し、SPARQL を再試行する。
-    if (results.length === 0) {
-      for (const fallback of activeProfile.resolution?.fallbacks ?? []) {
-        const outcome = fallback.run(entityPath, parent);
-        if (outcome.type === "ambiguous") {
-          // Tool 固有の言い回し(実務的 B-mid: インライン既定)。
-          note =
-            `"${parent}" は郡名または政令市名を省略した表記だが、同名の地名が複数存在するため一意に決められない: ` +
-            `${outcome.labels.join("、")}。いずれかの正式名を指定して再試行すること。`;
-          break;
-        }
-        if (outcome.type === "candidates") {
-          for (const candidatePath of outcome.paths) {
-            const retry = await fetchChildren(candidatePath, limit, sortBy);
-            if (retry.length > 0) {
-              results = retry;
-              note = outcome.note(candidatePath);
-              break;
-            }
-          }
-          if (results.length > 0) break;
-        }
-      }
-    }
+    const { children: results, note } = await findChildren(parent, limit, sortBy);
 
     const content = [{ type: "text" as const, text: JSON.stringify(results) }];
     if (note) content.push({ type: "text" as const, text: note });
+    // limit ちょうどの件数が返ったときは、それ以上の子が黙って欠けている可能性がある。
+    if (results.length >= limit) {
+      content.push({
+        type: "text" as const,
+        text:
+          `limit(${limit}件)いっぱいまで返ったため、これより多くの子要素がある可能性がある(このToolは最大200件まで)。` +
+          "親の全ての子の位置をGeoJSONファイルとして保存したい場合は save_child_address_locations_to_file を使うこと" +
+          "(件数の上限はこのToolより大きい)。",
+      });
+    }
     if (results.some((r) => r.population !== undefined || r.households !== undefined)) {
       content.push({ type: "text" as const, text: POPULATION_REFERENCE_NOTE });
     }

@@ -10,6 +10,7 @@ import { registerListPrefecturesTool } from "./tools/listPrefectures.js";
 import { registerSaveAddressLocationsToFileTool } from "./tools/saveAddressLocationsToFile.js";
 import { registerGetAddressAreasTool } from "./tools/getAddressAreas.js";
 import { registerGetAddressPopulationsTool } from "./tools/getAddressPopulations.js";
+import { registerSaveChildAddressLocationsToFileTool } from "./tools/saveChildAddressLocationsToFile.js";
 
 // このリポジトリのプロファイルは loa 1つだけなので、capability 分岐はせず
 // 住所LOD が持つ Tool をそのままフラットに列挙する(design-tools-layer-generalization.md §3)。
@@ -25,4 +26,5 @@ export function registerLoaTools(server: McpServer): void {
   registerListPrefecturesTool(server, loaProfile);
   registerGetAddressAreasTool(server, loaProfile);
   registerGetAddressPopulationsTool(server, loaProfile);
+  registerSaveChildAddressLocationsToFileTool(server, loaProfile);
 }

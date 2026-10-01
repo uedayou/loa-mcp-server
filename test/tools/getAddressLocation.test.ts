@@ -37,6 +37,60 @@ describe("getAddressLocation", () => {
     expect(result.content.some((c) => c.text.includes("参考値"))).toBe(false);
   });
 
+  it("does not rewrite numerals inside brackets, so a real name like 富山県富山市水橋花の井町（一丁目） resolves with ONE request", async () => {
+    const fetchMock = vi.fn(async (url: string) => {
+      const decoded = decodeURIComponent(url);
+      if (decoded.includes("（一丁目）")) {
+        return fixtureResponse("chome.ttl", { contentType: "text/turtle" });
+      }
+      return fixtureResponse("not-found.txt", { status: 404, contentType: "text/plain" });
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await getAddressLocation({ address: "富山県富山市水橋花の井町（一丁目）" });
+
+    expect(result.isError).toBeUndefined();
+    expect(JSON.parse(result.content[0].text).geometry.type).toBe("Polygon");
+    // 括弧の中は正規化されないので、最初の1回で見つかる(書き換え前の再試行は不要)。
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(decodeURIComponent(fetchMock.mock.calls[0][0] as string)).toContain("（一丁目）");
+  });
+
+  it("still falls back to the un-normalized spelling when normalization (outside brackets) made a real name not exist (合成データ)", async () => {
+    // 括弧の外に漢数字の丁目を含む名前が実在する場合の保険。正規化後(「…1丁目」)が404、
+    // 書き換える前(「…一丁目」)が200。
+    const fetchMock = vi.fn(async (url: string) => {
+      const decoded = decodeURIComponent(url);
+      if (decoded.includes("架空町一丁目")) {
+        return fixtureResponse("chome.ttl", { contentType: "text/turtle" });
+      }
+      return fixtureResponse("not-found.txt", { status: 404, contentType: "text/plain" });
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await getAddressLocation({ address: "東京都千代田区架空町一丁目" });
+
+    expect(result.isError).toBeUndefined();
+    const urls = fetchMock.mock.calls.map((c) => decodeURIComponent(c[0] as string));
+    expect(urls[0]).toContain("架空町1丁目"); // まず正規化した表記
+    expect(urls[1]).toContain("架空町一丁目"); // 404なら書き換える前の表記
+    expect(urls).toHaveLength(2);
+  });
+
+  it("does not make an extra request when normalization changed nothing and the name is not found", async () => {
+    const fetchMock = vi.fn().mockResolvedValue(
+      fixtureResponse("not-found.txt", { status: 404, contentType: "text/plain" })
+    );
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await getAddressLocation({ address: "東京都存在しない町" });
+
+    expect(result.isError).toBe(true);
+    // 正規化で表記が変わらない入力なら、書き換え前の再試行は行わない(従来のリクエスト数のまま)。
+    const normalizedOnly = fetchMock.mock.calls.map((c) => decodeURIComponent(c[0] as string));
+    expect(new Set(normalizedOnly.filter((u) => u.includes("存在しない町"))).size).toBe(1);
+  });
+
   it("returns a GeoJSON Feature for a bare notation string", async () => {
     vi.stubGlobal(
       "fetch",

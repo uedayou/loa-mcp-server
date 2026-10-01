@@ -103,24 +103,32 @@ function dissolveRings(rings: number[][][]): number[][][] {
 
   // 残った辺の始点をキーに引けるようにしておき、終点から次の辺へと
   // 繋いでいく(=元のポリゴンの外周を辿る)。
-  const byStartKey = new Map<string, [number[], number[]]>();
+  //
+  // 同じ座標を始点とする辺が複数ありうる(2つのリングが1点だけで接する「ピンチ点」、
+  // 実データ: 富山県富山市長江東町)ため、始点ごとに辺の配列を持ち、**辺単位で**
+  // 使用済みを管理する。以前は始点キー→辺1本のMapで(後勝ちで上書き)、使用済みも
+  // 始点キー単位だったため、ピンチ点があると出発点に戻れない周回に入って永久に
+  // 辿り続け、リングが膨らんで `Invalid array length` で落ちるまで約77秒かかっていた。
+  const byStartKey = new Map<string, [number[], number[]][]>();
   for (const edge of survivingEdges) {
-    byStartKey.set(pointKey(edge[0]), edge);
+    const key = pointKey(edge[0]);
+    const list = byStartKey.get(key);
+    if (list) list.push(edge);
+    else byStartKey.set(key, [edge]);
   }
 
-  const usedStartKeys = new Set<string>();
+  const usedEdges = new Set<[number[], number[]]>();
   const resultRings: number[][][] = [];
   for (const edge of survivingEdges) {
-    const startKey = pointKey(edge[0]);
-    if (usedStartKeys.has(startKey)) continue;
+    if (usedEdges.has(edge)) continue;
 
     const ring: number[][] = [edge[0]];
     let current = edge;
     while (true) {
+      usedEdges.add(current);
       ring.push(current[1]);
-      usedStartKeys.add(pointKey(current[0]));
       if (pointKey(current[1]) === pointKey(ring[0])) break; // 出発点に戻った=閉じた
-      const next = byStartKey.get(pointKey(current[1]));
+      const next = byStartKey.get(pointKey(current[1]))?.find((e) => !usedEdges.has(e));
       if (!next) break; // 通常発生しない安全弁(不正な入力への保険)
       current = next;
     }

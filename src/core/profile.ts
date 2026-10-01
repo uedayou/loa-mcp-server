@@ -73,7 +73,8 @@ export type ToolKey =
   | "geohash_nearby"
   | "save_to_file"
   | "get_areas"
-  | "get_populations";
+  | "get_populations"
+  | "save_children_to_file";
 
 export type ToolNoteTemplate =
   | string

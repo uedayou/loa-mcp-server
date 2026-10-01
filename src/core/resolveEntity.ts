@@ -13,21 +13,35 @@ export async function resolveEntityFeature(
   ctx: ProfileContext,
   input: string
 ): Promise<ResolvedEntity> {
-  let path = profile.identifier.normalize(input, ctx);
+  const rawPath = profile.identifier.normalize(input, ctx);
+  let path = rawPath;
   for (const normalize of profile.resolution?.inputNormalizers ?? []) {
     path = normalize(path);
   }
+
+  const toError = (error: unknown): ResolvedEntity => {
+    const message =
+      error instanceof LodError ? error.message : `Unexpected error: ${(error as Error).message}`;
+    return { status: "error", message };
+  };
 
   try {
     const feature = await fetchEntity(profile, ctx, path);
     return { status: "resolved", feature };
   } catch (error) {
-    if (!(error instanceof EntityNotFoundError)) {
-      const message =
-        error instanceof LodError
-          ? error.message
-          : `Unexpected error: ${(error as Error).message}`;
-      return { status: "error", message };
+    if (!(error instanceof EntityNotFoundError)) return toError(error);
+
+    // 正規化(数字表記の書き換え等)で表記が変わっていて404になった場合は、書き換える前の
+    // 表記でも試す。実在する名前そのものに漢数字等が含まれることがあるため
+    // (実データ: 富山県富山市水橋花の井町(一丁目) — 正規化すると「(1丁目)」になり存在しない)。
+    // 追加のリクエストは「正規化で表記が変わった入力が404になったとき」だけ。
+    if (path !== rawPath) {
+      try {
+        const feature = await fetchEntity(profile, ctx, rawPath);
+        return { status: "resolved", feature };
+      } catch (rawError) {
+        if (!(rawError instanceof EntityNotFoundError)) return toError(rawError);
+      }
     }
 
     for (const fallback of profile.resolution?.fallbacks ?? []) {

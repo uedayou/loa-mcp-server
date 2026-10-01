@@ -132,6 +132,26 @@ describe("listChildAddresses", () => {
     expect(result.content.some((c) => c.text.includes("参考値"))).toBe(false);
   });
 
+  it("warns that more children may exist when exactly `limit` rows come back (silent truncation)", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue(
+        fixtureResponse("sparql-municipalities-tokyo.json", {
+          contentType: "application/sparql-results+json",
+        })
+      )
+    );
+
+    // fixture は5件。limit=5 ちょうど → 欠けている可能性を注記する
+    const atLimit = await listChildAddresses({ parent: "東京都", limit: 5 });
+    expect(atLimit.content.some((c) => c.text.includes("これより多くの子要素がある可能性"))).toBe(true);
+    expect(atLimit.content.some((c) => c.text.includes("save_child_address_locations_to_file"))).toBe(true);
+
+    // limit に達していなければ注記しない
+    const belowLimit = await listChildAddresses({ parent: "東京都", limit: 100 });
+    expect(belowLimit.content.some((c) => c.text.includes("これより多くの子要素がある可能性"))).toBe(false);
+  });
+
   it("returns isError on a SPARQL failure", async () => {
     vi.stubGlobal(
       "fetch",

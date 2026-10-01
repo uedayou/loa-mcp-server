@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { dissolveMultiPolygon } from "../../../src/geo/dissolve.js";
-import type { GeoJsonGeometry } from "../../../src/geo/wkt.js";
+import { wktToGeoJson, type GeoJsonGeometry } from "../../../src/geo/wkt.js";
+import { readFixtureText } from "../../helpers/loadFixture.js";
 
 function ringArea(ring: number[][]): number {
   let sum = 0;
@@ -173,5 +174,66 @@ describe("dissolveMultiPolygon", () => {
       ],
     };
     expect(dissolveMultiPolygon(geometry)).toEqual(geometry);
+  });
+});
+
+describe("dissolveMultiPolygon: pinch vertex (2つのリングが1点だけで接する)", () => {
+  it("terminates and keeps closed rings when two surviving edges start at the same vertex (合成データ)", () => {
+    // 2つの正方形が共有辺で隣り合い、さらに第3の正方形が角(2,1)の1点だけで接する。
+    // 共有辺をキャンセルした後、(2,1)から出る辺が2本残る(ピンチ点)。
+    const geometry: GeoJsonGeometry = {
+      type: "MultiPolygon",
+      coordinates: [
+        [[[0, 0], [1, 0], [1, 1], [0, 1], [0, 0]]],
+        [[[1, 0], [2, 0], [2, 1], [1, 1], [1, 0]]],
+        [[[2, 1], [3, 1], [3, 2], [2, 2], [2, 1]]],
+      ],
+    };
+
+    const result = dissolveMultiPolygon(geometry);
+
+    const rings =
+      result.type === "Polygon"
+        ? result.coordinates
+        : result.type === "MultiPolygon"
+          ? result.coordinates.map((p) => p[0])
+          : [];
+    expect(rings.length).toBeGreaterThan(0);
+    for (const ring of rings) {
+      expect(ring[0]).toEqual(ring[ring.length - 1]); // すべて閉じている
+      expect(ring.length).toBeLessThan(50); // 無限周回で膨らまない
+    }
+    // 面積は保たれる(2x1 の長方形 + 1x1 の正方形 = 3)
+    const total = rings.reduce((s, r) => s + ringArea(r), 0);
+    expect(total).toBeCloseTo(3);
+  });
+
+  it("does not hang on the real data that used to loop forever (実データ: 富山県富山市長江東町)", () => {
+    // 以前は約77秒かかったあと `Invalid array length` で例外になっていた。
+    const wkt = readFixtureText("nagaehigashimachi.ttl").match(/asWKT\s+"([^"]+)"/)![1];
+    const geometry = wktToGeoJson(wkt);
+
+    const started = Date.now();
+    const result = dissolveMultiPolygon(geometry);
+    const elapsedMs = Date.now() - started;
+
+    expect(elapsedMs).toBeLessThan(2000);
+    const rings =
+      result.type === "Polygon"
+        ? result.coordinates
+        : result.type === "MultiPolygon"
+          ? result.coordinates.map((p) => p[0])
+          : [];
+    expect(rings.length).toBeGreaterThan(0);
+    for (const ring of rings) {
+      expect(ring[0]).toEqual(ring[ring.length - 1]);
+    }
+    // 結合の前後で面積が(わずかな丸め以外)変わらない
+    const before = (geometry as { coordinates: number[][][][] }).coordinates.reduce(
+      (s, p) => s + ringArea(p[0]),
+      0
+    );
+    const after = rings.reduce((s, r) => s + ringArea(r), 0);
+    expect(after).toBeCloseTo(before, 9);
   });
 });

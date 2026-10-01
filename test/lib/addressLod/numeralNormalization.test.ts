@@ -96,3 +96,43 @@ describe("normalizeAddressNumerals (combined)", () => {
     );
   });
 });
+
+describe("normalizeAddressNumerals: 括弧の中は正規化しない", () => {
+  it.each([
+    // 実在する名前そのものに漢数字が含まれる(実データ: 富山県富山市)
+    ["富山県富山市水橋花の井町（一丁目）", "富山県富山市水橋花の井町（一丁目）"],
+    ["富山県富山市水橋花の井町（二丁目）", "富山県富山市水橋花の井町（二丁目）"],
+    ["富山県富山市水橋花の井町（四丁目）", "富山県富山市水橋花の井町（四丁目）"],
+    // 括弧の中が漢数字でない地名は、括弧の外の正規化にも影響しない
+    ["富山県富山市音羽町2丁目（西部）", "富山県富山市音羽町2丁目（西部）"],
+    // 半角括弧も同様
+    ["富山県富山市水橋花の井町(一丁目)", "富山県富山市水橋花の井町(一丁目)"],
+  ])("leaves %s unchanged", (input, expected) => {
+    expect(normalizeAddressNumerals(input)).toBe(expected);
+  });
+
+  it("still normalizes the numerals OUTSIDE the brackets", () => {
+    expect(normalizeAddressNumerals("富山県富山市音羽町二丁目（西部）")).toBe(
+      "富山県富山市音羽町2丁目（西部）"
+    );
+    expect(normalizeAddressNumerals("富山県富山市音羽町２丁目（西部）")).toBe(
+      "富山県富山市音羽町2丁目（西部）"
+    );
+  });
+
+  it("normalizes outside the brackets while keeping the bracketed kanji numeral as is", () => {
+    expect(normalizeAddressNumerals("富山県富山市音羽町二丁目（一丁目）")).toBe(
+      "富山県富山市音羽町2丁目（一丁目）"
+    );
+  });
+
+  it("keeps the trailing chome-banchi shorthand working after a bracket", () => {
+    expect(normalizeAddressNumerals("富山県富山市音羽町（西部）2-7")).toBe(
+      "富山県富山市音羽町（西部）2丁目7"
+    );
+  });
+
+  it("does not change behavior for text without brackets", () => {
+    expect(normalizeAddressNumerals("東京都千代田区永田町一丁目")).toBe("東京都千代田区永田町1丁目");
+  });
+});
