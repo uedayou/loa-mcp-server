@@ -29,6 +29,7 @@ interface PopulationRow {
   households?: number;
   areaKm2?: number;
   densityPerKm2?: number;
+  adjustmentNote?: string;
 }
 
 function roundTo(value: number, digits: number): number {
@@ -47,7 +48,7 @@ export async function getAddressPopulations({ addresses }: { addresses: string[]
   const excluded: { address: string; reason: string }[] = [...unresolved];
 
   for (const feature of features) {
-    const { population, households, name, query } = feature.properties;
+    const { population, households, name, query, population_adjustment_note } = feature.properties;
     if (typeof population !== "number") {
       excluded.push({
         address: query,
@@ -60,6 +61,7 @@ export async function getAddressPopulations({ addresses }: { addresses: string[]
 
     const row: PopulationRow = { query, name, population };
     if (typeof households === "number") row.households = households;
+    if (typeof population_adjustment_note === "string") row.adjustmentNote = population_adjustment_note;
 
     if (feature.geometry && feature.geometry.type !== "Point") {
       const areaKm2 = calculateAreaKm2(feature.geometry);

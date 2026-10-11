@@ -11,7 +11,7 @@ afterEach(() => {
 const SCHEMA = "http://schema.org/";
 
 // blank node 1件分の PropertyValue を QuadIndex に組み立てる。
-function indexWith(entries: { id: string; value: string }[]): QuadIndex {
+function indexWith(entries: { id: string; value: string; description?: string }[]): QuadIndex {
   const index: QuadIndex = new Map();
   const subject = "https://uedayou.net/loa/テスト";
   index.set(
@@ -25,6 +25,9 @@ function indexWith(entries: { id: string; value: string }[]): QuadIndex {
     index.set(`b${i}`, [
       { predicate: `${SCHEMA}propertyID`, object: { value: e.id } },
       { predicate: `${SCHEMA}value`, object: { value: e.value } },
+      ...(e.description
+        ? [{ predicate: `${SCHEMA}description`, object: { value: e.description } }]
+        : []),
     ]);
   });
   return index;
@@ -41,6 +44,26 @@ describe("extractPopulation", () => {
       population: 459,
       households: 195,
     });
+  });
+
+  it("passes through schema:description (water survey area note) as population_adjustment_note", () => {
+    const index = indexWith([
+      { id: "loa:jinko", value: "14047594", description: "水面調査区等の人口5人を含む" },
+      { id: "loa:setai", value: "7227180", description: "水面調査区等の世帯数5世帯を含む" },
+      { id: "loa:kbsum", value: "187094" },
+    ]);
+    expect(extractPopulation(index, "https://uedayou.net/loa/テスト")).toEqual({
+      population: 14047594,
+      households: 7227180,
+      population_adjustment_note: "水面調査区等の人口5人を含む 水面調査区等の世帯数5世帯を含む",
+    });
+  });
+
+  it("ignores the generic description that has no water survey area mention", () => {
+    const index = indexWith([
+      { id: "loa:jinko", value: "349385", description: "この市区町村内の基本単位区を合算した参考値。公式統計値ではない。" },
+    ]);
+    expect(extractPopulation(index, "https://uedayou.net/loa/テスト")).toEqual({ population: 349385 });
   });
 
   it("keeps 0 for an uninhabited area (0 is data, not absence)", () => {

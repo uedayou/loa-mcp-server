@@ -21,6 +21,7 @@ export const GEOHASH_NS = "http://geohash.org/";
 export const SCHEMA_ADDITIONAL_PROPERTY = "http://schema.org/additionalProperty";
 export const SCHEMA_PROPERTY_ID = "http://schema.org/propertyID";
 export const SCHEMA_VALUE = "http://schema.org/value";
+export const SCHEMA_DESCRIPTION = "http://schema.org/description";
 export const LOA_PROPERTY_ID_JINKO = "loa:jinko";
 export const LOA_PROPERTY_ID_SETAI = "loa:setai";
 const LOAP = "https://uedayou.net/loa/property.ttl#";

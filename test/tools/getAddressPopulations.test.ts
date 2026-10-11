@@ -41,6 +41,29 @@ describe("getAddressPopulations", () => {
     expect(result.content.some((c) => c.text.includes("平面近似"))).toBe(true);
   });
 
+  it("surfaces the water survey area note only for entities that include it (実データ: 東京都港区 260,486、水面調査区の人口5人を含む)", async () => {
+    vi.stubGlobal(
+      "fetch",
+      mockFetchByPath([
+        { match: "東京都港区", fixture: "minato-water.ttl" },
+        { match: "みなとみらい3丁目", fixture: "minatomirai3chome.ttl" },
+      ])
+    );
+
+    const result = await getAddressPopulations({
+      addresses: ["東京都港区", "神奈川県横浜市西区みなとみらい3丁目"],
+    });
+
+    const rows = JSON.parse(result.content[0].text);
+    const minato = rows.find((r: { query: string }) => r.query === "東京都港区");
+    const minatomirai = rows.find((r: { query: string }) => r.query.includes("みなとみらい"));
+    expect(minato.population).toBe(260486);
+    expect(minato.adjustmentNote).toContain("水面調査区");
+    expect(minato.adjustmentNote).toContain("人口5人");
+    // 定型文だけの丁目には付かない(全 Feature に長文を載せない)
+    expect(minatomirai.adjustmentNote).toBeUndefined();
+  });
+
   it("excludes an entity without population data and says why", async () => {
     vi.stubGlobal("fetch", mockFetchByPath([{ match: "永田町1丁目", fixture: "chome.ttl" }]));
 
